@@ -1,0 +1,13 @@
+{
+  "name": "Веління З. та Палаючі О.",
+  "icon": "mythic_charms:textures/earths_order_and_blazing_embrace.png",
+  "category": "mythic_charms:combinations_category",
+  "advancement": "mythic_charms:book/combinations/earths_order_and_blazing_embrace",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": " При комбінуванні $(l:mythic_charms:charms/charm_of_earths_order_entry)Веління Землі$() та $(l:mythic_charms:charms/charm_of_blazing_embrace_entry)Палаючих Обіймів$(), після руйнування блоків без інструменту випадає результат плавлення блоку, якщо він має такий."
+    }
+  ]
+}

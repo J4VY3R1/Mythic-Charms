@@ -1,0 +1,15 @@
+{
+  "parent": "mythic_charms:book/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "mythic_charms:deep_underground_village"
+          }
+        }
+      }
+    }
+  }
+}

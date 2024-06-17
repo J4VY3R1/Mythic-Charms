@@ -1,5 +1,6 @@
 {
   "name": "Combinations",
-  "description": "Information about charm combinations, unlock them obtaining charms",
-  "icon": "mythic_charms:textures/combinations.png"
+  "description": "This chapter explores charm combinations.",
+  "icon": "mythic_charms:textures/combinations.png",
+  "sortnum": 3
 }

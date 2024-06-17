@@ -5,12 +5,16 @@ import dev.emi.trinkets.api.TrinketsApi;
 import net.masik.mythiccharms.MythicCharms;
 import net.masik.mythiccharms.block.ModBlocks;
 import net.masik.mythiccharms.item.ModItems;
+import net.masik.mythiccharms.util.SoundHelper;
+import net.minecraft.block.NetherWartBlock;
 import net.minecraft.entity.ItemEntity;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.HoneycombItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemUsageContext;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.tag.TagKey;
+import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.BlockPos;
@@ -25,7 +29,7 @@ import java.util.Optional;
 @Mixin(Item.class)
 public class ItemMixin {
 
-    @Inject(method = "useOnBlock", at = @At("RETURN"), cancellable = true)
+    @Inject(method = "useOnBlock", at = @At("HEAD"), cancellable = true)
     private void useOnResonanceTable(ItemUsageContext context, CallbackInfoReturnable<ActionResult> cir) {
         if (context.getPlayer() == null) return;
         PlayerEntity player = context.getPlayer();
@@ -43,7 +47,7 @@ public class ItemMixin {
         ItemEntity itemEntity = new ItemEntity(world, blockPos.getX() + 0.5, blockPos.getY() + 1, blockPos.getZ() + 0.5,
                 context.getStack().getItem().getDefaultStack());
         itemEntity.setVelocity(0,0,0);
-        itemEntity.setPickupDelay(120);
+        itemEntity.setPickupDelay(60);
         world.spawnEntity(itemEntity);
 
         context.getStack().decrement(1);

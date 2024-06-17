@@ -1,0 +1,13 @@
+{
+  "name": "Швидкоплинні К. та Високі М.",
+  "icon": "mythic_charms:textures/fleeting_strides_and_high_bounds.png",
+  "category": "mythic_charms:combinations_category",
+  "advancement": "mythic_charms:book/combinations/fleeting_strides_and_high_bounds",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": " При комбінуванні $(l:mythic_charms:charms/charm_of_fleeting_strides_entry)Швидкоплинних Кроків$() та $(l:mythic_charms:charms/charm_of_high_bounds_entry)Високих Меж$(), збільшує швидкість стрибка під час спринту, висоту стрибка на 0,5 блоку та виснаження."
+    }
+  ]
+}

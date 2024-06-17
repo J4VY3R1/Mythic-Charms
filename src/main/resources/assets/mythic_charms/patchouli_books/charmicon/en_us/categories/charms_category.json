@@ -1,5 +1,6 @@
 {
   "name": "Charms",
-  "description": "Information about charms and how to craft them",
-  "icon": "mythic_charms:fragile_charm_of_feathered_grace"
+  "description": "Here, I will collect all the information about the mysterious artifacts known as \"Charms\".",
+  "icon": "mythic_charms:fragile_charm_base",
+  "sortnum": 2
 }

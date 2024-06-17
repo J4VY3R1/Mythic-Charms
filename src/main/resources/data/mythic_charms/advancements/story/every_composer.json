@@ -1,0 +1,139 @@
+{
+  "parent": "mythic_charms:story/sound_carving_pattern",
+  "display": {
+    "icon": {
+      "item": "minecraft:jukebox"
+    },
+    "title": {
+      "translate": "advancements.mythic_charms.story.every_composer.title"
+    },
+    "description": {
+      "translate": "advancements.mythic_charms.story.every_composer.desc"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false
+  },
+  "criteria": {
+    "aquamarine_composer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "mythic_charms:aquamarine_composer"
+          }
+        }
+      }
+    },
+    "gold_composer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "mythic_charms:gold_composer"
+          }
+        }
+      }
+    },
+    "indigo_composer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "mythic_charms:indigo_composer"
+          }
+        }
+      }
+    },
+    "ivory_composer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "mythic_charms:ivory_composer"
+          }
+        }
+      }
+    },
+    "lime_composer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "mythic_charms:lime_composer"
+          }
+        }
+      }
+    },
+    "maroon_composer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "mythic_charms:maroon_composer"
+          }
+        }
+      }
+    },
+    "silver_composer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "mythic_charms:silver_composer"
+          }
+        }
+      }
+    },
+    "teal_composer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "mythic_charms:teal_composer"
+          }
+        }
+      }
+    },
+    "violet_composer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "mythic_charms:violet_composer"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "aquamarine_composer"
+    ],
+    [
+      "gold_composer"
+    ],
+    [
+      "indigo_composer"
+    ],
+    [
+      "ivory_composer"
+    ],
+    [
+      "lime_composer"
+    ],
+    [
+      "maroon_composer"
+    ],
+    [
+      "silver_composer"
+    ],
+    [
+      "teal_composer"
+    ],
+    [
+      "violet_composer"
+    ]
+  ]
+}

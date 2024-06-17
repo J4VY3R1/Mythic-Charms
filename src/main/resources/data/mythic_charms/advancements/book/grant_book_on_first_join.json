@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "loot": [
+      "mythic_charms:grant_book_on_first_join"
+    ],
+    "recipes": [
+      "mythic_charms:charmicon"
+    ]
+  }
+}

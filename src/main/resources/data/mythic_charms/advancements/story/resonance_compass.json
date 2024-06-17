@@ -1,0 +1,32 @@
+{
+  "parent": "mythic_charms:story/find_deep_underground_village",
+  "display": {
+    "icon": {
+      "item": "mythic_charms:resonance_compass"
+    },
+    "title": {
+      "translate": "advancements.mythic_charms.story.resonance_compass.title"
+    },
+    "description": {
+      "translate": "advancements.mythic_charms.story.resonance_compass.desc"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythic_charms:resonance_compass"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  }
+}

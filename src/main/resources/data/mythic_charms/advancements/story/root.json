@@ -1,37 +1,31 @@
 {
   "display": {
-    "announce_to_chat": false,
-    "background": "minecraft:textures/block/tuff.png",
+    "icon": {
+      "item": "minecraft:amethyst_block"
+    },
+    "title": {
+      "translate": "advancements.mythic_charms.story.root.title"
+    },
     "description": {
       "translate": "advancements.mythic_charms.story.root.desc"
     },
     "frame": "task",
+    "announce_to_chat": true,
+    "show_toast": true,
     "hidden": false,
-    "icon": {
-      "item": "minecraft:amethyst_block"
-    },
-    "show_toast": false,
-    "title": {
-      "translate": "advancements.mythic_charms.story.root.title"
-    }
+    "background": "minecraft:textures/block/tuff.png"
   },
   "criteria": {
-    "amethyst_shard": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:amethyst_shard"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
+        "item": {
+          "items": [
+            "patchouli:guide_book"
+          ],
+          "nbt": "{tag: {\"patchouli:book\": \"mythic_charms:charmicon\"}}"
+        }
+      }
     }
-  },
-  "requirements": [
-    [
-      "amethyst_shard"
-    ]
-  ]
+  }
 }

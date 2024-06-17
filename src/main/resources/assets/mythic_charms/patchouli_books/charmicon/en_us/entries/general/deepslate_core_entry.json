@@ -1,0 +1,18 @@
+{
+  "name": "Deepslate Core",
+  "icon": "mythic_charms:deepslate_core",
+  "category": "mythic_charms:general_category",
+  "advancement": "mythic_charms:book/deepslate_core",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": " This is the item which will allow me to enhance charms durability.$(br2) It looks similar to netherite upgrade smithing template, I think charms are upgraded in similar way, on the smithing table."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mythic_charms:deepslate_core",
+      "text": "Like smithing templates it can be duplicated."
+    }
+  ]
+}

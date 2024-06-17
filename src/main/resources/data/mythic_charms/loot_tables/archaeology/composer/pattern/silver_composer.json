@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mythic_charms:sound_carving_pattern_battle_fury"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mythic_charms:sound_carving_pattern_arrow_dance"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mythic_charms:sound_carving_pattern_echoing_wrath"
+        }
+      ]
+    }
+  ]
+}

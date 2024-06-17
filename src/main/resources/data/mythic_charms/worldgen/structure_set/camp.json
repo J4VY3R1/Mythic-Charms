@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "mythic_charms:camp",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 104672908,
+    "spacing": 16,
+    "separation": 6
+  }
+}

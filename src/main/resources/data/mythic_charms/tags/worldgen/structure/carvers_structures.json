@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "mythic_charms:underground_village",
+    "mythic_charms:deep_underground_village",
+    "mythic_charms:aquamarine_composer",
+    "mythic_charms:gold_composer",
+    "mythic_charms:indigo_composer",
+    "mythic_charms:ivory_composer",
+    "mythic_charms:lime_composer",
+    "mythic_charms:maroon_composer",
+    "mythic_charms:silver_composer",
+    "mythic_charms:teal_composer",
+    "mythic_charms:violet_composer"
+  ]
+}

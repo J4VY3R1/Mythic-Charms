@@ -7,6 +7,7 @@ import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.masik.mythiccharms.MythicCharms;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
@@ -28,18 +29,18 @@ public class ModBlocks {
 
     private static Item registerBlockItem(String name, Block block) {
 
-        return Registry.register(Registries.ITEM, new Identifier(MythicCharms.MOD_ID, name), new TooltipBlockItem(block,
-                new FabricItemSettings(), "item.mythic_charms.resonance_table.tooltip"));
+        return Registry.register(Registries.ITEM, new Identifier(MythicCharms.MOD_ID, name), new BlockItem(block,
+                new FabricItemSettings()));
 
     }
 
-    private static void addItemsToToolsTabItemGroup(FabricItemGroupEntries entries) {
-        entries.add(RESONANCE_TABLE);
-    }
+//    private static void addItemsToToolsTabItemGroup(FabricItemGroupEntries entries) {
+//        entries.add(RESONANCE_TABLE);
+//    }
 
     public static void registerModBlocks() {
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(ModBlocks::addItemsToToolsTabItemGroup);
+//        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(ModBlocks::addItemsToToolsTabItemGroup);
 
     }
 

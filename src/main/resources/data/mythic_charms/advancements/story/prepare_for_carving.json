@@ -1,0 +1,67 @@
+{
+  "parent": "mythic_charms:story/find_underground_village",
+  "display": {
+    "icon": {
+      "item": "mythic_charms:resonance_table"
+    },
+    "title": {
+      "translate": "advancements.mythic_charms.story.prepare_for_carving.title"
+    },
+    "description": {
+      "translate": "advancements.mythic_charms.story.prepare_for_carving.desc"
+    },
+    "frame": "goal",
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": true
+  },
+  "criteria": {
+    "resonance_table": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythic_charms:resonance_table"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "resonance_ring": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythic_charms:resonance_ring"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "fragile_charm_base": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythic_charms:fragile_charm_base"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "resonance_table"
+    ],
+    [
+      "resonance_ring"
+    ],
+    [
+      "fragile_charm_base"
+    ]
+  ]
+}

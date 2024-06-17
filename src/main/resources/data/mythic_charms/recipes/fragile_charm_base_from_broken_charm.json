@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "BAB",
+    " B "
+  ],
+  "key": {
+    "A": {
+      "item": "mythic_charms:broken_charm"
+    },
+    "B": {
+      "item": "minecraft:tuff"
+    }
+  },
+  "result": {
+    "item": "mythic_charms:fragile_charm_base",
+    "count": 1
+  }
+}

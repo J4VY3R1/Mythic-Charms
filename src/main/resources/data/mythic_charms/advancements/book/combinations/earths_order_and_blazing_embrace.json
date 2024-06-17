@@ -1,0 +1,37 @@
+{
+  "parent": "mythic_charms:book/root",
+  "criteria": {
+    "earths_order": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythic_charms:fragile_charm_of_earths_order"
+            ]
+          }
+        ]
+      }
+    },
+    "blazing_embrace": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythic_charms:fragile_charm_of_blazing_embrace"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "earths_order"
+    ],
+    [
+      "blazing_embrace"
+    ]
+  ]
+}

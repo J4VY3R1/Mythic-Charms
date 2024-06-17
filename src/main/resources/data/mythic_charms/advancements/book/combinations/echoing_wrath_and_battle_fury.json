@@ -1,0 +1,37 @@
+{
+  "parent": "mythic_charms:book/root",
+  "criteria": {
+    "echoing_wrath": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythic_charms:fragile_charm_of_echoing_wrath"
+            ]
+          }
+        ]
+      }
+    },
+    "battle_fury": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythic_charms:fragile_charm_of_battle_fury"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "echoing_wrath"
+    ],
+    [
+      "battle_fury"
+    ]
+  ]
+}

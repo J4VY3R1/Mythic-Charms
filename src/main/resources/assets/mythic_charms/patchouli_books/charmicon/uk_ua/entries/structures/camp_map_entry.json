@@ -1,0 +1,13 @@
+{
+  "name": "Табір: Мапа",
+  "icon": "minecraft:filled_map",
+  "category": "mythic_charms:structures_category",
+  "advancement": "mythic_charms:book/structures/camp_map",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": " $(o)Дослідження автора не були марними!$()$(br2) Серед осколків аметисту, самородків золота та скляних пляшок я знайшов мапу.$(br) Ймовірно, вона веде до селища різьбярів, тож це буде моя наступна мета."
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "name": "mythic_charms:deep_underground_village/deep_underground_village_rooms",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "mythic_charms:deep_underground_village/lab",
+        "processors": [
+          {
+            "processor_type": "minecraft:rule",
+            "rules": [
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:cyan_terracotta",
+                  "probability": 0.2
+                },
+                "output_state": {
+                  "Name": "minecraft:suspicious_gravel",
+                  "Properties": {
+                    "dusted": "0"
+                  }
+                },
+                "block_entity_modifier": {
+                  "type": "minecraft:append_loot",
+                  "loot_table": "mythic_charms:archaeology/deep_underground_village/lab"
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:block_match",
+                  "block": "minecraft:cyan_terracotta"
+                },
+                "output_state": {
+                  "Name": "minecraft:gravel"
+                }
+              }
+            ]
+          }
+        ],
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "mythic_charms:deep_underground_village/courier_room",
+        "processors": [
+          {
+            "processor_type": "minecraft:capped",
+            "limit": 2,
+            "delegate": {
+              "processor_type": "minecraft:rule",
+              "rules": [
+                {
+                  "location_predicate": {
+                    "predicate_type": "minecraft:always_true"
+                  },
+                  "input_predicate": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "minecraft:gravel"
+                  },
+                  "output_state": {
+                    "Name": "minecraft:suspicious_gravel",
+                    "Properties": {
+                      "dusted": "0"
+                    }
+                  },
+                  "block_entity_modifier": {
+                    "type": "minecraft:append_loot",
+                    "loot_table": "mythic_charms:archaeology/deep_underground_village/composer_maps"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "processor_type": "minecraft:rule",
+            "rules": [
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:cyan_terracotta",
+                  "probability": 0.2
+                },
+                "output_state": {
+                  "Name": "minecraft:suspicious_gravel",
+                  "Properties": {
+                    "dusted": "0"
+                  }
+                },
+                "block_entity_modifier": {
+                  "type": "minecraft:append_loot",
+                  "loot_table": "mythic_charms:archaeology/deep_underground_village/courier_room"
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:block_match",
+                  "block": "minecraft:cyan_terracotta"
+                },
+                "output_state": {
+                  "Name": "minecraft:gravel"
+                }
+              }
+            ]
+          }
+        ],
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "mythic_charms:deep_underground_village/scientist_room1",
+        "processors": [
+          {
+            "processor_type": "minecraft:rule",
+            "rules": [
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:cyan_terracotta",
+                  "probability": 0.2
+                },
+                "output_state": {
+                  "Name": "minecraft:suspicious_gravel",
+                  "Properties": {
+                    "dusted": "0"
+                  }
+                },
+                "block_entity_modifier": {
+                  "type": "minecraft:append_loot",
+                  "loot_table": "mythic_charms:archaeology/deep_underground_village/scientist_room"
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:block_match",
+                  "block": "minecraft:cyan_terracotta"
+                },
+                "output_state": {
+                  "Name": "minecraft:gravel"
+                }
+              }
+            ]
+          }
+        ],
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "mythic_charms:deep_underground_village/scientist_room2",
+        "processors": [
+          {
+            "processor_type": "minecraft:rule",
+            "rules": [
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:cyan_terracotta",
+                  "probability": 0.2
+                },
+                "output_state": {
+                  "Name": "minecraft:suspicious_gravel",
+                  "Properties": {
+                    "dusted": "0"
+                  }
+                },
+                "block_entity_modifier": {
+                  "type": "minecraft:append_loot",
+                  "loot_table": "mythic_charms:archaeology/deep_underground_village/scientist_room"
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:block_match",
+                  "block": "minecraft:cyan_terracotta"
+                },
+                "output_state": {
+                  "Name": "minecraft:gravel"
+                }
+              }
+            ]
+          }
+        ],
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "mythic_charms:deep_underground_village/deep_water_source",
+        "processors": [
+          {
+            "processor_type": "minecraft:rule",
+            "rules": [
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:cyan_terracotta",
+                  "probability": 0.2
+                },
+                "output_state": {
+                  "Name": "minecraft:suspicious_gravel",
+                  "Properties": {
+                    "dusted": "0"
+                  }
+                },
+                "block_entity_modifier": {
+                  "type": "minecraft:append_loot",
+                  "loot_table": "mythic_charms:archaeology/deep_underground_village/water_source"
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:block_match",
+                  "block": "minecraft:cyan_terracotta"
+                },
+                "output_state": {
+                  "Name": "minecraft:gravel"
+                }
+              }
+            ]
+          }
+        ],
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

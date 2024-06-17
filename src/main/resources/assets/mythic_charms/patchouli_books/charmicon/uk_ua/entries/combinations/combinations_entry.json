@@ -1,0 +1,13 @@
+{
+  "name": "Комбінації талісманів",
+  "icon": "mythic_charms:fragile_charm_base",
+  "category": "mythic_charms:combinations_category",
+  "advancement": "mythic_charms:book/any_charm",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": " Деякі талісмани можуть резонувати один з одним і створювати спеціальні ефекти.$(br) Ви ледь можете почути короткий звук, коли вони резонують.$(br2)$(o) Це неймовірно, я повинен перевірити кожну комбінацію!"
+    }
+  ]
+}

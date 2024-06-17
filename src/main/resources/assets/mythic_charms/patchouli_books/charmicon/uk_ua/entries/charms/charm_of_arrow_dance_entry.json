@@ -1,0 +1,22 @@
+{
+  "name": "Танець Стріл",
+  "icon": "mythic_charms:fragile_charm_of_arrow_dance",
+  "category": "mythic_charms:charms_category",
+  "advancement": "mythic_charms:book/charms/arrow_dance",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": " В описі на звороті сувою вказано:$(br2)$(o) У 7/10 випадках можна уникнути будь-якого снаряда, такого як стріла, феєрверкова ракета, зілля тощо. Однак ви отримуєте додаткову чверть шкоди."
+    },
+    {
+      "type": "mythic_charms:resonance_infusing",
+      "result": "mythic_charms:fragile_charm_of_arrow_dance",
+      "ingredient1": "mythic_charms:fragile_charm_base",
+      "ingredient2": "mythic_charms:sound_carving_pattern_arrow_dance",
+      "ingredient3": "minecraft:honey_bottle",
+      "ingredient4": "minecraft:magma_cream",
+      "ingredient5": "minecraft:rabbit_hide"
+    }
+  ]
+}

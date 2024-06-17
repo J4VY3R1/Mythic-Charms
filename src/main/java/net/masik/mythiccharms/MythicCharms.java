@@ -5,6 +5,7 @@ import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.util.TriState;
 import net.masik.mythiccharms.block.ModBlocks;
+import net.masik.mythiccharms.item.ModItemGroups;
 import net.masik.mythiccharms.item.ModItems;
 
 import net.masik.mythiccharms.recipe.ModRecipes;
@@ -25,6 +26,8 @@ public class MythicCharms implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		MythicCharms.LOGGER.info("[Mythic Charms] Initializing...");
+
+		ModItemGroups.registerItemGroups();
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();

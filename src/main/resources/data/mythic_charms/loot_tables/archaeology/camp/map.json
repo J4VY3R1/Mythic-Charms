@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "mythic_charms:underground_village",
+              "decoration": "red_x",
+              "search_radius": 50,
+              "skip_existing_chunks": true
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"translate":"item.mythic_charms.underground_village_map"}
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"MythicCharmsMap\":\"UndergroundVillageMap\"}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

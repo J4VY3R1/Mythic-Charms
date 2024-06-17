@@ -1,0 +1,27 @@
+{
+  "name": "Глибоке підземне селище",
+  "icon": "minecraft:deepslate_bricks",
+  "category": "mythic_charms:structures_category",
+  "advancement": "mythic_charms:book/structures/deep_underground_village",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": " Це місце, куди вела карта з попереднього селища. Це розташоване на рівні глибосланцю замість каменю.$(br2) Воно також має план селища, хоча і менший за попередній."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mythic_charms:textures/gui/entries/structures/duvillage1.png"
+      ],
+      "text": " Перший поверх виглядає дуже порожньо."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mythic_charms:textures/gui/entries/structures/duvillage2.png"
+      ],
+      "text": " Другий поверх являє собою суміш технічних і житлових приміщень. $(o)Дивно, там є символ спуску внизу, але план не включає третій поверх."
+    }
+  ]
+}

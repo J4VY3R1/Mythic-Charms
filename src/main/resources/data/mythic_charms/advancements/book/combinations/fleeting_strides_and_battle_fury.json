@@ -1,0 +1,37 @@
+{
+  "parent": "mythic_charms:book/root",
+  "criteria": {
+    "fleeting_strides": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythic_charms:fragile_charm_of_fleeting_strides"
+            ]
+          }
+        ]
+      }
+    },
+    "battle_fury": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythic_charms:fragile_charm_of_battle_fury"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "fleeting_strides"
+    ],
+    [
+      "battle_fury"
+    ]
+  ]
+}

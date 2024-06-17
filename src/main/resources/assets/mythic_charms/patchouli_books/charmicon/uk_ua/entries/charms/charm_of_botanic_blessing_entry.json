@@ -1,0 +1,22 @@
+{
+  "name": "Ботанічне Благословення",
+  "icon": "mythic_charms:fragile_charm_of_botanic_blessing",
+  "category": "mythic_charms:charms_category",
+  "advancement": "mythic_charms:book/charms/botanic_blessing",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": " В описі на звороті сувою вказано:$(br2)$(o) У радіусі 2,5 блоків кожна культура, яка знаходиться на ріллі, має шанс 6/10 вирости до наступного етапу. Також при збиранні культур з них випадють додаткові 0-2 шт."
+    },
+    {
+      "type": "mythic_charms:resonance_infusing",
+      "result": "mythic_charms:fragile_charm_of_botanic_blessing",
+      "ingredient1": "mythic_charms:fragile_charm_base",
+      "ingredient2": "mythic_charms:sound_carving_pattern_botanic_blessing",
+      "ingredient3": "minecraft:bone",
+      "ingredient4": "minecraft:clay_ball",
+      "ingredient5": "minecraft:crimson_fungus"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "parent": "mythic_charms:story/find_underground_village_map",
+  "display": {
+    "icon": {
+      "item": "minecraft:deepslate_bricks"
+    },
+    "title": {
+      "translate": "advancements.mythic_charms.story.find_deep_underground_village.title"
+    },
+    "description": {
+      "translate": "advancements.mythic_charms.story.find_deep_underground_village.desc"
+    },
+    "frame": "task",
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "mythic_charms:deep_underground_village"
+          }
+        }
+      }
+    }
+  }
+}

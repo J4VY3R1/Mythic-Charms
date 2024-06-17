@@ -1,0 +1,37 @@
+{
+  "parent": "mythic_charms:book/root",
+  "criteria": {
+    "blazing_embrace": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythic_charms:fragile_charm_of_blazing_embrace"
+            ]
+          }
+        ]
+      }
+    },
+    "battle_fury": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythic_charms:fragile_charm_of_battle_fury"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "blazing_embrace"
+    ],
+    [
+      "battle_fury"
+    ]
+  ]
+}

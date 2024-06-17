@@ -2,20 +2,21 @@
   "name": "Collector's Gift",
   "icon": "mythic_charms:fragile_charm_of_collectors_gift",
   "category": "mythic_charms:charms_category",
-  "advancement": "mythic_charms:book/fragile_charm_base",
+  "advancement": "mythic_charms:book/charms/collectors_gift",
+  "sortnum": 1,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": " In area 4x4x4 around the wearer all items that lay on the ground will draw to the user."
+      "text": " The description on the back of the scroll says:$(br2)$(o) In a 2-block radius, all items that lay on the ground are drawn to one's feet."
     },
     {
       "type": "mythic_charms:resonance_infusing",
       "result": "mythic_charms:fragile_charm_of_collectors_gift",
       "ingredient1": "mythic_charms:fragile_charm_base",
-      "ingredient2": "mythic_charms:glowstone_nugget",
+      "ingredient2": "mythic_charms:sound_carving_pattern_collectors_gift",
       "ingredient3": "minecraft:popped_chorus_fruit",
       "ingredient4": "minecraft:glow_berries",
-      "ingredient5": "minecraft:crimson_fungus"
+      "ingredient5": "minecraft:warped_fungus"
     }
   ]
 }

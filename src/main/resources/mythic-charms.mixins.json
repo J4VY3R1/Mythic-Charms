@@ -3,11 +3,11 @@
   "package": "net.masik.mythiccharms.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "AbstractBlockMixin",
     "BlockMixin",
     "EndermanMixin",
     "EntityMixin",
     "ExperienceBottleEntityMixin",
-    "ExperienceOrbEntityMixin",
     "FarmlandBlockMixin",
     "ItemEntityMixin",
     "ItemMixin",

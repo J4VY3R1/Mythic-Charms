@@ -1,0 +1,18 @@
+{
+  "name": "Charm Base",
+  "icon": "mythic_charms:fragile_charm_base",
+  "category": "mythic_charms:general_category",
+  "advancement": "mythic_charms:book/structures/underground_village_carving_room",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": " I assume that this charm base is the main ingredient to make a charm.$(br) There are some of these lying around in the carving room but most of them are broken, I think these are very fragile. $(o)Are charms also that fragile?$()$(br2) Broken ones can be repaired with tuff."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mythic_charms:fragile_charm_base",
+      "recipe2": "mythic_charms:fragile_charm_base_from_broken_charm"
+    }
+  ]
+}

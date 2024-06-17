@@ -1,0 +1,13 @@
+{
+  "name": "Фіолетовий композитор",
+  "icon": "minecraft:magenta_terracotta",
+  "category": "mythic_charms:structures_category",
+  "advancement": "mythic_charms:book/structures/composers/violet_composer",
+  "sortnum": 9,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": " На табличці біля входу написано:$(br2)$(o) Подібно до Захисника Ночі, привид дрейфує з Крилатою Грацією, плетучи шепіт забутих казок під пильним поглядом місяця.$(br2) Фіолетовий."
+    }
+  ]
+}

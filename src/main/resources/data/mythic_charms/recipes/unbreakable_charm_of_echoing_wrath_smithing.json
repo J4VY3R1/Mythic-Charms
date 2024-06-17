@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+        "item": "mythic_charms:deepslate_core"
+    },
+    "base": {
+        "item": "mythic_charms:fragile_charm_of_echoing_wrath"
+    },
+    "addition": {
+        "item": "minecraft:netherite_ingot"
+    },
+    "result": {
+        "item": "mythic_charms:unbreakable_charm_of_echoing_wrath"
+    }
+}

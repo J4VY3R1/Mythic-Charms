@@ -1,0 +1,13 @@
+{
+  "name": "Веління З. та Бойова Л.",
+  "icon": "mythic_charms:textures/earths_order_and_battle_fury.png",
+  "category": "mythic_charms:combinations_category",
+  "advancement": "mythic_charms:book/combinations/earths_order_and_battle_fury",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": " При комбінуванні $(l:mythic_charms:charms/charm_of_earths_order_entry)Веління Землі$() та $(l:mythic_charms:charms/charm_of_battle_fury_entry)Бойової Люті$(), швидкість руйнування блоків без інструменту збільшується в міру зниження здоров'я власника, до х3 швидкості на половині серця."
+    }
+  ]
+}

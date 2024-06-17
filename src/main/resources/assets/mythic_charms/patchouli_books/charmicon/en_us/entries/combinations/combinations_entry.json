@@ -1,0 +1,13 @@
+{
+  "name": "Charm Combinations",
+  "icon": "mythic_charms:fragile_charm_base",
+  "category": "mythic_charms:combinations_category",
+  "advancement": "mythic_charms:book/any_charm",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": " Some charms can resonate with each other and result in special effects.$(br) You can barely hear a short sound when they resonate.$(br2)$(o) That's awesome, I have to test every single combination!"
+    }
+  ]
+}

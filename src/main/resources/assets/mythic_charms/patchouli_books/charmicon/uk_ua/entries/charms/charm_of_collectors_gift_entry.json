@@ -1,0 +1,22 @@
+{
+  "name": "Дар Колекціонера",
+  "icon": "mythic_charms:fragile_charm_of_collectors_gift",
+  "category": "mythic_charms:charms_category",
+  "advancement": "mythic_charms:book/charms/collectors_gift",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": " В описі на звороті сувою вказано:$(br2)$(o) У радіусі 2 блоків всі предмети, які лежать на землі, підтягуються до вас."
+    },
+    {
+      "type": "mythic_charms:resonance_infusing",
+      "result": "mythic_charms:fragile_charm_of_collectors_gift",
+      "ingredient1": "mythic_charms:fragile_charm_base",
+      "ingredient2": "mythic_charms:sound_carving_pattern_collectors_gift",
+      "ingredient3": "minecraft:popped_chorus_fruit",
+      "ingredient4": "minecraft:glow_berries",
+      "ingredient5": "minecraft:warped_fungus"
+    }
+  ]
+}

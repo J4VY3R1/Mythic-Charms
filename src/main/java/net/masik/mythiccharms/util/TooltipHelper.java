@@ -11,7 +11,7 @@ import java.util.List;
 
 public class TooltipHelper {
 
-    public static void addTooltip(List<Text> tooltip, String tooltipKey, boolean notNormal) {
+    public static void addTooltip(List<Text> tooltip, String tooltipKey, boolean requiresShift) {
 
         List<String> tooltipLines = new ArrayList<>();
 
@@ -29,12 +29,12 @@ public class TooltipHelper {
             cursor = spaceSymbol + 1;
         }
 
-        if (notNormal) {
+        if (requiresShift) {
 
             if (Screen.hasShiftDown()) {
 
                 for (String tooltipLine : tooltipLines) {
-                    tooltip.add(Text.of("§5§o%s".formatted(tooltipLine)));
+                    tooltip.add(Text.of("§5%s".formatted(tooltipLine)));
                 }
 
             } else {
@@ -46,7 +46,7 @@ public class TooltipHelper {
         } else {
 
             for (String tooltipLine : tooltipLines) {
-                tooltip.add(Text.of("§7§o%s".formatted(tooltipLine)));
+                tooltip.add(Text.of("§7%s".formatted(tooltipLine)));
             }
 
         }

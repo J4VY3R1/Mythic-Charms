@@ -1,6 +1,49 @@
 {
 	"trinkets.slot.mythic_charm.mythic_charm": "Mythic Charm",
 
+	"item.mythic_charms.sound_carving_pattern_feathered_grace": "Sound Carving Pattern",
+	"item.mythic_charms.sound_carving_pattern_feathered_grace.tooltip": "Feathered Grace",
+	"item.mythic_charms.sound_carving_pattern_blazing_embrace": "Sound Carving Pattern",
+	"item.mythic_charms.sound_carving_pattern_blazing_embrace.tooltip": "Blazing Embrace",
+	"item.mythic_charms.sound_carving_pattern_earths_order": "Sound Carving Pattern",
+	"item.mythic_charms.sound_carving_pattern_earths_order.tooltip": "Earth's Order",
+	"item.mythic_charms.sound_carving_pattern_gaze_serenity": "Sound Carving Pattern",
+	"item.mythic_charms.sound_carving_pattern_gaze_serenity.tooltip": "Gaze Serenity",
+	"item.mythic_charms.sound_carving_pattern_botanic_blessing": "Sound Carving Pattern",
+	"item.mythic_charms.sound_carving_pattern_botanic_blessing.tooltip": "Botanic Blessing",
+	"item.mythic_charms.sound_carving_pattern_fleeting_strides": "Sound Carving Pattern",
+	"item.mythic_charms.sound_carving_pattern_fleeting_strides.tooltip": "Fleeting Strides",
+	"item.mythic_charms.sound_carving_pattern_nights_guardian": "Sound Carving Pattern",
+	"item.mythic_charms.sound_carving_pattern_nights_guardian.tooltip": "Night's Guardian",
+	"item.mythic_charms.sound_carving_pattern_high_bounds": "Sound Carving Pattern",
+	"item.mythic_charms.sound_carving_pattern_high_bounds.tooltip": "High Bounds",
+	"item.mythic_charms.sound_carving_pattern_drowned_freedom": "Sound Carving Pattern",
+	"item.mythic_charms.sound_carving_pattern_drowned_freedom.tooltip": "Drowned Freedom",
+	"item.mythic_charms.sound_carving_pattern_weightless_flow": "Sound Carving Pattern",
+	"item.mythic_charms.sound_carving_pattern_weightless_flow.tooltip": "Weightless Flow",
+	"item.mythic_charms.sound_carving_pattern_collectors_gift": "Sound Carving Pattern",
+	"item.mythic_charms.sound_carving_pattern_collectors_gift.tooltip": "Collector's Gift",
+	"item.mythic_charms.sound_carving_pattern_climbers_path": "Sound Carving Pattern",
+	"item.mythic_charms.sound_carving_pattern_climbers_path.tooltip": "Climber's Path",
+	"item.mythic_charms.sound_carving_pattern_natures_call": "Sound Carving Pattern",
+	"item.mythic_charms.sound_carving_pattern_natures_call.tooltip": "Nature's Call",
+	"item.mythic_charms.sound_carving_pattern_barters_pact": "Sound Carving Pattern",
+	"item.mythic_charms.sound_carving_pattern_barters_pact.tooltip": "Barters Pact",
+	"item.mythic_charms.sound_carving_pattern_battle_fury": "Sound Carving Pattern",
+	"item.mythic_charms.sound_carving_pattern_battle_fury.tooltip": "Battle Fury",
+	"item.mythic_charms.sound_carving_pattern_echoing_wrath": "Sound Carving Pattern",
+	"item.mythic_charms.sound_carving_pattern_echoing_wrath.tooltip": "Echoing Wrath",
+	"item.mythic_charms.sound_carving_pattern_enchanted_whispers": "Sound Carving Pattern",
+	"item.mythic_charms.sound_carving_pattern_enchanted_whispers.tooltip": "Enchanted Whispers",
+	"item.mythic_charms.sound_carving_pattern_arrow_dance": "Sound Carving Pattern",
+	"item.mythic_charms.sound_carving_pattern_arrow_dance.tooltip": "Arrow Dance",
+	"item.mythic_charms.sound_carving_pattern_mountains_strength": "Sound Carving Pattern",
+	"item.mythic_charms.sound_carving_pattern_mountains_strength.tooltip": "Mountain's Strength",
+	"item.mythic_charms.sound_carving_pattern_safe_territory": "Sound Carving Pattern",
+	"item.mythic_charms.sound_carving_pattern_safe_territory.tooltip": "Safe Territory",
+	"item.mythic_charms.sound_carving_pattern_quiet_presence": "Sound Carving Pattern",
+	"item.mythic_charms.sound_carving_pattern_quiet_presence.tooltip": "Quiet Presence",
+
 	"item.mythic_charms.fragile_charm_of_feathered_grace": "Fragile Charm of Feathered Grace",
 	"item.mythic_charms.fragile_charm_of_blazing_embrace": "Fragile Charm of Blazing Embrace",
 	"item.mythic_charms.fragile_charm_of_gaze_serenity": "Fragile Charm of Gaze Serenity",
@@ -47,78 +90,107 @@
 
 
 	"item.mythic_charms.feathered_grace.tooltip": "Grants the wearer a slow falling effect after a brief half-second fall and ends after two seconds, while the wearer is not sneaking",
-
 	"item.mythic_charms.blazing_embrace.tooltip": "Grants the wearer permanent effect of fire resistance, but the duration renews only when the wearer is not on fire",
-
 	"item.mythic_charms.earths_order.tooltip": "Grants the wearer the ability to break any breakable block using only their bare hand",
-
 	"item.mythic_charms.gaze_serenity.tooltip": "Grants the wearer the ability to look at an enderman without triggering aggression and during combat without triggering random teleportation",
-
-	"item.mythic_charms.botanic_blessing.tooltip": "Accelerates the growth of crops within a two-block radius around the wearer",
-
+	"item.mythic_charms.botanic_blessing.tooltip": "Accelerates the growth of crops within a two-block radius around the wearer and increases number of crop drops",
 	"item.mythic_charms.fleeting_strides.tooltip": "Enhances the wearer's speed when jumping and running, but adds additional exhaustion",
-
 	"item.mythic_charms.nights_guardian.tooltip": "Prevents phantoms from spawning only for the wearer alone, even if there are phantoms nearby, they will ignore the wearer",
-
 	"item.mythic_charms.high_bounds.tooltip": "Enhances wearer's jump height and a safe height from which they remain unharmed by one block, but adds additional exhaustion",
-
 	"item.mythic_charms.drowned_freedom.tooltip": "Grants the wearer the ability to move underwater as if on the surface, but adds additional exhaustion",
-
-	"item.mythic_charms.weightless_flow.tooltip": "Preserves the wearer's gravity, allowing them to stand in the air or leap into the sky, while the wearer is not sneaking",
-
+	"item.mythic_charms.weightless_flow.tooltip": "Preserves the wearer's gravity, while the wearer is not sneaking, allowing them to stand in the air or leap into the sky",
 	"item.mythic_charms.collectors_gift.tooltip": "Draws items to the wearer within a two-block radius around",
-
 	"item.mythic_charms.climbers_path.tooltip": "Enhances the wearer's step height to one block, allowing them to ascend obstacles with ease, but adds additional exhaustion",
-
 	"item.mythic_charms.natures_call.tooltip": "Draws animals around the wearer, as if they were holding the creatures' favorite food, while the wearer is not sneaking",
-
 	"item.mythic_charms.barters_pact.tooltip": "The wearer may open a chest with a seventy percent chance that it won't trigger aggression from piglins",
-
-	"item.mythic_charms.battle_fury.tooltip": "Increases the wearer's attack damage as their health decreases, peaking at three times the normal damage output when they have only half a heart left",
-
-	"item.mythic_charms.echoing_wrath.tooltip": "Damages nearby mobs, when the wearer is harmed, at half the intensity, up to a maximum of three hearts of damage, but the wearer receives an additional quarter of the damage",
-
+	"item.mythic_charms.battle_fury.tooltip": "Increases the wearer's attack damage as their health decreases, peaking at three times the normal damage",
+	"item.mythic_charms.echoing_wrath.tooltip": "When the wearer is harmed by an entity, damages nearby mobs at half the intensity, up to a maximum of three hearts of damage, but the wearer receives an additional quarter of the damage",
 	"item.mythic_charms.enchanted_whispers.tooltip": "Makes enchantments random every time the wearer interacts with an enchanting table, in exchange for one level",
-
 	"item.mythic_charms.arrow_dance.tooltip": "Grants the wearer the ability to evade incoming projectiles with a seventy percent chance, but they receive an additional quarter of the damage",
-
 	"item.mythic_charms.mountains_strength.tooltip": "Grants the wearer an immunity to knockback or being pushed, but they receive an additional quarter of the damage",
-
 	"item.mythic_charms.safe_territory.tooltip": "Creepers in three-block radius around the wearer will no longer break blocks",
-
 	"item.mythic_charms.quiet_presence.tooltip": "Grants the wearer the ability to move without triggering Sculk Sensors when walking",
 
 
 	"item.mythic_charms.broken_charm": "Broken Charm",
 	"item.mythic_charms.broken_charm.tooltip": "Once was a usable charm",
 
-
 	"item.mythic_charms.fragile_charm_base": "Fragile Charm Base",
 
-
 	"item.mythic_charms.resonance_ring": "Resonance Ring",
-	"item.mythic_charms.resonance_ring.tooltip": "Allows the wearer to use a Resonance Table and increases pickup delay of thrown items",
 
+	"item.mythic_charms.resonance_compass": "Resonance Compass",
 
-	"item.mythic_charms.deepslate_fragment": "Deepslate Fragment",
-	"item.mythic_charms.deepslate_fragment.tooltip": "Drops from deepslate with a small chance",
+	"item.mythic_charms.deepslate_core": "Deepslate Core",
+	"item.mythic_charms.deepslate_core.applies_to": "Fragile Charms",
+	"item.mythic_charms.deepslate_core.ingredients": "Netherite Ingot",
+	"item.mythic_charms.deepslate_core.base_slot_description": "Add Fragile Charm",
+	"item.mythic_charms.deepslate_core.additions_slot_description": "Add Netherite Ingot",
 
+	"item.mythic_charms.music_disc_resonance": "Music Disc",
+	"item.mythic_charms.music_disc_resonance.desc": "Masik16u - Resonance",
+	"item.mythic_charms.disc_fragment_resonance": "Disc Fragment",
+	"item.mythic_charms.disc_fragment_resonance.tooltip": "Music Disc - Resonance",
 
-	"item.mythic_charms.experience_nugget": "Experience Nugget",
-	"item.mythic_charms.experience_nugget.tooltip": "Appears with experience orbs with a small chance",
+	"item.mythic_charms.underground_village_map": "Underground Village Map",
+	"item.mythic_charms.deep_underground_village_map": "Deep Underground Village Map",
+	"item.mythic_charms.aquamarine_composer": "Aquamarine Composer Map",
+	"item.mythic_charms.gold_composer": "Gold Composer Map",
+	"item.mythic_charms.indigo_composer": "Indigo Composer Map",
+	"item.mythic_charms.ivory_composer": "Ivory Composer Map",
+	"item.mythic_charms.lime_composer": "Lime Composer Map",
+	"item.mythic_charms.maroon_composer": "Maroon Composer Map",
+	"item.mythic_charms.silver_composer": "Silver Composer Map",
+	"item.mythic_charms.teal_composer": "Teal Composer Map",
+	"item.mythic_charms.violet_composer": "Violet Composer Map",
 
-
-	"item.mythic_charms.glowstone_nugget": "Glowstone Nugget",
 
 	"item.mythic_charms.charmicon": "Charmicon",
-	"mythic_charms.charmicon.landing": "Everything you need to know about Mythic Charms",
+	"mythic_charms.charmicon.landing": "In this journal, I wrote everything I know about Sound Carvers. If you found this journal unfinished you can continue my journey and uncover the mysteries of those who live beneath our feet.",
 
 
 	"block.mythic_charms.resonance_table": "Resonance Table",
-	"item.mythic_charms.resonance_table.tooltip": "Requires a Resonance Ring and a Block of Lapis Lazuli beneath it to work",
+
+	"itemGroup.mythic_charms": "Mythic Charms",
 
 
 	"util.mythic_charms.shift_tooltip": "Hold §eSHIFT§r for more Information",
+
+
+	"advancements.mythic_charms.story.root.title": "Mythic Charms",
+	"advancements.mythic_charms.story.root.desc": "Everything in your hands",
+	"advancements.mythic_charms.story.find_camp.title": "Traces of the Past",
+	"advancements.mythic_charms.story.find_camp.desc": "Find a Sound Carver's camp",
+	"advancements.mythic_charms.story.find_camp_map.title": "Beacon of Hope",
+	"advancements.mythic_charms.story.find_camp_map.desc": "Find a map that leads to an underground village",
+	"advancements.mythic_charms.story.find_underground_village.title": "Buried Truth",
+	"advancements.mythic_charms.story.find_underground_village.desc": "Enter a Sound Carver's village",
+	"advancements.mythic_charms.story.find_underground_village_map.title": "Path to the Hidden Depths",
+	"advancements.mythic_charms.story.find_underground_village_map.desc": "Find a map that leads to the depths of the world",
+	"advancements.mythic_charms.story.prepare_for_carving.title": "Sound Carver's Apprentice",
+	"advancements.mythic_charms.story.prepare_for_carving.desc": "Prepare for carving by collecting: Resonance Table, Resonance Ring, and Charm Base",
+
+	"advancements.mythic_charms.story.find_deep_underground_village.title": "Where It All Began",
+	"advancements.mythic_charms.story.find_deep_underground_village.desc": "Enter a deep underground village",
+	"advancements.mythic_charms.story.find_deep_underground_village_map.title": "Maestro",
+	"advancements.mythic_charms.story.find_deep_underground_village_map.desc": "Find a composer's map",
+	"advancements.mythic_charms.story.deepslate_core.title": "Unfinished Experiment",
+	"advancements.mythic_charms.story.deepslate_core.desc": "Obtain a deepslate core",
+	"advancements.mythic_charms.story.resonance_compass.title": "How North Star Sounds",
+	"advancements.mythic_charms.story.resonance_compass.desc": "Obtain a resonance compass",
+
+	"advancements.mythic_charms.story.sound_carving_pattern.title": "Melody Maker's Secret",
+	"advancements.mythic_charms.story.sound_carving_pattern.desc": "Obtain a sound carving pattern",
+	"advancements.mythic_charms.story.first_charm.title": "Charmcrafting 101",
+	"advancements.mythic_charms.story.first_charm.desc": "Create your first Charm",
+
+	"advancements.mythic_charms.story.every_composer.title": "Orchestra",
+	"advancements.mythic_charms.story.every_composer.desc": "Visit every composer",
+
+	"advancements.mythic_charms.story.first_unbreakable_charm.title": "Sturdy Shell",
+	"advancements.mythic_charms.story.first_unbreakable_charm.desc": "Upgrade your charm for the first time",
+	"advancements.mythic_charms.story.every_charm.title": "Charmaster",
+	"advancements.mythic_charms.story.every_charm.desc": "Create every charm",
 
 
 	"category.mythic_charms.resonance": "Resonance Infusing",
@@ -176,20 +248,5 @@
 	"text.config.mythic-charms-config.option.charmCombinationsEnabled.CharmCombinationClimbersPathAndHighBoundsEnabled": "Charm Combination Climbers Path And High Bounds Enabled",
 	"text.config.mythic-charms-config.option.charmCombinationsEnabled.CharmCombinationEchoingWrathAndBlazingEmbraceEnabled": "Charm Combination Echoing Wrath And Blazing Embrace Enabled",
 	"text.config.mythic-charms-config.option.charmCombinationsEnabled.CharmCombinationEchoingWrathAndBattleFuryEnabled": "Charm Combination Echoing Wrath And Battle Fury Enabled",
-	"text.config.mythic-charms-config.option.charmCombinationsEnabled.CharmCombinationQuietPresenceAndFeatheredGraceEnabled": "Charm Combination Quiet Presence And Feathered Grace Enabled",
-
-	"text.config.mythic-charms-config.option.experienceNuggetMobCap": "Number of mobs around, after which the experience nugget won't drop",
-
-	"advancements.mythic_charms.story.root.title": "Mythic Charms",
-	"advancements.mythic_charms.story.root.desc": "Everything in your hands",
-	"advancements.mythic_charms.story.resonance_table.title": "Pretty Table",
-	"advancements.mythic_charms.story.resonance_table.desc": "Craft a Resonance Table",
-	"advancements.mythic_charms.story.fragile_charm_base.title": "That's Basics",
-	"advancements.mythic_charms.story.fragile_charm_base.desc": "Craft a Fragile Charm Base",
-	"advancements.mythic_charms.story.first_charm.title": "Charmcrafting 101",
-	"advancements.mythic_charms.story.first_charm.desc": "Create your first Charm",
-	"advancements.mythic_charms.story.first_unbreakable_charm.title": "You're Safe Now",
-	"advancements.mythic_charms.story.first_unbreakable_charm.desc": "Upgrade your charm for the first time",
-	"advancements.mythic_charms.story.every_charm.title": "Charmaster",
-	"advancements.mythic_charms.story.every_charm.desc": "Create every charm"
+	"text.config.mythic-charms-config.option.charmCombinationsEnabled.CharmCombinationQuietPresenceAndFeatheredGraceEnabled": "Charm Combination Quiet Presence And Feathered Grace Enabled"
 }

@@ -1,0 +1,22 @@
+{
+  "name": "Відлуння Гніву",
+  "icon": "mythic_charms:fragile_charm_of_echoing_wrath",
+  "category": "mythic_charms:charms_category",
+  "advancement": "mythic_charms:book/charms/echoing_wrath",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": " В описі на звороті сувою вказано:$(br2)$(o) Після того, як ворог завдає вам шкоди, усі навколо отримають половину цієї шкоди, максимум до 3 сердець. Однак ви отримуєте додаткову чверть шкоди."
+    },
+    {
+      "type": "mythic_charms:resonance_infusing",
+      "result": "mythic_charms:fragile_charm_of_echoing_wrath",
+      "ingredient1": "mythic_charms:fragile_charm_base",
+      "ingredient2": "mythic_charms:sound_carving_pattern_echoing_wrath",
+      "ingredient3": "minecraft:echo_shard",
+      "ingredient4": "minecraft:fermented_spider_eye",
+      "ingredient5": "minecraft:green_dye"
+    }
+  ]
+}

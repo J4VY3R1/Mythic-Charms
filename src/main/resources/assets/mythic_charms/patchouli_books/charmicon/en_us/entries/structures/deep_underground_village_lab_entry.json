@@ -1,0 +1,17 @@
+{
+  "name": "D.U. Village: Lab",
+  "icon": "minecraft:deepslate_tiles",
+  "category": "mythic_charms:structures_category",
+  "advancement": "mythic_charms:book/structures/deep_underground_village_lab",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": " The room with a square symbol must be a laboratory.$(br2) It seems that they tried to enhance charms durability here.$(br) $(o)Which is not surprising, as charm bases that I have seen were very fragile."
+    },
+    {
+      "type": "patchouli:text",
+      "text": " There is a note carved on the table. It says:$(br2)$(o) Something strange is happening, the lamps emit almost no light and our chief has lost his mind, he is running and shouting all kinds of nonsense:$(br) wait execution act long loss warn innocent lost line pain effort rain in silver history old union root grace observer duty stay air remain eternal decay eye art drop"
+    }
+  ]
+}

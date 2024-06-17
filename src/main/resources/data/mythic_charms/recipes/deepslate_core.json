@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#D#",
+    "#A#",
+    "###"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:deepslate"
+    },
+    "D": {
+      "item": "mythic_charms:deepslate_core"
+    },
+    "#": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "mythic_charms:deepslate_core",
+    "count": 2
+  }
+}

@@ -15,110 +15,260 @@ public class ModRegistries {
     private static void registerCustomWanderingTrades() {
         TradeOfferHelper.registerWanderingTraderOffers(1, factories -> {
             factories.add((entity, random) -> new TradeOffer(
-                    new ItemStack(Items.EMERALD, 27),
-                    new ItemStack(ModItems.BROKEN_CHARM, 1),
-                    new ItemStack(ModItems.FRAGILE_CHARM_OF_FEATHERED_GRACE, 1),
+                    new ItemStack(Items.EMERALD, 16),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_WEIGHTLESS_FLOW, 1),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_DROWNED_FREEDOM, 1),
                     1, 0, 0));
             factories.add((entity, random) -> new TradeOffer(
-                    new ItemStack(Items.EMERALD, 36),
-                    new ItemStack(ModItems.BROKEN_CHARM, 1),
-                    new ItemStack(ModItems.FRAGILE_CHARM_OF_BLAZING_EMBRACE, 1),
+                    new ItemStack(Items.EMERALD, 16),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_DROWNED_FREEDOM, 1),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_WEIGHTLESS_FLOW, 1),
                     1, 0, 0));
             factories.add((entity, random) -> new TradeOffer(
-                    new ItemStack(Items.EMERALD, 30),
-                    new ItemStack(ModItems.BROKEN_CHARM, 1),
-                    new ItemStack(ModItems.FRAGILE_CHARM_OF_EARTHS_ORDER, 1),
+                    new ItemStack(Items.EMERALD, 16),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_MOUNTAINS_STRENGTH, 1),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_EARTHS_ORDER, 1),
                     1, 0, 0));
             factories.add((entity, random) -> new TradeOffer(
-                    new ItemStack(Items.EMERALD, 36),
-                    new ItemStack(ModItems.BROKEN_CHARM, 1),
-                    new ItemStack(ModItems.FRAGILE_CHARM_OF_GAZE_SERENITY, 1),
+                    new ItemStack(Items.EMERALD, 16),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_MOUNTAINS_STRENGTH, 1),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_CLIMBERS_PATH, 1),
                     1, 0, 0));
             factories.add((entity, random) -> new TradeOffer(
-                    new ItemStack(Items.EMERALD, 23),
-                    new ItemStack(ModItems.BROKEN_CHARM, 1),
-                    new ItemStack(ModItems.FRAGILE_CHARM_OF_BOTANIC_BLESSING, 1),
+                    new ItemStack(Items.EMERALD, 16),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_EARTHS_ORDER, 1),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_MOUNTAINS_STRENGTH, 1),
                     1, 0, 0));
             factories.add((entity, random) -> new TradeOffer(
-                    new ItemStack(Items.EMERALD, 34),
-                    new ItemStack(ModItems.BROKEN_CHARM, 1),
-                    new ItemStack(ModItems.FRAGILE_CHARM_OF_FLEETING_STRIDES, 1),
+                    new ItemStack(Items.EMERALD, 16),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_EARTHS_ORDER, 1),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_CLIMBERS_PATH, 1),
                     1, 0, 0));
             factories.add((entity, random) -> new TradeOffer(
-                    new ItemStack(Items.EMERALD, 41),
-                    new ItemStack(ModItems.BROKEN_CHARM, 1),
-                    new ItemStack(ModItems.FRAGILE_CHARM_OF_NIGHTS_GUARDIAN, 1),
+                    new ItemStack(Items.EMERALD, 16),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_CLIMBERS_PATH, 1),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_MOUNTAINS_STRENGTH, 1),
                     1, 0, 0));
             factories.add((entity, random) -> new TradeOffer(
-                    new ItemStack(Items.EMERALD, 34),
-                    new ItemStack(ModItems.BROKEN_CHARM, 1),
-                    new ItemStack(ModItems.FRAGILE_CHARM_OF_HIGH_BOUNDS, 1),
+                    new ItemStack(Items.EMERALD, 16),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_CLIMBERS_PATH, 1),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_EARTHS_ORDER, 1),
                     1, 0, 0));
             factories.add((entity, random) -> new TradeOffer(
-                    new ItemStack(Items.EMERALD, 28),
-                    new ItemStack(ModItems.BROKEN_CHARM, 1),
-                    new ItemStack(ModItems.FRAGILE_CHARM_OF_DROWNED_FREEDOM, 1),
+                    new ItemStack(Items.EMERALD, 16),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_ENCHANTED_WHISPERS, 1),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_COLLECTORS_GIFT, 1),
                     1, 0, 0));
             factories.add((entity, random) -> new TradeOffer(
-                    new ItemStack(Items.EMERALD, 36),
-                    new ItemStack(ModItems.BROKEN_CHARM, 1),
-                    new ItemStack(ModItems.FRAGILE_CHARM_OF_WEIGHTLESS_FLOW, 1),
+                    new ItemStack(Items.EMERALD, 16),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_COLLECTORS_GIFT, 1),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_ENCHANTED_WHISPERS, 1),
                     1, 0, 0));
             factories.add((entity, random) -> new TradeOffer(
-                    new ItemStack(Items.EMERALD, 36),
-                    new ItemStack(ModItems.BROKEN_CHARM, 1),
-                    new ItemStack(ModItems.FRAGILE_CHARM_OF_COLLECTORS_GIFT, 1),
+                    new ItemStack(Items.EMERALD, 16),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_SAFE_TERRITORY, 1),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_GAZE_SERENITY, 1),
                     1, 0, 0));
             factories.add((entity, random) -> new TradeOffer(
-                    new ItemStack(Items.EMERALD, 36),
-                    new ItemStack(ModItems.BROKEN_CHARM, 1),
-                    new ItemStack(ModItems.FRAGILE_CHARM_OF_CLIMBERS_PATH, 1),
+                    new ItemStack(Items.EMERALD, 16),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_SAFE_TERRITORY, 1),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_QUIET_PRESENCE, 1),
                     1, 0, 0));
             factories.add((entity, random) -> new TradeOffer(
-                    new ItemStack(Items.EMERALD, 27),
-                    new ItemStack(ModItems.BROKEN_CHARM, 1),
-                    new ItemStack(ModItems.FRAGILE_CHARM_OF_NATURES_CALL, 1),
+                    new ItemStack(Items.EMERALD, 16),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_GAZE_SERENITY, 1),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_SAFE_TERRITORY, 1),
                     1, 0, 0));
             factories.add((entity, random) -> new TradeOffer(
-                    new ItemStack(Items.EMERALD, 34),
-                    new ItemStack(ModItems.BROKEN_CHARM, 1),
-                    new ItemStack(ModItems.FRAGILE_CHARM_OF_BARTERS_PACT, 1),
+                    new ItemStack(Items.EMERALD, 16),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_GAZE_SERENITY, 1),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_QUIET_PRESENCE, 1),
                     1, 0, 0));
             factories.add((entity, random) -> new TradeOffer(
-                    new ItemStack(Items.EMERALD, 41),
-                    new ItemStack(ModItems.BROKEN_CHARM, 1),
-                    new ItemStack(ModItems.FRAGILE_CHARM_OF_BATTLE_FURY, 1),
+                    new ItemStack(Items.EMERALD, 16),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_QUIET_PRESENCE, 1),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_SAFE_TERRITORY, 1),
                     1, 0, 0));
             factories.add((entity, random) -> new TradeOffer(
-                    new ItemStack(Items.EMERALD, 36),
-                    new ItemStack(ModItems.BROKEN_CHARM, 1),
-                    new ItemStack(ModItems.FRAGILE_CHARM_OF_ECHOING_WRATH, 1),
+                    new ItemStack(Items.EMERALD, 16),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_QUIET_PRESENCE, 1),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_GAZE_SERENITY, 1),
                     1, 0, 0));
             factories.add((entity, random) -> new TradeOffer(
-                    new ItemStack(Items.EMERALD, 41),
-                    new ItemStack(ModItems.BROKEN_CHARM, 1),
-                    new ItemStack(ModItems.FRAGILE_CHARM_OF_ENCHANTED_WHISPERS, 1),
+                    new ItemStack(Items.EMERALD, 16),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_NATURES_CALL, 1),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_BOTANIC_BLESSING, 1),
                     1, 0, 0));
             factories.add((entity, random) -> new TradeOffer(
-                    new ItemStack(Items.EMERALD, 31),
-                    new ItemStack(ModItems.BROKEN_CHARM, 1),
-                    new ItemStack(ModItems.FRAGILE_CHARM_OF_ARROW_DANCE, 1),
+                    new ItemStack(Items.EMERALD, 16),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_BOTANIC_BLESSING, 1),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_NATURES_CALL, 1),
                     1, 0, 0));
             factories.add((entity, random) -> new TradeOffer(
-                    new ItemStack(Items.EMERALD, 34),
-                    new ItemStack(ModItems.BROKEN_CHARM, 1),
-                    new ItemStack(ModItems.FRAGILE_CHARM_OF_MOUNTAINS_STRENGTH, 1),
+                    new ItemStack(Items.EMERALD, 16),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_BLAZING_EMBRACE, 1),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_BARTERS_PACT, 1),
                     1, 0, 0));
             factories.add((entity, random) -> new TradeOffer(
-                    new ItemStack(Items.EMERALD, 39),
-                    new ItemStack(ModItems.BROKEN_CHARM, 1),
-                    new ItemStack(ModItems.FRAGILE_CHARM_OF_SAFE_TERRITORY, 1),
+                    new ItemStack(Items.EMERALD, 16),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_BARTERS_PACT, 1),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_BLAZING_EMBRACE, 1),
                     1, 0, 0));
             factories.add((entity, random) -> new TradeOffer(
-                    new ItemStack(Items.EMERALD, 37),
-                    new ItemStack(ModItems.BROKEN_CHARM, 1),
-                    new ItemStack(ModItems.FRAGILE_CHARM_OF_QUIET_PRESENCE, 1),
+                    new ItemStack(Items.EMERALD, 16),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_ECHOING_WRATH, 1),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_ARROW_DANCE, 1),
                     1, 0, 0));
+            factories.add((entity, random) -> new TradeOffer(
+                    new ItemStack(Items.EMERALD, 16),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_ECHOING_WRATH, 1),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_BATTLE_FURY, 1),
+                    1, 0, 0));
+            factories.add((entity, random) -> new TradeOffer(
+                    new ItemStack(Items.EMERALD, 16),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_ARROW_DANCE, 1),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_ECHOING_WRATH, 1),
+                    1, 0, 0));
+            factories.add((entity, random) -> new TradeOffer(
+                    new ItemStack(Items.EMERALD, 16),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_ARROW_DANCE, 1),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_BATTLE_FURY, 1),
+                    1, 0, 0));
+            factories.add((entity, random) -> new TradeOffer(
+                    new ItemStack(Items.EMERALD, 16),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_BATTLE_FURY, 1),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_ECHOING_WRATH, 1),
+                    1, 0, 0));
+            factories.add((entity, random) -> new TradeOffer(
+                    new ItemStack(Items.EMERALD, 16),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_BATTLE_FURY, 1),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_ARROW_DANCE, 1),
+                    1, 0, 0));
+            factories.add((entity, random) -> new TradeOffer(
+                    new ItemStack(Items.EMERALD, 16),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_FLEETING_STRIDES, 1),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_HIGH_BOUNDS, 1),
+                    1, 0, 0));
+            factories.add((entity, random) -> new TradeOffer(
+                    new ItemStack(Items.EMERALD, 16),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_HIGH_BOUNDS, 1),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_FLEETING_STRIDES, 1),
+                    1, 0, 0));
+            factories.add((entity, random) -> new TradeOffer(
+                    new ItemStack(Items.EMERALD, 16),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_NIGHTS_GUARDIAN, 1),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_FEATHERED_GRACE, 1),
+                    1, 0, 0));
+            factories.add((entity, random) -> new TradeOffer(
+                    new ItemStack(Items.EMERALD, 16),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_FEATHERED_GRACE, 1),
+                    new ItemStack(ModItems.SOUND_CARVING_PATTERN_NIGHTS_GUARDIAN, 1),
+                    1, 0, 0));
+//            factories.add((entity, random) -> new TradeOffer(
+//                    new ItemStack(Items.EMERALD, 27),
+//                    new ItemStack(ModItems.BROKEN_CHARM, 1),
+//                    new ItemStack(ModItems.FRAGILE_CHARM_OF_FEATHERED_GRACE, 1),
+//                    1, 0, 0));
+//            factories.add((entity, random) -> new TradeOffer(
+//                    new ItemStack(Items.EMERALD, 36),
+//                    new ItemStack(ModItems.BROKEN_CHARM, 1),
+//                    new ItemStack(ModItems.FRAGILE_CHARM_OF_BLAZING_EMBRACE, 1),
+//                    1, 0, 0));
+//            factories.add((entity, random) -> new TradeOffer(
+//                    new ItemStack(Items.EMERALD, 30),
+//                    new ItemStack(ModItems.BROKEN_CHARM, 1),
+//                    new ItemStack(ModItems.FRAGILE_CHARM_OF_EARTHS_ORDER, 1),
+//                    1, 0, 0));
+//            factories.add((entity, random) -> new TradeOffer(
+//                    new ItemStack(Items.EMERALD, 36),
+//                    new ItemStack(ModItems.BROKEN_CHARM, 1),
+//                    new ItemStack(ModItems.FRAGILE_CHARM_OF_GAZE_SERENITY, 1),
+//                    1, 0, 0));
+//            factories.add((entity, random) -> new TradeOffer(
+//                    new ItemStack(Items.EMERALD, 23),
+//                    new ItemStack(ModItems.BROKEN_CHARM, 1),
+//                    new ItemStack(ModItems.FRAGILE_CHARM_OF_BOTANIC_BLESSING, 1),
+//                    1, 0, 0));
+//            factories.add((entity, random) -> new TradeOffer(
+//                    new ItemStack(Items.EMERALD, 34),
+//                    new ItemStack(ModItems.BROKEN_CHARM, 1),
+//                    new ItemStack(ModItems.FRAGILE_CHARM_OF_FLEETING_STRIDES, 1),
+//                    1, 0, 0));
+//            factories.add((entity, random) -> new TradeOffer(
+//                    new ItemStack(Items.EMERALD, 41),
+//                    new ItemStack(ModItems.BROKEN_CHARM, 1),
+//                    new ItemStack(ModItems.FRAGILE_CHARM_OF_NIGHTS_GUARDIAN, 1),
+//                    1, 0, 0));
+//            factories.add((entity, random) -> new TradeOffer(
+//                    new ItemStack(Items.EMERALD, 34),
+//                    new ItemStack(ModItems.BROKEN_CHARM, 1),
+//                    new ItemStack(ModItems.FRAGILE_CHARM_OF_HIGH_BOUNDS, 1),
+//                    1, 0, 0));
+//            factories.add((entity, random) -> new TradeOffer(
+//                    new ItemStack(Items.EMERALD, 28),
+//                    new ItemStack(ModItems.BROKEN_CHARM, 1),
+//                    new ItemStack(ModItems.FRAGILE_CHARM_OF_DROWNED_FREEDOM, 1),
+//                    1, 0, 0));
+//            factories.add((entity, random) -> new TradeOffer(
+//                    new ItemStack(Items.EMERALD, 36),
+//                    new ItemStack(ModItems.BROKEN_CHARM, 1),
+//                    new ItemStack(ModItems.FRAGILE_CHARM_OF_WEIGHTLESS_FLOW, 1),
+//                    1, 0, 0));
+//            factories.add((entity, random) -> new TradeOffer(
+//                    new ItemStack(Items.EMERALD, 36),
+//                    new ItemStack(ModItems.BROKEN_CHARM, 1),
+//                    new ItemStack(ModItems.FRAGILE_CHARM_OF_COLLECTORS_GIFT, 1),
+//                    1, 0, 0));
+//            factories.add((entity, random) -> new TradeOffer(
+//                    new ItemStack(Items.EMERALD, 36),
+//                    new ItemStack(ModItems.BROKEN_CHARM, 1),
+//                    new ItemStack(ModItems.FRAGILE_CHARM_OF_CLIMBERS_PATH, 1),
+//                    1, 0, 0));
+//            factories.add((entity, random) -> new TradeOffer(
+//                    new ItemStack(Items.EMERALD, 27),
+//                    new ItemStack(ModItems.BROKEN_CHARM, 1),
+//                    new ItemStack(ModItems.FRAGILE_CHARM_OF_NATURES_CALL, 1),
+//                    1, 0, 0));
+//            factories.add((entity, random) -> new TradeOffer(
+//                    new ItemStack(Items.EMERALD, 34),
+//                    new ItemStack(ModItems.BROKEN_CHARM, 1),
+//                    new ItemStack(ModItems.FRAGILE_CHARM_OF_BARTERS_PACT, 1),
+//                    1, 0, 0));
+//            factories.add((entity, random) -> new TradeOffer(
+//                    new ItemStack(Items.EMERALD, 41),
+//                    new ItemStack(ModItems.BROKEN_CHARM, 1),
+//                    new ItemStack(ModItems.FRAGILE_CHARM_OF_BATTLE_FURY, 1),
+//                    1, 0, 0));
+//            factories.add((entity, random) -> new TradeOffer(
+//                    new ItemStack(Items.EMERALD, 36),
+//                    new ItemStack(ModItems.BROKEN_CHARM, 1),
+//                    new ItemStack(ModItems.FRAGILE_CHARM_OF_ECHOING_WRATH, 1),
+//                    1, 0, 0));
+//            factories.add((entity, random) -> new TradeOffer(
+//                    new ItemStack(Items.EMERALD, 41),
+//                    new ItemStack(ModItems.BROKEN_CHARM, 1),
+//                    new ItemStack(ModItems.FRAGILE_CHARM_OF_ENCHANTED_WHISPERS, 1),
+//                    1, 0, 0));
+//            factories.add((entity, random) -> new TradeOffer(
+//                    new ItemStack(Items.EMERALD, 31),
+//                    new ItemStack(ModItems.BROKEN_CHARM, 1),
+//                    new ItemStack(ModItems.FRAGILE_CHARM_OF_ARROW_DANCE, 1),
+//                    1, 0, 0));
+//            factories.add((entity, random) -> new TradeOffer(
+//                    new ItemStack(Items.EMERALD, 34),
+//                    new ItemStack(ModItems.BROKEN_CHARM, 1),
+//                    new ItemStack(ModItems.FRAGILE_CHARM_OF_MOUNTAINS_STRENGTH, 1),
+//                    1, 0, 0));
+//            factories.add((entity, random) -> new TradeOffer(
+//                    new ItemStack(Items.EMERALD, 39),
+//                    new ItemStack(ModItems.BROKEN_CHARM, 1),
+//                    new ItemStack(ModItems.FRAGILE_CHARM_OF_SAFE_TERRITORY, 1),
+//                    1, 0, 0));
+//            factories.add((entity, random) -> new TradeOffer(
+//                    new ItemStack(Items.EMERALD, 37),
+//                    new ItemStack(ModItems.BROKEN_CHARM, 1),
+//                    new ItemStack(ModItems.FRAGILE_CHARM_OF_QUIET_PRESENCE, 1),
+//                    1, 0, 0));
         });
     }
 

@@ -1,0 +1,18 @@
+{
+  "parent": "mythic_charms:book/root",
+  "criteria": {
+    "requirement": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:filled_map"
+            ],
+            "nbt": "{\"MythicCharmsMap\":\"ComposerMap\"}"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  }
+}

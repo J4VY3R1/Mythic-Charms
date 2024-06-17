@@ -1,0 +1,13 @@
+{
+  "name": "Camp: Map",
+  "icon": "minecraft:filled_map",
+  "category": "mythic_charms:structures_category",
+  "advancement": "mythic_charms:book/structures/camp_map",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": " $(o)The author's research was not in vain!$()$(br2) Among the amethyst shards, gold nuggets, and glass bottles, I found a map.$(br) It probably leads to the Carver's village, so that will be my next goal."
+    }
+  ]
+}

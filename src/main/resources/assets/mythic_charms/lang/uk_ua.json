@@ -1,6 +1,49 @@
 {
 	"trinkets.slot.mythic_charm.mythic_charm": "Міфічний талісман",
 
+	"item.mythic_charms.sound_carving_pattern_feathered_grace": "Звуковий шаблон різьблення",
+	"item.mythic_charms.sound_carving_pattern_feathered_grace.tooltip": "Крилата Грація",
+	"item.mythic_charms.sound_carving_pattern_blazing_embrace": "Звуковий шаблон різьблення",
+	"item.mythic_charms.sound_carving_pattern_blazing_embrace.tooltip": "Палаючі Обійми",
+	"item.mythic_charms.sound_carving_pattern_earths_order": "Звуковий шаблон різьблення",
+	"item.mythic_charms.sound_carving_pattern_earths_order.tooltip": "Веління Землі",
+	"item.mythic_charms.sound_carving_pattern_gaze_serenity": "Звуковий шаблон різьблення",
+	"item.mythic_charms.sound_carving_pattern_gaze_serenity.tooltip": "Спокійний Погляд",
+	"item.mythic_charms.sound_carving_pattern_botanic_blessing": "Звуковий шаблон різьблення",
+	"item.mythic_charms.sound_carving_pattern_botanic_blessing.tooltip": "Ботанічне Благословення",
+	"item.mythic_charms.sound_carving_pattern_fleeting_strides": "Звуковий шаблон різьблення",
+	"item.mythic_charms.sound_carving_pattern_fleeting_strides.tooltip": "Швидкоплинні Кроки",
+	"item.mythic_charms.sound_carving_pattern_nights_guardian": "Звуковий шаблон різьблення",
+	"item.mythic_charms.sound_carving_pattern_nights_guardian.tooltip": "Захисник Ночі",
+	"item.mythic_charms.sound_carving_pattern_high_bounds": "Звуковий шаблон різьблення",
+	"item.mythic_charms.sound_carving_pattern_high_bounds.tooltip": "Високі Межі",
+	"item.mythic_charms.sound_carving_pattern_drowned_freedom": "Звуковий шаблон різьблення",
+	"item.mythic_charms.sound_carving_pattern_drowned_freedom.tooltip": "Потоплена Свобода",
+	"item.mythic_charms.sound_carving_pattern_weightless_flow": "Звуковий шаблон різьблення",
+	"item.mythic_charms.sound_carving_pattern_weightless_flow.tooltip": "Невагомий Потік",
+	"item.mythic_charms.sound_carving_pattern_collectors_gift": "Звуковий шаблон різьблення",
+	"item.mythic_charms.sound_carving_pattern_collectors_gift.tooltip": "Дар Колекціонера",
+	"item.mythic_charms.sound_carving_pattern_climbers_path": "Звуковий шаблон різьблення",
+	"item.mythic_charms.sound_carving_pattern_climbers_path.tooltip": "Шлях Альпініста",
+	"item.mythic_charms.sound_carving_pattern_natures_call": "Звуковий шаблон різьблення",
+	"item.mythic_charms.sound_carving_pattern_natures_call.tooltip": "Поклик Природи",
+	"item.mythic_charms.sound_carving_pattern_barters_pact": "Звуковий шаблон різьблення",
+	"item.mythic_charms.sound_carving_pattern_barters_pact.tooltip": "Бартерний Пакт",
+	"item.mythic_charms.sound_carving_pattern_battle_fury": "Звуковий шаблон різьблення",
+	"item.mythic_charms.sound_carving_pattern_battle_fury.tooltip": "Бойова Лють",
+	"item.mythic_charms.sound_carving_pattern_echoing_wrath": "Звуковий шаблон різьблення",
+	"item.mythic_charms.sound_carving_pattern_echoing_wrath.tooltip": "Відлуння Гніву",
+	"item.mythic_charms.sound_carving_pattern_enchanted_whispers": "Звуковий шаблон різьблення",
+	"item.mythic_charms.sound_carving_pattern_enchanted_whispers.tooltip": "Зачарований Шепіт",
+	"item.mythic_charms.sound_carving_pattern_arrow_dance": "Звуковий шаблон різьблення",
+	"item.mythic_charms.sound_carving_pattern_arrow_dance.tooltip": "Танець Стріл",
+	"item.mythic_charms.sound_carving_pattern_mountains_strength": "Звуковий шаблон різьблення",
+	"item.mythic_charms.sound_carving_pattern_mountains_strength.tooltip": "Сила Гір",
+	"item.mythic_charms.sound_carving_pattern_safe_territory": "Звуковий шаблон різьблення",
+	"item.mythic_charms.sound_carving_pattern_safe_territory.tooltip": "Безпечна Територія",
+	"item.mythic_charms.sound_carving_pattern_quiet_presence": "Звуковий шаблон різьблення",
+	"item.mythic_charms.sound_carving_pattern_quiet_presence.tooltip": "Тиха Присутність",
+
 	"item.mythic_charms.fragile_charm_of_feathered_grace": "Крихкий талісман Крилатої Грації",
 	"item.mythic_charms.fragile_charm_of_blazing_embrace": "Крихкий талісман Палаючих Обіймів",
 	"item.mythic_charms.fragile_charm_of_gaze_serenity": "Крихкий талісман Спокійного Погляду",
@@ -47,78 +90,107 @@
 
 
 	"item.mythic_charms.feathered_grace.tooltip": "Надає власнику ефект повільного падіння після півсекундного падіння та закінчується через дві секунди, якщо власник не крадеться",
-
 	"item.mythic_charms.blazing_embrace.tooltip": "Надає власнику постійний ефект вогнестійкості, але тривалість поновлюється лише тоді, коли власник не горить",
-
-	"item.mythic_charms.earths_order.tooltip": "Надає власнику можливість зламати будь-який блок, який можна зламати, лише голими кулаками",
-
+	"item.mythic_charms.earths_order.tooltip": "Надає власнику можливість зламати будь-який блок, який можна зламати, лише без інструменту",
 	"item.mythic_charms.gaze_serenity.tooltip": "Надає власнику можливість дивитися на ендермена, не викликаючи агресії, та під час бою не викликати випадкову телепортацію",
-
-	"item.mythic_charms.botanic_blessing.tooltip": "Прискорює ріст культур у радіусі двох блоків навколо власника",
-
+	"item.mythic_charms.botanic_blessing.tooltip": "Прискорює ріст культур у радіусі двох блоків навколо власника та збільшує кількість культур що випали при збиранні",
 	"item.mythic_charms.fleeting_strides.tooltip": "Підвищує швидкість власника під час бігу зі стрибками, але дає додаткового виснаження",
-
 	"item.mythic_charms.nights_guardian.tooltip": "Запобігає появі фантомів, але лише для власника, навіть якщо фантоми будуть біля власника, вони ігноруватимуть його",
-
 	"item.mythic_charms.high_bounds.tooltip": "Збільшує висоту стрибка власника та безпечну висоту, з якої вони залишаються неушкодженими, на один блок, але дає додаткове виснаження",
-
 	"item.mythic_charms.drowned_freedom.tooltip": "Надає власнику можливість пересуватися під водою, як на поверхні, але дає додаткового виснаження",
-
-	"item.mythic_charms.weightless_flow.tooltip": "Зберігає силу тяжіння власника, дозволяючи йому стояти в повітрі або поринути в небо, якщо власник не крадеться, але дає додаткового виснаження",
-
+	"item.mythic_charms.weightless_flow.tooltip": "Зберігає гравітацію власника, якщо власник не крадеться, дозволяючи йому стояти в повітрі або поринути в небо",
 	"item.mythic_charms.collectors_gift.tooltip": "Притягує предмети до власника в радіусі двох блоків",
-
 	"item.mythic_charms.climbers_path.tooltip": "Збільшує висоту кроку власника до одного блоку, дозволяючи йому з легкістю долати перешкоди, але дає додаткового виснаження",
-
 	"item.mythic_charms.natures_call.tooltip": "Приманює тварин навколо власника, ніби він тримає їх улюблену їжу, якщо власник не крадеться",
-
 	"item.mythic_charms.barters_pact.tooltip": "Власник може відкрити скриню і з ймовірністю сімдесят відсотків, це не викличе агресію з боку піґлінів",
-
-	"item.mythic_charms.battle_fury.tooltip": "Збільшує урон від атаки власника, коли його здоров’я знижується, максимально втричі, коли у нього залишається лише половина серця",
-
-	"item.mythic_charms.echoing_wrath.tooltip": "Завдає урон мобам навколо, коли власник отримує урон, з половиною інтенсивності, щонайбільше до трьох сердець урону, але власник отримує додаткову чверть урону",
-
+	"item.mythic_charms.battle_fury.tooltip": "Збільшує шкоду від атаки власника, коли його здоров’я знижується, максимально втричі",
+	"item.mythic_charms.echoing_wrath.tooltip": "Коли власник отримує шкоду від сутності, завдає шкоди мобам навколо з половиною інтенсивності, щонайбільше до трьох сердець шкоди, але власник отримує додаткову чверть шкоди",
 	"item.mythic_charms.enchanted_whispers.tooltip": "Робить чари випадковими кожного разу, коли власник взаємодіє зі столом зачарування, в обмін на один рівень",
-
-	"item.mythic_charms.arrow_dance.tooltip": "Надає власнику можливість ухилитися від снарядів із ймовірністю сімдесят відсотків, але власник отримує додаткову чверть урону",
-
-	"item.mythic_charms.mountains_strength.tooltip": "Надає власнику імунітет до відкидання або штовхання, але він отримує додаткову чверть урону",
-
+	"item.mythic_charms.arrow_dance.tooltip": "Надає власнику можливість ухилитися від снарядів із ймовірністю сімдесят відсотків, але власник отримує додаткову чверть шкоди",
+	"item.mythic_charms.mountains_strength.tooltip": "Надає власнику імунітет до відкидання або штовхання, але він отримує додаткову чверть шкоди",
 	"item.mythic_charms.safe_territory.tooltip": "Вибухи кріпера у радіусі двох блоків навколо власника більше не зможуть ламати блоки",
-
 	"item.mythic_charms.quiet_presence.tooltip": "Надає власнику можливість рухатися без активації скалкового сенсору під час ходьби",
 
 
 	"item.mythic_charms.broken_charm": "Зламаний талісман",
 	"item.mythic_charms.broken_charm.tooltip": "Колись був придатним талісманом",
 
-
 	"item.mythic_charms.fragile_charm_base": "База крихкого талісману",
 
-
 	"item.mythic_charms.resonance_ring": "Перстень резонансу",
-	"item.mythic_charms.resonance_ring.tooltip": "Дозволяє власнику використовувати стіл резонансу та збільшує затримку підбору кинутих предметів",
 
+	"item.mythic_charms.resonance_compass": "Компас резонансу",
 
-	"item.mythic_charms.deepslate_fragment": "Фрагмент глибосланцю",
-	"item.mythic_charms.deepslate_fragment.tooltip": "Випадає з глибосланцю з невеликим шансом",
+	"item.mythic_charms.deepslate_core": "Глибосланцеве ядро",
+	"item.mythic_charms.deepslate_core.applies_to": "Крихкі талісмани",
+	"item.mythic_charms.deepslate_core.ingredients": "Незеритовий злиток",
+	"item.mythic_charms.deepslate_core.base_slot_description": "Розмістіть крихкий талісман",
+	"item.mythic_charms.deepslate_core.additions_slot_description": "Розмістіть незеритовий злиток",
 
+	"item.mythic_charms.music_disc_resonance": "Платівка",
+	"item.mythic_charms.music_disc_resonance.desc": "Masik16u - Resonance",
+	"item.mythic_charms.disc_fragment_resonance": "Фрагмент платівки",
+	"item.mythic_charms.disc_fragment_resonance.tooltip": "Платівка - Resonance",
 
-	"item.mythic_charms.experience_nugget": "Самородок досвіду",
-	"item.mythic_charms.experience_nugget.tooltip": "З'являється з кулями досвіду з невеликим шансом",
+	"item.mythic_charms.underground_village_map": "Мапа підземного селища",
+	"item.mythic_charms.deep_underground_village_map": "Мапа глибокого підземного селища",
+	"item.mythic_charms.aquamarine_composer": "Мапа аквамаринового композитора",
+	"item.mythic_charms.gold_composer": "Мапа золотого композитора",
+	"item.mythic_charms.indigo_composer": "Мапа індиго композитора",
+	"item.mythic_charms.ivory_composer": "Мапа кремового композитора",
+	"item.mythic_charms.lime_composer": "Мапа салатового композитора",
+	"item.mythic_charms.maroon_composer": "Мапа бордового композитора",
+	"item.mythic_charms.silver_composer": "Мапа сріблястого композитора",
+	"item.mythic_charms.teal_composer": "Мапа бірюзового композитора",
+	"item.mythic_charms.violet_composer": "Мапа фіолетового композитора",
 
-
-	"item.mythic_charms.glowstone_nugget": "Самородок світлокаменю",
 
 	"item.mythic_charms.charmicon": "Charmicon",
-	"mythic_charms.charmicon.landing": "Все що потрібно знати про Mythic Charms",
+	"mythic_charms.charmicon.landing": "У цьому журналі я написав усе, що знаю про різьбярів по звуку. Якщо ви знайшли цей щоденник незавершеним, ви можете продовжити мою подорож і розкрити таємниці тих, хто живе під землею.",
 
 
 	"block.mythic_charms.resonance_table": "Стіл резонансу",
-	"item.mythic_charms.resonance_table.tooltip": "Для використання потрібен перстень резонансу та блок лазуриту під ним",
+
+	"itemGroup.mythic_charms": "Mythic Charms",
 
 
 	"util.mythic_charms.shift_tooltip": "Утримуйте §eSHIFT§r для додаткової інформації",
+
+
+	"advancements.mythic_charms.story.root.title": "Mythic Charms",
+	"advancements.mythic_charms.story.root.desc": "Все в ваших руках",
+	"advancements.mythic_charms.story.find_camp.title": "Сліди минулого",
+	"advancements.mythic_charms.story.find_camp.desc": "Знайдіть табір різьбярів по звуку",
+	"advancements.mythic_charms.story.find_camp_map.title": "Маяк надії",
+	"advancements.mythic_charms.story.find_camp_map.desc": "Знайдіть карту, яка веде до підземного селища",
+	"advancements.mythic_charms.story.find_underground_village.title": "Похована правда",
+	"advancements.mythic_charms.story.find_underground_village.desc": "Увійдіть у селище різьбярів по звуку",
+	"advancements.mythic_charms.story.find_underground_village_map.title": "Шлях до прихованих глибин",
+	"advancements.mythic_charms.story.find_underground_village_map.desc": "Знайдіть карту, яка веде в глибини світу",
+	"advancements.mythic_charms.story.prepare_for_carving.title": "Базова підготовка",
+	"advancements.mythic_charms.story.prepare_for_carving.desc": "Підготуйтеся до різьблення, зібравши: стіл резонансу, перстень резонансу та базу крихкого талісману",
+
+	"advancements.mythic_charms.story.find_deep_underground_village.title": "Де усе почалося",
+	"advancements.mythic_charms.story.find_deep_underground_village.desc": "Увійдіть у глибоке підземне селище",
+	"advancements.mythic_charms.story.find_deep_underground_village_map.title": "Маестро",
+	"advancements.mythic_charms.story.find_deep_underground_village_map.desc": "Знайдіть карту композитора",
+	"advancements.mythic_charms.story.deepslate_core.title": "Незавершений експеримент",
+	"advancements.mythic_charms.story.deepslate_core.desc": "Отримайте глибосланцеве ядро",
+	"advancements.mythic_charms.story.resonance_compass.title": "Як звучить Полярна зірка",
+	"advancements.mythic_charms.story.resonance_compass.desc": "Отримайте компас резонансу",
+
+	"advancements.mythic_charms.story.sound_carving_pattern.title": "Секрет творця мелодії",
+	"advancements.mythic_charms.story.sound_carving_pattern.desc": "Отримайте звуковий візерунок різьблення",
+	"advancements.mythic_charms.story.first_charm.title": "Різьбяр початківець",
+	"advancements.mythic_charms.story.first_charm.desc": "Створіть свій перший талісман",
+
+	"advancements.mythic_charms.story.every_composer.title": "Оркестр",
+	"advancements.mythic_charms.story.every_composer.desc": "Відвідайте кожного композитора",
+
+	"advancements.mythic_charms.story.first_unbreakable_charm.title": "Міцна оболонка",
+	"advancements.mythic_charms.story.first_unbreakable_charm.desc": "Покращіть свій талісман вперше",
+	"advancements.mythic_charms.story.every_charm.title": "Талісманія",
+	"advancements.mythic_charms.story.every_charm.desc": "Створіть кожен талісман",
 
 
 	"category.mythic_charms.resonance": "Об'єднання резонансом",
@@ -176,20 +248,5 @@
 	"text.config.mythic-charms-config.option.charmCombinationsEnabled.CharmCombinationClimbersPathAndHighBoundsEnabled": "Комбінація талісманів Шляху Альпініста і Високих Меж увімкнено",
 	"text.config.mythic-charms-config.option.charmCombinationsEnabled.CharmCombinationEchoingWrathAndBlazingEmbraceEnabled": "Комбінація талісманів Відлуння Гніву і Палаючих Обіймів увімкнено",
 	"text.config.mythic-charms-config.option.charmCombinationsEnabled.CharmCombinationEchoingWrathAndBattleFuryEnabled": "Комбінація талісманів Відлуння Гніву і Бойової Люті увімкнено",
-	"text.config.mythic-charms-config.option.charmCombinationsEnabled.CharmCombinationQuietPresenceAndFeatheredGraceEnabled": "Комбінація талісманів Тихої Присутності і Крилатої Грації увімкнено",
-
-	"text.config.mythic-charms-config.option.experienceNuggetMobCap": "Кількість мобів навколо, після якої самородок досвіду не випаде",
-
-	"advancements.mythic_charms.story.root.title": "Mythic Charms",
-	"advancements.mythic_charms.story.root.desc": "Усе в твоїх руках",
-	"advancements.mythic_charms.story.resonance_table.title": "Красивий столик",
-	"advancements.mythic_charms.story.resonance_table.desc": "Створіть стіл резонансу",
-	"advancements.mythic_charms.story.fragile_charm_base.title": "Це база",
-	"advancements.mythic_charms.story.fragile_charm_base.desc": "Створіть базу крихкого талісману",
-	"advancements.mythic_charms.story.first_charm.title": "Маг початківець",
-	"advancements.mythic_charms.story.first_charm.desc": "Створіть свій перший талісман",
-	"advancements.mythic_charms.story.first_unbreakable_charm.title": "Тепер ти у безпеці",
-	"advancements.mythic_charms.story.first_unbreakable_charm.desc": "Покращьте свій талісман вперше",
-	"advancements.mythic_charms.story.every_charm.title": "Талісмайстер",
-	"advancements.mythic_charms.story.every_charm.desc": "Створіть кожен талісман"
+	"text.config.mythic-charms-config.option.charmCombinationsEnabled.CharmCombinationQuietPresenceAndFeatheredGraceEnabled": "Комбінація талісманів Тихої Присутності і Крилатої Грації увімкнено"
 }

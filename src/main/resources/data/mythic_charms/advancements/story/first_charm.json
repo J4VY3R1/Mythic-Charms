@@ -1,20 +1,20 @@
 {
+  "parent": "mythic_charms:story/prepare_for_carving",
   "display": {
-    "announce_to_chat": true,
+    "icon": {
+      "item": "mythic_charms:fragile_charm_base"
+    },
+    "title": {
+      "translate": "advancements.mythic_charms.story.first_charm.title"
+    },
     "description": {
       "translate": "advancements.mythic_charms.story.first_charm.desc"
     },
     "frame": "task",
-    "hidden": false,
-    "icon": {
-      "item": "mythic_charms:resonance_ring"
-    },
+    "announce_to_chat": true,
     "show_toast": true,
-    "title": {
-      "translate": "advancements.mythic_charms.story.first_charm.title"
-    }
+    "hidden": false
   },
-  "parent": "mythic_charms:story/fragile_charm_base",
   "criteria": {
     "feathered_grace": {
       "conditions": {

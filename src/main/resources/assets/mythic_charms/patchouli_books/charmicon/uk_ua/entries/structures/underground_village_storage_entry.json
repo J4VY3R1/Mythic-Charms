@@ -1,0 +1,13 @@
+{
+  "name": "П. Селище: Склад",
+  "icon": "minecraft:stone_brick_stairs",
+  "category": "mythic_charms:structures_category",
+  "advancement": "mythic_charms:book/structures/underground_village_storage",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": " Приміщення, позначене символом трикутника, має бути складським. Крім того, вікно біля входу має бути місцем прийому.$(br2) Повсюди багато полиць і випадкових речей. $(o)Навіщо їм усі ці речі?"
+    }
+  ]
+}

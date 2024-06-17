@@ -1,0 +1,18 @@
+{
+  "name": "Глибосланцеве ядро",
+  "icon": "mythic_charms:deepslate_core",
+  "category": "mythic_charms:general_category",
+  "advancement": "mythic_charms:book/deepslate_core",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": " Це предмет, який дозволить мені підвищити довговічність талісманів.$(br2) Це виглядає схоже на ковальський шаблон для незеритового покращення, я думаю, що талісмани покращуються подібним чином, на ковальському столі."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mythic_charms:deepslate_core",
+      "text": " Як і ковальські шаблони, його можна дублювати."
+    }
+  ]
+}

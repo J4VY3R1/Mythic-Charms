@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "mythic_charms:sound_carving_pattern_echoing_wrath"
+        },
+        {
+            "item": "minecraft:paper"
+        },
+        {
+            "item": "minecraft:glow_ink_sac"
+        }
+    ],
+    "result": {
+        "item": "mythic_charms:sound_carving_pattern_echoing_wrath",
+        "count": 2
+    }
+}

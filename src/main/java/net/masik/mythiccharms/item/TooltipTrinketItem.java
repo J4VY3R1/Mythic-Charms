@@ -11,19 +11,17 @@ import java.util.List;
 
 public class TooltipTrinketItem extends TrinketItem {
 
-    private final String tooltipKey;
-    private final Boolean notNormal;
+    private final Boolean requiresShift;
 
-    public TooltipTrinketItem(Settings settings, String tooltip, Boolean shift) {
+    public TooltipTrinketItem(Settings settings, Boolean shift) {
         super(settings);
-        tooltipKey = tooltip;
-        notNormal = shift;
+        requiresShift = shift;
     }
 
     @Override
     public void appendTooltip(ItemStack itemStack, World world, List<Text> tooltip, TooltipContext tooltipContext) {
 
-        TooltipHelper.addTooltip(tooltip, tooltipKey, notNormal);
+        TooltipHelper.addTooltip(tooltip, (this.getTranslationKey() + ".tooltip").replace("fragile_charm_of_", "").replace("unbreakable_charm_of_", ""), requiresShift);
 
     }
 

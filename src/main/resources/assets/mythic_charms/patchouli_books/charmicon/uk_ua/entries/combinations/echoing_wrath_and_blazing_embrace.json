@@ -1,0 +1,13 @@
+{
+  "name": "Відлуння Г. та Палаючі О.",
+  "icon": "mythic_charms:textures/echoing_wrath_and_battle_fury.png",
+  "category": "mythic_charms:combinations_category",
+  "advancement": "mythic_charms:book/combinations/echoing_wrath_and_battle_fury",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": " При комбінуванні $(l:mythic_charms:charms/charm_of_echoing_wrath_entry)Відлуння Гніву$() та $(l:mythic_charms:charms/charm_of_blazing_embrace_entry)Палаючих Обіймів$(), підпалює всіх навколо, але шкода від відлуння зменшується вдвічі."
+    }
+  ]
+}

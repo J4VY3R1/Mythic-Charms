@@ -5,6 +5,7 @@ import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.text.MutableText;
 import net.minecraft.text.Text;
 import net.minecraft.world.World;
 
@@ -13,19 +14,17 @@ import java.util.List;
 
 public class TooltipItem extends Item {
 
-    private final String tooltipKey;
-    private final Boolean notNormal;
+    private final Boolean requiresShift;
 
-    public TooltipItem(Settings settings, String tooltip, Boolean shift) {
+    public TooltipItem(Settings settings, Boolean shift) {
         super(settings);
-        tooltipKey = tooltip;
-        notNormal = shift;
+        requiresShift = shift;
     }
 
     @Override
     public void appendTooltip(ItemStack itemStack, World world, List<Text> tooltip, TooltipContext tooltipContext) {
 
-        TooltipHelper.addTooltip(tooltip, tooltipKey, notNormal);
+        TooltipHelper.addTooltip(tooltip, this.getTranslationKey() + ".tooltip", requiresShift);
 
     }
 

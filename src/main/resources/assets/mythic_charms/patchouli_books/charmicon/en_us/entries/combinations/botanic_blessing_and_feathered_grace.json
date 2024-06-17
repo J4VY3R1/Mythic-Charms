@@ -2,11 +2,12 @@
   "name": "Botanic B. & Feathered G.",
   "icon": "mythic_charms:textures/botanic_blessing_and_feathered_grace.png",
   "category": "mythic_charms:combinations_category",
-  "advancement": "mythic_charms:story/first_charm",
+  "advancement": "mythic_charms:book/combinations/botanic_blessing_and_feathered_grace",
+  "sortnum": 1,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": " $(l:mythic_charms:charms/charm_of_botanic_blessing_entry)Botanic Blessing$() $(br)  and $(l:mythic_charms:charms/charm_of_feathered_grace_entry)Feathered Grace$(): $(br2) Jumping on farmland won't trample it."
+      "text": " When combining $(l:mythic_charms:charms/charm_of_botanic_blessing_entry)Botanic Blessing$() and $(l:mythic_charms:charms/charm_of_feathered_grace_entry)Feathered Grace$(), jumping on farmland won't trample it."
     }
   ]
 }

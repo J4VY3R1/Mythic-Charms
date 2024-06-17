@@ -1,0 +1,17 @@
+{
+  "parent": "mythic_charms:book/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythic_charms:sound_carving_pattern_high_bounds"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

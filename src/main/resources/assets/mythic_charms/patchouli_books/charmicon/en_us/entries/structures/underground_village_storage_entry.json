@@ -1,0 +1,13 @@
+{
+  "name": "U. Village: Storage",
+  "icon": "minecraft:stone_brick_stairs",
+  "category": "mythic_charms:structures_category",
+  "advancement": "mythic_charms:book/structures/underground_village_storage",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": " The room marked with a triangle symbol must be a storage room. Also, the window near the entrance must be a reception point.$(br2) There are a lot of shelves and random stuff all over the place. $(o)Why would they need all these things?"
+    }
+  ]
+}

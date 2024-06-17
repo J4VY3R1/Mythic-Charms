@@ -1,0 +1,13 @@
+{
+  "name": "Відлуння Г. та Бойова Л.",
+  "icon": "mythic_charms:textures/echoing_wrath_and_battle_fury.png",
+  "category": "mythic_charms:combinations_category",
+  "advancement": "mythic_charms:book/combinations/echoing_wrath_and_battle_fury",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": " При комбінуванні $(l:mythic_charms:charms/charm_of_echoing_wrath_entry)Відлуння Гніву$() та $(l:mythic_charms:charms/charm_of_battle_fury_entry)Бойової Люті$(), чим нижчий рівень здоров'я власника, тим більша шкода від відлуння."
+    }
+  ]
+}

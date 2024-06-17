@@ -1,0 +1,37 @@
+{
+  "parent": "mythic_charms:book/root",
+  "criteria": {
+    "weightless_flow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythic_charms:fragile_charm_of_weightless_flow"
+            ]
+          }
+        ]
+      }
+    },
+    "feathered_grace": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythic_charms:fragile_charm_of_feathered_grace"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "weightless_flow"
+    ],
+    [
+      "feathered_grace"
+    ]
+  ]
+}

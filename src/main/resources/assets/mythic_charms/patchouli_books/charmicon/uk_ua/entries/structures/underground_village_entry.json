@@ -1,0 +1,34 @@
+{
+  "name": "Підземне селище",
+  "icon": "minecraft:stone_bricks",
+  "category": "mythic_charms:structures_category",
+  "advancement": "mythic_charms:book/structures/underground_village",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": " Саме тут мали бути різьбярі по звуку, але тепер усе поховане в гравії та камені.$(br) $(o)Чи не могли вони нічого зробити, щоб цього не сталося?$()$(br2) Також є план селища при вході, старий, але читабельний."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mythic_charms:textures/gui/entries/structures/uvillage1.png"
+      ],
+      "text": " Перший поверх є входом до селища і не має багато кімнат."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mythic_charms:textures/gui/entries/structures/uvillage2.png"
+      ],
+      "text": " Другий поверх має чотири кімнати з однаковим символом, це має бути житловий поверх."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mythic_charms:textures/gui/entries/structures/uvillage3.png"
+      ],
+      "text": " Третій поверх повинен бути промисловим."
+    }
+  ]
+}

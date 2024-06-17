@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mythic_charms:sound_carving_pattern_mountains_strength"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mythic_charms:sound_carving_pattern_earths_order"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mythic_charms:sound_carving_pattern_climbers_path"
+        }
+      ]
+    }
+  ]
+}

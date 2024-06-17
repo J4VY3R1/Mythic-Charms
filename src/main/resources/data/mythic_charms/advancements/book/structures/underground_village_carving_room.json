@@ -1,0 +1,11 @@
+{
+  "parent": "mythic_charms:book/root",
+  "criteria": {
+    "requirement": {
+      "conditions": {
+        "loot_table": "mythic_charms:archaeology/underground_village/carving_room"
+      },
+      "trigger": "minecraft:player_generates_container_loot"
+    }
+  }
+}

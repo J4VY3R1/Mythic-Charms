@@ -64,10 +64,11 @@ public class ExperienceBottleEntityMixin {
 
             ItemEntity result = new ItemEntity(world, bottle.getX(), bottle.getY(), bottle.getZ(), recipe.get().getOutput(null));
             result.setVelocity(0, 0.4, 0);
+            result.setPickupDelay(30);
             world.spawnEntity(result);
 
             SoundHelper.playSoundAtEntity(player, SoundEvents.BLOCK_AMETHYST_BLOCK_CHIME, 40F);
-            SoundHelper.playSoundAtEntity(player, SoundEvents.ENTITY_PLAYER_LEVELUP, 10F);
+            SoundHelper.playSoundAtEntity(player, SoundEvents.ENTITY_PLAYER_LEVELUP, 8F);
 
             if (player.getServer() != null) {
 

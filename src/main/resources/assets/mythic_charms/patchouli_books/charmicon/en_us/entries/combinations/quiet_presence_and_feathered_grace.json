@@ -2,11 +2,12 @@
   "name": "Quiet P. & Feathered G.",
   "icon": "mythic_charms:textures/quiet_presence_and_feathered_grace.png",
   "category": "mythic_charms:combinations_category",
-  "advancement": "mythic_charms:story/first_charm",
+  "advancement": "mythic_charms:book/combinations/quiet_presence_and_feathered_grace",
+  "sortnum": 1,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": " $(l:mythic_charms:charms/charm_of_quiet_presence_entry)Quiet Presence$() $(br)  and $(l:mythic_charms:charms/charm_of_feathered_grace_entry)Feathered Grace$(): $(br2) Jumping won't trigger a sculk sensor."
+      "text": " When combining $(l:mythic_charms:charms/charm_of_quiet_presence_entry)Quiet Presence$() and $(l:mythic_charms:charms/charm_of_feathered_grace_entry)Feathered Grace$(), jumping won't trigger a sculk sensor."
     }
   ]
 }

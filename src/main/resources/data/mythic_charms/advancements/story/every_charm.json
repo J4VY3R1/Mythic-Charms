@@ -1,20 +1,20 @@
 {
+  "parent": "mythic_charms:story/first_charm",
   "display": {
-    "announce_to_chat": true,
+    "icon": {
+      "item": "mythic_charms:fragile_charm_of_feathered_grace"
+    },
+    "title": {
+      "translate": "advancements.mythic_charms.story.every_charm.title"
+    },
     "description": {
       "translate": "advancements.mythic_charms.story.every_charm.desc"
     },
     "frame": "challenge",
-    "hidden": false,
-    "icon": {
-      "item": "mythic_charms:fragile_charm_of_enchanted_whispers"
-    },
+    "announce_to_chat": true,
     "show_toast": true,
-    "title": {
-      "translate": "advancements.mythic_charms.story.every_charm.title"
-    }
+    "hidden": false
   },
-  "parent": "mythic_charms:story/first_unbreakable_charm",
   "criteria": {
     "feathered_grace": {
       "conditions": {

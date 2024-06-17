@@ -1,0 +1,13 @@
+{
+  "name": "Gold Composer",
+  "icon": "minecraft:yellow_terracotta",
+  "category": "mythic_charms:structures_category",
+  "advancement": "mythic_charms:book/structures/composers/gold_composer",
+  "sortnum": 9,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": " The sign at the entrance says:$(br2)$(o) Amidst the majesty of the high peaks, the Mountain's Strength is a testament to the Earth's Order, guiding the Climber's Path with steadfast majesty and silent wisdom.$(br2) Gold."
+    }
+  ]
+}

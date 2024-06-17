@@ -1,0 +1,17 @@
+{
+  "name": "U. Village: Carving Room",
+  "icon": "minecraft:chiseled_stone_bricks",
+  "category": "mythic_charms:structures_category",
+  "advancement": "mythic_charms:book/structures/underground_village_carving_room",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": " The room with a square symbol is the room where Sound Carvers make charms.$(br2) There is a table embedded with amethysts in the center of the room and an instruction on how to use it.$(br2) There are also a lot of things from the storage room, $(o)these must be ingredients."
+    },
+    {
+      "type": "patchouli:text",
+      "text": " There is a note carved on the wall, in the corner of the room. It says:$(br2)$(o) It's been two weeks since the last order, and everyone is nervous.$(br) Yesterday all lights began to darken and we have lost touch with others.$(br) Is this our end?"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Палаючі О. та Бойова Л.",
+  "icon": "mythic_charms:textures/blazing_embrace_and_battle_fury.png",
+  "category": "mythic_charms:combinations_category",
+  "advancement": "mythic_charms:book/combinations/blazing_embrace_and_battle_fury",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": " При комбінуванні $(l:mythic_charms:charms/charm_of_blazing_embrace_entry)Палаючих Обіймів$() та $(l:mythic_charms:charms/charm_of_battle_fury_entry)Бойової Люті$(), час ефекту вогнестійкості збільшується в міру зниження здоров’я користувача, до 2 разів на половині серця."
+    }
+  ]
+}

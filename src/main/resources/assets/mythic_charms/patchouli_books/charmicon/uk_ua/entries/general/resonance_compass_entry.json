@@ -1,0 +1,20 @@
+{
+  "name": "Компас Резонансу",
+  "icon": "mythic_charms:resonance_compass",
+  "category": "mythic_charms:general_category",
+  "advancement": "mythic_charms:book/resonance_compass",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": " Цей пристрій старий, але в той же час новий, схоже, що ним ніхто раніше не користувався. Є навіть примітка, як ним користуватися.$(br2) Я припускаю, що дослідники використовували цей компас резонансу, коли вони загубилися. Він резонує з найближчою структурою різьбярів, а при використанні видає звук у напрямку структури. Коли до структури залишається 10 блоків, він видає інший звук."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mythic_charms:textures/gui/entries/general/resonance_compass.png"
+      ],
+      "text": "$(o) Я обов'язково повинен це спробувати."
+    }
+  ]
+}

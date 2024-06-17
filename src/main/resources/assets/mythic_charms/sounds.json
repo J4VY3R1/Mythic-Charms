@@ -1,0 +1,10 @@
+{
+  "music_disc.resonance": {
+    "sounds": [
+      {
+        "name": "mythic_charms:resonance",
+        "stream": true
+      }
+    ]
+  }
+}

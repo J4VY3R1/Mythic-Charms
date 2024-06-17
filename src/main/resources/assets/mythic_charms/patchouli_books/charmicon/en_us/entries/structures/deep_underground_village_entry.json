@@ -1,0 +1,27 @@
+{
+  "name": "Deep Underground Village",
+  "icon": "minecraft:deepslate_bricks",
+  "category": "mythic_charms:structures_category",
+  "advancement": "mythic_charms:book/structures/deep_underground_village",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": " This is the place where the map from the previous village led. This one is at the deepslate level instead of stone.$(br2) It also has a village plan, smaller than the previous one."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mythic_charms:textures/gui/entries/structures/duvillage1.png"
+      ],
+      "text": " First floor looks very empty."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mythic_charms:textures/gui/entries/structures/duvillage2.png"
+      ],
+      "text": " Second floor is a mix of technical and residential rooms. $(o)Strange, it has a downstairs symbol, but the plan doesn't include a third floor."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "mythic_charms:story/find_deep_underground_village",
+  "display": {
+    "icon": {
+      "item": "mythic_charms:deepslate_core"
+    },
+    "title": {
+      "translate": "advancements.mythic_charms.story.deepslate_core.title"
+    },
+    "description": {
+      "translate": "advancements.mythic_charms.story.deepslate_core.desc"
+    },
+    "frame": "goal",
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythic_charms:deepslate_core"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  }
+}

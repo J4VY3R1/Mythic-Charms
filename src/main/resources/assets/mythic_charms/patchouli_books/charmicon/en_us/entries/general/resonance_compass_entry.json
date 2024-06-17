@@ -1,0 +1,20 @@
+{
+  "name": "Resonance Compass",
+  "icon": "mythic_charms:resonance_compass",
+  "category": "mythic_charms:general_category",
+  "advancement": "mythic_charms:book/resonance_compass",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": " This device is old but at the same time new, it looks like nobody used this one before. There is even a note on how to use it.$(br2) I assume Sound Carver's explorers used this Resonance Compass when they were lost. It resonates to the nearest Carver's structure and when used, it makes a sound in the direction of a structure. When there are 10 blocks left to the structure it makes a different sound."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mythic_charms:textures/gui/entries/general/resonance_compass.png"
+      ],
+      "text": "$(o) I definitely have to try it."
+    }
+  ]
+}

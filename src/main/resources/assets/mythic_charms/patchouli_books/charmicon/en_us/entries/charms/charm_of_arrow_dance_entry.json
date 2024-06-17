@@ -2,19 +2,20 @@
   "name": "Arrow Dance",
   "icon": "mythic_charms:fragile_charm_of_arrow_dance",
   "category": "mythic_charms:charms_category",
-  "advancement": "mythic_charms:book/fragile_charm_base",
+  "advancement": "mythic_charms:book/charms/arrow_dance",
+  "sortnum": 1,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": " The wearer has a 70% chance to evade any projectile such as an arrow, firework rocket, splash potion, etc. However, the user receives an additional 0.25 of the damage."
+      "text": " The description on the back of the scroll says:$(br2)$(o) In 7/10 cases one can avoid any projectile such as an arrow,  a firework rocket, a splash potion, etc. However, one takes an additional quarter of the damage."
     },
     {
       "type": "mythic_charms:resonance_infusing",
       "result": "mythic_charms:fragile_charm_of_arrow_dance",
       "ingredient1": "mythic_charms:fragile_charm_base",
-      "ingredient2": "mythic_charms:glowstone_nugget",
-      "ingredient3": "minecraft:feather",
-      "ingredient4": "minecraft:phantom_membrane",
+      "ingredient2": "mythic_charms:sound_carving_pattern_arrow_dance",
+      "ingredient3": "minecraft:honey_bottle",
+      "ingredient4": "minecraft:magma_cream",
       "ingredient5": "minecraft:rabbit_hide"
     }
   ]

@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "requirement": {
+      "conditions": {
+        "loot_table": "mythic_charms:archaeology/underground_village/carving_room"
+      },
+      "trigger": "minecraft:player_generates_container_loot"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "mythic_charms:fragile_charm_base",
+      "mythic_charms:fragile_charm_base_from_broken_charm",
+      "mythic_charms:resonance_table",
+      "mythic_charms:resonance_ring"
+    ]
+  },
+  "sends_telemetry_event": false
+}

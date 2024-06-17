@@ -1,0 +1,29 @@
+{
+  "name": "Sound Carvers",
+  "icon": "minecraft:leather_helmet",
+  "category": "mythic_charms:general_category",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": " These mysterious, human-shaped creatures live underground. Sometimes, they can be seen on the surface during their expeditions. You might even spot them in the Nether or End, although Carvers rest only in the Overworld.$(br2) I once saw one from afar and its body was shining in the sun."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mythic_charms:textures/gui/entries/general/sound_carvers1.png"
+      ],
+      "text": " Unfortunately, it disappeared into the forest before I could get a closer look."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(br) So why they are called \"Sound Carvers\"? Stories say they can shape sound and inscribe stone using only their voices.$(br) These creatures are often seen with an amethyst shard in their hands. $(o)Could it be that they use it to carve stone?$()$(br2) After finishing their work, they dig underground, leaving no trace behind. Thus, I couldn't see them actually at their work."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mythic_charms:textures/gui/entries/general/sound_carvers2.png"
+      ]
+    }
+  ]
+}

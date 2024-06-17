@@ -1,0 +1,22 @@
+{
+  "name": "Бойова Лють",
+  "icon": "mythic_charms:fragile_charm_of_battle_fury",
+  "category": "mythic_charms:charms_category",
+  "advancement": "mythic_charms:book/charms/battle_fury",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": " В описі на звороті сувою вказано:$(br2)$(o) Чим нижче рівень здоров'я, тим вище шкода від атаки. При повному здоров'ї додаткової шкоди немає. При половині здоров'я шкода подвоюється, а при мінімальному - потроюється."
+    },
+    {
+      "type": "mythic_charms:resonance_infusing",
+      "result": "mythic_charms:fragile_charm_of_battle_fury",
+      "ingredient1": "mythic_charms:fragile_charm_base",
+      "ingredient2": "mythic_charms:sound_carving_pattern_battle_fury",
+      "ingredient3": "minecraft:ghast_tear",
+      "ingredient4": "minecraft:magma_cream",
+      "ingredient5": "minecraft:prismarine_shard"
+    }
+  ]
+}

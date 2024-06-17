@@ -1,0 +1,25 @@
+{
+  "name": "Процес різьблення по звуку",
+  "icon": "mythic_charms:resonance_table",
+  "category": "mythic_charms:general_category",
+  "advancement": "mythic_charms:book/structures/underground_village_carving_room",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": " Перший крок - це блок лазуриту. Його треба поставити під стіл, $(o)виглядає ніби він грає роль каталізатора$().$(br) Далі — залізний перстень з аметистом. При роботі на столі резонансу він повинен бути постійно обладнаний.$(br2) Тепер поставте всі інгредієнти на стіл і киньте пляшку досвіду, щоб закінчити."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mythic_charms:textures/gui/entries/general/sound_carving_process.png"
+      ],
+      "text": " $(o)Але де взяти рецепти талісманів?"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mythic_charms:resonance_table",
+      "recipe2": "mythic_charms:resonance_ring"
+    }
+  ]
+}

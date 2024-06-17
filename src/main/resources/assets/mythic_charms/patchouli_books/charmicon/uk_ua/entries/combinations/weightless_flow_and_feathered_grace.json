@@ -1,0 +1,13 @@
+{
+  "name": "Невагомий П. та Крилата Г.",
+  "icon": "mythic_charms:textures/weightless_flow_and_feathered_grace.png",
+  "category": "mythic_charms:combinations_category",
+  "advancement": "mythic_charms:book/combinations/weightless_flow_and_feathered_grace",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": " При комбінуванні $(l:mythic_charms:charms/charm_of_weightless_flow_entry)Невагомого Потоку$() та $(l:mythic_charms:charms/charm_of_feathered_grace_entry)Крилатої Грації$(), підкрадання не вимкне ефект повільного падіння, воно лише поверне вашу нормальну гравітацію."
+    }
+  ]
+}

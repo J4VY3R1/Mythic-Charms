@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "mythic_charms:sound_carving_pattern_barters_pact"
+        },
+        {
+            "item": "minecraft:paper"
+        },
+        {
+            "item": "minecraft:glow_ink_sac"
+        }
+    ],
+    "result": {
+        "item": "mythic_charms:sound_carving_pattern_barters_pact",
+        "count": 2
+    }
+}

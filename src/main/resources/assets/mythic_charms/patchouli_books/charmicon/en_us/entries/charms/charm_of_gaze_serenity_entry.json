@@ -2,17 +2,18 @@
   "name": "Gaze Serenity",
   "icon": "mythic_charms:fragile_charm_of_gaze_serenity",
   "category": "mythic_charms:charms_category",
-  "advancement": "mythic_charms:book/fragile_charm_base",
+  "advancement": "mythic_charms:book/charms/gaze_serenity",
+  "sortnum": 1,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": " The wearer can look at enderman eyes without any consequences. (very useful in the End)"
+      "text": " The description on the back of the scroll says:$(br2)$(o) One can look at enderman eyes without any consequences."
     },
     {
       "type": "mythic_charms:resonance_infusing",
       "result": "mythic_charms:fragile_charm_of_gaze_serenity",
       "ingredient1": "mythic_charms:fragile_charm_base",
-      "ingredient2": "mythic_charms:glowstone_nugget",
+      "ingredient2": "mythic_charms:sound_carving_pattern_gaze_serenity",
       "ingredient3": "minecraft:popped_chorus_fruit",
       "ingredient4": "minecraft:fermented_spider_eye",
       "ingredient5": "minecraft:glistering_melon_slice"

@@ -119,7 +119,7 @@ public abstract class ServerPlayerMixin {
 
             cropGrowTimer = 0;
 
-            for (BlockPos pos : BlockPos.iterate(new BlockPos(-2, 0, -2), new BlockPos(2, 1, 2))) {
+            for (BlockPos pos : BlockPos.iterate(new BlockPos(-4, 0, -4), new BlockPos(4, 1, 4))) {
 
                 if (rand.nextInt(10) < 4) {
 

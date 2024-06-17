@@ -1,0 +1,13 @@
+{
+  "name": "Крилата Г. та Високі М.",
+  "icon": "mythic_charms:textures/feathered_grace_and_high_bounds.png",
+  "category": "mythic_charms:combinations_category",
+  "advancement": "mythic_charms:book/combinations/feathered_grace_and_high_bounds",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": " При комбінуванні $(l:mythic_charms:charms/charm_of_feathered_grace_entry)Крилатої Грації$() та $(l:mythic_charms:charms/charm_of_high_bounds_entry)Високих Меж$(), додає додаткову 1 секунду для ефекту повільного падіння та трохи виснаження протягом цієї секунди."
+    }
+  ]
+}

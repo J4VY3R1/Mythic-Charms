@@ -1,0 +1,25 @@
+{
+  "name": "Sound Carving Process",
+  "icon": "mythic_charms:resonance_table",
+  "category": "mythic_charms:general_category",
+  "advancement": "mythic_charms:book/structures/underground_village_carving_room",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": " The first important thing is a lapis lazuli block. It must be placed under the table, $(o)seems like some sort of catalyst$().$(br) Next is an iron ring embedded with amethyst. When working on a resonance table it should be equipped all the time.$(br2) Finally, put all the ingredients on the table and throw a bottle of experience to finish it."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mythic_charms:textures/gui/entries/general/sound_carving_process.png"
+      ],
+      "text": " $(o)But where can I get the charms recipes?"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mythic_charms:resonance_table",
+      "recipe2": "mythic_charms:resonance_ring"
+    }
+  ]
+}

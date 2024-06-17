@@ -1,0 +1,13 @@
+{
+  "name": "Веління З. та Потоплена С.",
+  "icon": "mythic_charms:textures/earths_order_and_drowned_freedom.png",
+  "category": "mythic_charms:combinations_category",
+  "advancement": "mythic_charms:book/combinations/earths_order_and_drowned_freedom",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": " При комбінуванні $(l:mythic_charms:charms/charm_of_earths_order_entry)Веління Землі$() та $(l:mythic_charms:charms/charm_of_drowned_freedom_entry)Потопленої Свободи(), швидкість руйнування блоків без інструменту під водою така ж, як і на поверхні."
+    }
+  ]
+}

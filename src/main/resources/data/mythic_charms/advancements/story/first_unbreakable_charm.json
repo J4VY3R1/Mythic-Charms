@@ -1,20 +1,20 @@
 {
+  "parent": "mythic_charms:story/deepslate_core",
   "display": {
-    "announce_to_chat": true,
-    "description": {
-      "translate": "advancements.mythic_charms.story.first_unbreakable_charm.desc"
-    },
-    "frame": "goal",
-    "hidden": false,
     "icon": {
       "item": "mythic_charms:unbreakable_charm_of_feathered_grace"
     },
-    "show_toast": true,
     "title": {
       "translate": "advancements.mythic_charms.story.first_unbreakable_charm.title"
-    }
+    },
+    "description": {
+      "translate": "advancements.mythic_charms.story.first_unbreakable_charm.desc"
+    },
+    "frame": "task",
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false
   },
-  "parent": "mythic_charms:story/first_charm",
   "criteria": {
     "feathered_grace": {
       "conditions": {

@@ -1,0 +1,23 @@
+{
+  "name": "Charms Overview",
+  "icon": "mythic_charms:fragile_charm_base",
+  "category": "mythic_charms:charms_category",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": " These are very valuable artifacts that rarely fall into the hands of surface inhabitants.$(br2) I have never seen one, but I know they contain great power within. They are described as circular objects made from stone with a shining symbol in the center. $(o)But how do Carvers make them, and why?"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "mythic_charms:textures/gui/entries/charms/charms.png"
+      ],
+      "text": " $(o)I think I will find all the answers in Carver villages."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(o)$(br) That's a dead end.$(br2) I cannot find anything else, not even the slightest hint, nothing.$(br2) Looks like I set too great of a goal..."
+    }
+  ]
+}

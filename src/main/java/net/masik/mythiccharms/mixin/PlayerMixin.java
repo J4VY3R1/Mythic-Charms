@@ -6,16 +6,19 @@ import net.masik.mythiccharms.item.ModItems;
 import net.masik.mythiccharms.util.CharmHelper;
 import net.masik.mythiccharms.util.SoundHelper;
 import net.minecraft.block.BlockState;
+import net.minecraft.block.EnchantingTableBlock;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.attribute.EntityAttributes;
 import net.minecraft.entity.damage.DamageSource;
+import net.minecraft.entity.damage.DamageSources;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.mob.MobEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Items;
 import net.minecraft.registry.RegistryKeys;
+import net.minecraft.registry.tag.DamageTypeTags;
 import net.minecraft.registry.tag.FluidTags;
 import net.minecraft.registry.tag.TagKey;
 import net.minecraft.sound.SoundEvents;
@@ -67,7 +70,7 @@ public class PlayerMixin {
         if (!CharmHelper.charmEarthsOrderEquipped(player)) return;
 
 
-        if (!player.getMainHandStack().isOf(Items.AIR)) return;
+        if (player.getMainHandStack().isDamageable()) return;
 
         cir.setReturnValue(true);
 
@@ -82,9 +85,9 @@ public class PlayerMixin {
         if (!CharmHelper.charmEarthsOrderEquipped(player)) return;
 
 
-        if (!player.getMainHandStack().isOf(Items.AIR)) return;
+        if (player.getMainHandStack().isDamageable()) return;
 
-        float speedModifier = 1.5F;
+        float speedModifier = 3.5F;
 
         //battleFury combo
         if (CharmHelper.charmBattleFuryEquipped(player) &&
@@ -202,8 +205,7 @@ public class PlayerMixin {
         PlayerEntity player = (PlayerEntity) (Object) this;
 
 
-        if (!CharmHelper.charmEchoingWrathEquipped(player)) return;
-
+        if (!CharmHelper.charmEchoingWrathEquipped(player) || source.getAttacker() == null) return;
 
         Box box = Box.from(player.getPos()).expand(3);
 
@@ -231,9 +233,9 @@ public class PlayerMixin {
 
             }
 
-            entity.damage(source, amount / 2 > 6 ? 3 * damageMultiplier : amount / 2 * damageMultiplier);
+            entity.damage(player.getDamageSources().magic(), amount / 2 > 6 ? 3 * damageMultiplier : amount / 2 * damageMultiplier);
 
-            entity.setVelocity(entity.getVelocity().add(player.getPos().subtract(entity.getPos()).multiply(-0.03F)));
+            entity.setVelocity(entity.getVelocity().add(player.getPos().subtract(entity.getPos()).multiply(-0.3F)));
             entity.velocityModified = true;
 
         });
@@ -330,21 +332,21 @@ public class PlayerMixin {
 
 
     //resonance ring
-    @ModifyArg(method = "dropItem(Lnet/minecraft/item/ItemStack;ZZ)Lnet/minecraft/entity/ItemEntity;",
-            at = @At(value = "INVOKE", target = "Lnet/minecraft/entity/ItemEntity;setPickupDelay(I)V"))
-    private int dropItem(int pickupDelay) {
-
-        PlayerEntity player = (PlayerEntity) (Object) this;
-
-        Optional<TrinketComponent> trinket = TrinketsApi.getTrinketComponent(player);
-
-        if (trinket.isEmpty() || (!trinket.get().isEquipped(ModItems.RESONANCE_RING))) {
-            return pickupDelay;
-        }
-
-        return 120;
-
-    }
+//    @ModifyArg(method = "dropItem(Lnet/minecraft/item/ItemStack;ZZ)Lnet/minecraft/entity/ItemEntity;",
+//            at = @At(value = "INVOKE", target = "Lnet/minecraft/entity/ItemEntity;setPickupDelay(I)V"))
+//    private int dropItem(int pickupDelay) {
+//
+//        PlayerEntity player = (PlayerEntity) (Object) this;
+//
+//        Optional<TrinketComponent> trinket = TrinketsApi.getTrinketComponent(player);
+//
+//        if (trinket.isEmpty() || (!trinket.get().isEquipped(ModItems.RESONANCE_RING))) {
+//            return pickupDelay;
+//        }
+//
+//        return 120;
+//
+//    }
 
 }
 

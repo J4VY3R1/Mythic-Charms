@@ -1,0 +1,13 @@
+{
+  "name": "Ivory Composer",
+  "icon": "minecraft:white_terracotta",
+  "category": "mythic_charms:structures_category",
+  "advancement": "mythic_charms:book/structures/composers/ivory_composer",
+  "sortnum": 9,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": " The sign at the entrance says:$(br2)$(o) In the harbor of Safe Territory, the Gaze Serenity emanating from a Quiet Presence offers solace and reassurance, weaving a cocoon of calm amidst the turbulent currents of life.$(br2) Ivory."
+    }
+  ]
+}
