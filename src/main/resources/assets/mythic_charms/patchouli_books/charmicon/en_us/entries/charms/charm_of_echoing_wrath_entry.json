@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": " The description on the back of the scroll says:$(br2)$(o) After one is damaged by a foe, everyone around will receive half of this damage, up to 3 hearts maximum. However, one takes an additional quarter of the damage."
+      "text": " The description on the back of the scroll says:$(br2) When the wearer is harmed by an entity, nearby entities are damaged at half the intensity, up to 10 damage. However, the wearer deals a quarter of the damage less."
     },
     {
       "type": "mythic_charms:resonance_infusing",

@@ -89,18 +89,6 @@
           "type": "minecraft:item",
           "name": "minecraft:nether_wart",
           "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:nautilus_shell"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:echo_shard"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:blaze_rod"
         }
       ]
     }

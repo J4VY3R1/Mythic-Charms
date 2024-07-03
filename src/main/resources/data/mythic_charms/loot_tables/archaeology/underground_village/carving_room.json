@@ -23,41 +23,6 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:experience_bottle",
-          "weight": 6
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:green_dye",
-          "weight": 4
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:bone",
-          "weight": 4
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:coal",
-          "weight": 4
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:clay_ball",
-          "weight": 4
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:raw_iron",
-          "weight": 4
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:raw_gold",
-          "weight": 4
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:quartz",
           "weight": 4
         },
         {
@@ -72,45 +37,77 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:ghast_tear",
+          "name": "mythic_charms:resonance_pottery_sherd",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mythic_charms:core_pottery_sherd",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mythic_charms:crystal_pottery_sherd",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:green_dye",
           "weight": 2
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:magma_cream",
+          "name": "minecraft:bone",
           "weight": 2
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:popped_chorus_fruit",
+          "name": "minecraft:coal",
           "weight": 2
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:rabbit_foot",
+          "name": "minecraft:clay_ball",
           "weight": 2
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:prismarine_crystals",
+          "name": "minecraft:raw_iron",
           "weight": 2
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:prismarine_shard",
+          "name": "minecraft:raw_gold",
           "weight": 2
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:nautilus_shell"
+          "name": "minecraft:quartz",
+          "weight": 2
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:echo_shard"
+          "name": "minecraft:ghast_tear"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:blaze_rod"
+          "name": "minecraft:magma_cream"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:popped_chorus_fruit"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rabbit_foot"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:prismarine_crystals"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:prismarine_shard"
         }
       ]
     }

@@ -1,0 +1,13 @@
+{
+  "name": "D.U. Village: Mystery",
+  "icon": "minecraft:filled_map",
+  "category": "mythic_charms:structures_category",
+  "advancement": "mythic_charms:book/structures/hideout_map",
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": " On a floor that wasn't on the plan, I discovered an old, mysterious map. The text on it is unreadable, and the only way to uncover its secrets is to follow it."
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": " The description on the back of the scroll says:$(br2)$(o) Gives a permanent effect of fire resistance for 20 seconds. However, when one is on fire, time begins to expire and only resumes when the fire is extinguished."
+      "text": " The description on the back of the scroll says:$(br2) The wearer is given an effect of fire resistance for 20 seconds. Time begins to expire when the wearer is on fire, and resumes when the fire is extinguished."
     },
     {
       "type": "mythic_charms:resonance_infusing",

@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": " The description on the back of the scroll says:$(br2)$(o) In a 2-block radius, all items that lay on the ground are drawn to one's feet."
+      "text": " The description on the back of the scroll says:$(br2) All items within a 2-block radius around are drawn to the wearer."
     },
     {
       "type": "mythic_charms:resonance_infusing",

@@ -1,0 +1,33 @@
+{
+  "parent": "mythic_charms:story/deep_underground_village",
+  "display": {
+    "icon": {
+      "item": "minecraft:lodestone"
+    },
+    "title": {
+      "translate": "advancements.mythic_charms.story.map_to_hideout.title"
+    },
+    "description": {
+      "translate": "advancements.mythic_charms.story.map_to_hideout.desc"
+    },
+    "frame": "task",
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:filled_map"
+            ],
+            "nbt": "{\"MythicCharmsMap\":\"HideoutMap\"}"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  }
+}

@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": " The description on the back of the scroll says:$(br2)$(o) Cancels the effect of insomnia, so phantoms won't spawn. Even if they spawned for someone else phantoms will ignore one's presence."
+      "text": " The description on the back of the scroll says:$(br2) Phantoms will not spawn for the wearer, even if there are phantoms nearby, they will ignore the wearer."
     },
     {
       "type": "mythic_charms:resonance_infusing",

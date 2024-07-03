@@ -6,73 +6,7 @@
       "weight": 1,
       "element": {
         "location": "mythic_charms:composer/teal_composer",
-        "processors": [
-          {
-            "processor_type": "minecraft:capped",
-            "limit": 1,
-            "delegate": {
-              "processor_type": "minecraft:rule",
-              "rules": [
-                {
-                  "location_predicate": {
-                    "predicate_type": "minecraft:always_true"
-                  },
-                  "input_predicate": {
-                    "predicate_type": "minecraft:block_match",
-                    "block": "minecraft:gravel"
-                  },
-                  "output_state": {
-                    "Name": "minecraft:suspicious_gravel",
-                    "Properties": {
-                      "dusted": "0"
-                    }
-                  },
-                  "block_entity_modifier": {
-                    "type": "minecraft:append_loot",
-                    "loot_table": "mythic_charms:archaeology/composer/pattern/teal_composer"
-                  }
-                }
-              ]
-            }
-          },
-          {
-            "processor_type": "minecraft:rule",
-            "rules": [
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:random_block_match",
-                  "block": "minecraft:cyan_terracotta",
-                  "probability": 0.2
-                },
-                "output_state": {
-                  "Name": "minecraft:suspicious_gravel",
-                  "Properties": {
-                    "dusted": "0"
-                  }
-                },
-                "block_entity_modifier": {
-                  "type": "minecraft:append_loot",
-                  "loot_table": "mythic_charms:archaeology/composer/teal_composer"
-                }
-              },
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:block_match",
-                  "block": "minecraft:cyan_terracotta"
-                },
-                "output_state": {
-                  "Name": "minecraft:gravel"
-                }
-              }
-            ]
-          }
-        ],
+        "processors": "mythic_charms:composer/teal_composer",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }

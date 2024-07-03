@@ -3,18 +3,22 @@ package net.masik.mythiccharms.mixin;
 import dev.emi.trinkets.api.*;
 import net.masik.mythiccharms.MythicCharms;
 import net.masik.mythiccharms.item.ModItems;
+import net.masik.mythiccharms.util.BattleFuryHelper;
 import net.masik.mythiccharms.util.CharmHelper;
 import net.masik.mythiccharms.util.SoundHelper;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.EnchantingTableBlock;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.entity.Entity;
+import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.attribute.EntityAttributes;
 import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.damage.DamageSources;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.mob.MobEntity;
+import net.minecraft.entity.passive.CatEntity;
+import net.minecraft.entity.passive.TameableEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Items;
 import net.minecraft.registry.RegistryKeys;
@@ -93,7 +97,7 @@ public class PlayerMixin {
         if (CharmHelper.charmBattleFuryEquipped(player) &&
                 CharmHelper.charmCombinationEarthsOrderAndBattleFuryEnabled(player)) {
 
-            speedModifier *= 1 + 2 * (((float) player.getAttributeValue(EntityAttributes.GENERIC_MAX_HEALTH)) - player.getHealth()) / 20;
+            speedModifier *= (float) BattleFuryHelper.getMultiplier(player);
 
         }
 
@@ -132,25 +136,27 @@ public class PlayerMixin {
 
         if (!player.isSprinting()) return;
 
-        player.addExhaustion(0.1F);
-
         float speed = 0.035F;
+
+        float exhaustion = 0.1F;
 
         //highBounds combo
         if (CharmHelper.charmHighBoundsEquipped(player) && CharmHelper.charmCombinationFleetingStridesAndHighBoundsEnabled(player)) {
 
             speed += 0.01F;
-            player.addExhaustion(0.05F);
+            exhaustion += 0.05F;
 
         }
 
         //battleFury combo
         if (CharmHelper.charmBattleFuryEquipped(player) && CharmHelper.charmCombinationFleetingStridesAndBattleFuryEnabled(player)) {
 
-            speed += 0.02F * (((float) player.getAttributeValue(EntityAttributes.GENERIC_MAX_HEALTH)) - player.getHealth()) / 20;
-            player.addExhaustion(0.1F * (((float) player.getAttributeValue(EntityAttributes.GENERIC_MAX_HEALTH)) - player.getHealth()) / 20);
+            speed += (float) (0.02F * BattleFuryHelper.getMultiplier(player));
+            exhaustion += (float) (0.1F * BattleFuryHelper.getMultiplier(player));
 
         }
+
+        player.addExhaustion(exhaustion);
 
         cir.setReturnValue(speed);
 
@@ -174,7 +180,7 @@ public class PlayerMixin {
             if (CharmHelper.charmBattleFuryEquipped(player) &&
                     CharmHelper.charmCombinationBlazingEmbraceAndBattleFuryEnabled(player)) {
 
-                duration *= (1 + (((float) player.getAttributeValue(EntityAttributes.GENERIC_MAX_HEALTH)) - player.getHealth()) / 20);
+                duration *= (float) BattleFuryHelper.getMultiplier(player);
 
             }
 
@@ -195,7 +201,7 @@ public class PlayerMixin {
         if (!CharmHelper.charmBattleFuryEquipped(player)) return amount;
 
 
-        return amount * (1 + 2 * (((float) player.getAttributeValue(EntityAttributes.GENERIC_MAX_HEALTH)) - player.getHealth()) / 20);
+        return (float) (amount * BattleFuryHelper.getMultiplier(player));
     }
 
     //echoingWrath
@@ -207,11 +213,15 @@ public class PlayerMixin {
 
         if (!CharmHelper.charmEchoingWrathEquipped(player) || source.getAttacker() == null) return;
 
-        Box box = Box.from(player.getPos()).expand(3);
+        Box box = Box.from(player.getPos()).expand(2);
 
-        List<Entity> entities = new ArrayList<>(player.getWorld().getEntitiesByClass(MobEntity.class, box, entity -> true));
+        List<LivingEntity> entities = new ArrayList<>(player.getWorld().getEntitiesByClass(LivingEntity.class, box, entity -> true));
 
         entities.forEach(entity -> {
+
+            if (entity instanceof TameableEntity) {
+                if (((TameableEntity) entity).isOwner(player)) return;
+            }
 
             float damageMultiplier = 1;
 
@@ -219,7 +229,7 @@ public class PlayerMixin {
             if (CharmHelper.charmBattleFuryEquipped(player) &&
                     CharmHelper.charmCombinationEchoingWrathAndBattleFuryEnabled(player)) {
 
-                damageMultiplier += 2 * (((float) player.getAttributeValue(EntityAttributes.GENERIC_MAX_HEALTH)) - player.getHealth()) / 20;
+                damageMultiplier *= (float) BattleFuryHelper.getMultiplier(player);
 
             }
 
@@ -233,7 +243,7 @@ public class PlayerMixin {
 
             }
 
-            entity.damage(player.getDamageSources().magic(), amount / 2 > 6 ? 3 * damageMultiplier : amount / 2 * damageMultiplier);
+            entity.damage(player.getDamageSources().magic(), amount / 2 > 10 ? 5 * damageMultiplier : amount / 2 * damageMultiplier);
 
             entity.setVelocity(entity.getVelocity().add(player.getPos().subtract(entity.getPos()).multiply(-0.3F)));
             entity.velocityModified = true;
@@ -242,47 +252,28 @@ public class PlayerMixin {
 
     }
 
-    //mountainsStrength and echoingWrath and arrowDance
-    @ModifyArg(method = "damage", at = @At(value = "INVOKE", target = "Lnet/minecraft/entity/LivingEntity;damage(Lnet/minecraft/entity/damage/DamageSource;F)Z"), index = 1)
-    private float receiveMoreDamage(float amount) {
+    @ModifyArg(method = "attack", at = @At(value = "INVOKE", target = "Lnet/minecraft/entity/Entity;damage(Lnet/minecraft/entity/damage/DamageSource;F)Z"), index = 1)
+    private float echoingWrathDealLessDamage(float amount) {
 
         PlayerEntity player = (PlayerEntity) (Object) this;
 
 
-        if (!CharmHelper.charmMountainsStrengthEquipped(player) &&
-                !CharmHelper.charmEchoingWrathEquipped(player) &&
-                !CharmHelper.charmArrowDanceEquipped(player)) return amount;
+        if (!CharmHelper.charmEchoingWrathEquipped(player)) return amount;
 
 
-        double multiplier = 0;
-
-        if (CharmHelper.charmMountainsStrengthEquipped(player)) multiplier += 0.25;
-
-        if (CharmHelper.charmEchoingWrathEquipped(player)) multiplier += 0.25;
-
-        if (CharmHelper.charmArrowDanceEquipped(player)) multiplier += 0.25;
-
-        return (float) (amount + multiplier * amount);
-
+        return (float) (amount * 0.75);
     }
 
-    //enchantedWhispers
-    @Inject(method = "getEnchantmentTableSeed", at = @At("RETURN"), cancellable = true)
-    private void enchantedWhispersEffect(CallbackInfoReturnable<Integer> cir) {
+    @ModifyArg(method = "damage", at = @At(value = "INVOKE", target = "Lnet/minecraft/entity/LivingEntity;damage(Lnet/minecraft/entity/damage/DamageSource;F)Z"), index = 1)
+    private float mountainsStrengthReceiveMoreDamage(float amount) {
 
         PlayerEntity player = (PlayerEntity) (Object) this;
 
 
-        if (!CharmHelper.charmEnchantedWhispersEquipped(player)) return;
+        if (!CharmHelper.charmMountainsStrengthEquipped(player)) return amount;
 
 
-        if (player.experienceLevel <= 1) return;
-
-        Random random = Random.create();
-
-        cir.setReturnValue(random.nextInt());
-
-        player.addExperienceLevels(-1);
+        return (float) (amount * 1.25);
 
     }
 
@@ -290,63 +281,75 @@ public class PlayerMixin {
     @Inject(method = "canBeHitByProjectile", at = @At("RETURN"), cancellable = true)
     private void arrowDanceEffect(CallbackInfoReturnable<Boolean> cir) {
 
-        java.util.Random rand = new java.util.Random();
-
-        if (rand.nextInt(10) >= 7) return;
-
         PlayerEntity player = (PlayerEntity) (Object) this;
 
 
         if (!CharmHelper.charmArrowDanceEquipped(player)) return;
 
 
+        if (!player.isSneaking()) return;
+
         cir.setReturnValue(false);
 
     }
 
-    //climbersPath, weightlessFlow and drownedFreedom
-    @Inject(method = "travel", at = @At("RETURN"))
-    private void hungerWhileRunning(Vec3d movementInput, CallbackInfo ci) {
+    @ModifyArg(method = "damage", at = @At(value = "INVOKE", target = "Lnet/minecraft/entity/LivingEntity;damage(Lnet/minecraft/entity/damage/DamageSource;F)Z"), index = 1)
+    private float arrowDanceReceiveMoreDamage(float amount) {
 
         PlayerEntity player = (PlayerEntity) (Object) this;
 
 
-        if (!CharmHelper.charmClimbersPathEquipped(player) &&
-                !CharmHelper.charmDrownedFreedomEquipped(player) &&
-                !CharmHelper.charmWeightlessFlowEquipped(player)) return;
+        if (!CharmHelper.charmArrowDanceEquipped(player)) return amount;
+
+
+        return (float) (amount * 1.25);
+
+    }
+
+    @Inject(method = "travel", at = @At("RETURN"))
+    private void climbersPathHungerWhileRunning(Vec3d movementInput, CallbackInfo ci) {
+
+        PlayerEntity player = (PlayerEntity) (Object) this;
+
+
+        if (!CharmHelper.charmClimbersPathEquipped(player)) return;
 
 
         if (!player.isSprinting()) return;
 
-        float exhaustion = 0;
-
-        if (CharmHelper.charmClimbersPathEquipped(player)) exhaustion += 0.05F;
-
-        if (CharmHelper.charmDrownedFreedomEquipped(player)) exhaustion += 0.05F;
-
-        if (CharmHelper.charmWeightlessFlowEquipped(player)) exhaustion += 0.05F;
-
-        player.addExhaustion(exhaustion);
+        player.addExhaustion(0.05F);
 
     }
 
+    @Inject(method = "travel", at = @At("RETURN"))
+    private void weightlessFlowHungerWhileRunning(Vec3d movementInput, CallbackInfo ci) {
 
-    //resonance ring
-//    @ModifyArg(method = "dropItem(Lnet/minecraft/item/ItemStack;ZZ)Lnet/minecraft/entity/ItemEntity;",
-//            at = @At(value = "INVOKE", target = "Lnet/minecraft/entity/ItemEntity;setPickupDelay(I)V"))
-//    private int dropItem(int pickupDelay) {
-//
-//        PlayerEntity player = (PlayerEntity) (Object) this;
-//
-//        Optional<TrinketComponent> trinket = TrinketsApi.getTrinketComponent(player);
-//
-//        if (trinket.isEmpty() || (!trinket.get().isEquipped(ModItems.RESONANCE_RING))) {
-//            return pickupDelay;
-//        }
-//
-//        return 120;
-//
-//    }
+        PlayerEntity player = (PlayerEntity) (Object) this;
+
+
+        if (!CharmHelper.charmWeightlessFlowEquipped(player)) return;
+
+
+        if (!player.isSprinting()) return;
+
+        player.addExhaustion(0.05F);
+
+    }
+
+    @Inject(method = "travel", at = @At("RETURN"))
+    private void drownedFreedomHungerWhileRunning(Vec3d movementInput, CallbackInfo ci) {
+
+        PlayerEntity player = (PlayerEntity) (Object) this;
+
+
+        if (!CharmHelper.charmDrownedFreedomEquipped(player)) return;
+
+
+        if (!player.isSprinting()) return;
+
+        player.addExhaustion(0.05F);
+
+    }
 
 }
 

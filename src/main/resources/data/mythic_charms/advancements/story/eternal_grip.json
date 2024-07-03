@@ -1,0 +1,35 @@
+{
+  "parent": "mythic_charms:story/hideout",
+  "display": {
+    "icon": {
+      "item": "minecraft:enchanted_book"
+    },
+    "title": {
+      "translate": "advancements.mythic_charms.story.eternal_grip.title"
+    },
+    "description": {
+      "translate": "advancements.mythic_charms.story.eternal_grip.desc"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "mythic_charms:unbreakable_charms",
+            "enchantments": [
+              {
+                "enchantment": "mythic_charms:eternal_grip"
+              }
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  }
+}

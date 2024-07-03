@@ -1,0 +1,13 @@
+{
+  "name": "Схованка",
+  "icon": "minecraft:bricks",
+  "category": "mythic_charms:structures_category",
+  "advancement": "mythic_charms:book/structures/hideout",
+  "sortnum": 11,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": " Таємнича карта, яку я знайшов раніше, веде до дослідницької кімнати біля корінної породи. Це не схоже на структуру різьбярів по звуку.$(br2)$(o) Хто це створив і як вони пов’язані з різьбярами по звуку?$()$(br2) Я помітив, що книги розміщені за певним шаблоном. $(o)Це щось означає?"
+    }
+  ]
+}

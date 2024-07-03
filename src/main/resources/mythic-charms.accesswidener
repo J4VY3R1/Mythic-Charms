@@ -1,0 +1,4 @@
+accessWidener v2 named
+
+accessible method net/minecraft/structure/processor/StructureProcessor getType ()Lnet/minecraft/structure/processor/StructureProcessorType;
+accessible method net/minecraft/screen/EnchantmentScreenHandler generateEnchantments (Lnet/minecraft/item/ItemStack;II)Ljava/util/List;

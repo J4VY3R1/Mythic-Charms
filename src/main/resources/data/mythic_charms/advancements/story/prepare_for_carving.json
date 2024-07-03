@@ -1,5 +1,5 @@
 {
-  "parent": "mythic_charms:story/find_underground_village",
+  "parent": "mythic_charms:story/resonance_pottery_sherd",
   "display": {
     "icon": {
       "item": "mythic_charms:resonance_table"

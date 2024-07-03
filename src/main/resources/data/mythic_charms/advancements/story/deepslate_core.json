@@ -1,5 +1,5 @@
 {
-  "parent": "mythic_charms:story/find_deep_underground_village",
+  "parent": "mythic_charms:story/deep_underground_village",
   "display": {
     "icon": {
       "item": "mythic_charms:deepslate_core"
@@ -10,7 +10,7 @@
     "description": {
       "translate": "advancements.mythic_charms.story.deepslate_core.desc"
     },
-    "frame": "goal",
+    "frame": "task",
     "announce_to_chat": true,
     "show_toast": true,
     "hidden": true

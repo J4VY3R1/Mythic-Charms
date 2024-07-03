@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": " The description on the back of the scroll says:$(br2)$(o) One's jump speed while sprinting is increased. However, sprinting adds extra exhaustion."
+      "text": " The description on the back of the scroll says:$(br2) The wearer's jump speed while sprinting is increased. However, sprinting adds extra exhaustion."
     },
     {
       "type": "mythic_charms:resonance_infusing",

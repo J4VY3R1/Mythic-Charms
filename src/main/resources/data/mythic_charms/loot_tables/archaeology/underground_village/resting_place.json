@@ -42,12 +42,13 @@
         },
         {
           "type": "minecraft:item",
-          "name": "mythic_charms:disc_fragment_resonance",
+          "name": "mythic_charms:crystal_pottery_sherd",
           "weight": 2
         },
         {
-          "type": "minecraft:loot_table",
-          "name": "mythic_charms:archaeology/underground_village/deep_underground_village_map"
+          "type": "minecraft:item",
+          "name": "mythic_charms:disc_fragment_resonance",
+          "weight": 2
         }
       ]
     }

@@ -1,0 +1,22 @@
+{
+  "parent": "mythic_charms:book/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:enchanted_book"
+            ],
+            "enchantments": [
+              {
+                "enchantment": "mythic_charms:eternal_grip"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

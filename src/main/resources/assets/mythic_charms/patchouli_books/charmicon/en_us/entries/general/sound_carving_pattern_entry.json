@@ -7,12 +7,12 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": " These are also required ingredients in making charms. They can be found in different composer's structures.$(br2) It looks like the ink on a pattern is glowing, to copy it, I should use a similar one."
+      "text": " These are also required ingredients in making charms. They can be found in different composer's structures.$(br2) Some wandering traders also have these patterns but will only exchange one for another from the same composer."
     },
     {
       "type": "patchouli:crafting",
       "recipe": "mythic_charms:sound_carving_pattern_feathered_grace",
-      "text": "$(br2) Some wandering traders also have these patterns but will only exchange one for another from the same composer."
+      "text": "$(br2) It looks like the ink on a pattern is glowing, to copy it, I should use a similar one."
     }
   ]
 }

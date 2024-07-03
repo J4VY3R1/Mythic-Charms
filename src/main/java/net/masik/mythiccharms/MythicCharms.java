@@ -5,9 +5,12 @@ import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.util.TriState;
 import net.masik.mythiccharms.block.ModBlocks;
+import net.masik.mythiccharms.enchantment.ModEnchantments;
 import net.masik.mythiccharms.item.ModItemGroups;
 import net.masik.mythiccharms.item.ModItems;
 
+import net.masik.mythiccharms.pottery.ModDecoratedPotPatterns;
+import net.masik.mythiccharms.processor.ModStructureProcessorType;
 import net.masik.mythiccharms.recipe.ModRecipes;
 import net.masik.mythiccharms.util.ModLootTableModifiers;
 import net.masik.mythiccharms.util.ModRegistries;
@@ -31,6 +34,10 @@ public class MythicCharms implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModDecoratedPotPatterns.registerModDecoratedPotPatterns();
+		ModEnchantments.registerModEnchantments();
+
+		ModStructureProcessorType.registerProcessors();
 
 		ModLootTableModifiers.modifyLootTables();
 		ModRegistries.registerRegistries();

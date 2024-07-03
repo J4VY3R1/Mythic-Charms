@@ -1,5 +1,6 @@
 package net.masik.mythiccharms.mixin;
 
+import net.masik.mythiccharms.MythicCharms;
 import net.masik.mythiccharms.util.CharmHelper;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.Entity;
@@ -12,6 +13,7 @@ import net.minecraft.world.explosion.Explosion;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
+import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 import java.util.ArrayList;
@@ -52,31 +54,13 @@ public class EntityMixin {
 
     }
 
-    //weightlessFlow
-//    @Inject(method = "hasNoGravity", at = @At("HEAD"), cancellable = true)
-//    private void weightlessFlowEffect(CallbackInfoReturnable<Boolean> cir) {
-//
-//        Entity entity = (Entity) (Object) this;
-//
-//        if (!entity.isPlayer()) return;
-//
-//
-//        if (!CharmHelper.charmWeightlessFlowEquipped((LivingEntity) entity)) return;
-//
-//
-//        if (entity.isSneaking()) return;
-//
-//        cir.setReturnValue(true);
-//
-//    }
-
     //safeTerritory
     @Inject(method = "canExplosionDestroyBlock", at = @At("RETURN"), cancellable = true)
     private void safeTerritoryEffect(Explosion explosion, BlockView world, BlockPos pos, BlockState state, float explosionPower, CallbackInfoReturnable<Boolean> cir) {
 
         Entity entity = (Entity) (Object) this;
 
-        Box box = Box.from(entity.getPos()).expand(3);
+        Box box = Box.from(entity.getPos()).expand(4);
 
         List<Entity> players = new ArrayList<>(entity.getWorld().getEntitiesByClass(PlayerEntity.class, box, player -> true));
 

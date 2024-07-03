@@ -1,0 +1,30 @@
+{
+  "parent": "mythic_charms:story/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:campfire"
+    },
+    "title": {
+      "translate": "advancements.mythic_charms.story.camp.title"
+    },
+    "description": {
+      "translate": "advancements.mythic_charms.story.camp.desc"
+    },
+    "frame": "task",
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "mythic_charms:camp"
+          }
+        }
+      }
+    }
+  }
+}

@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": " The description on the back of the scroll says:$(br2)$(o) The lower one's health, the higher the attack damage. At full health, there is no additional damage. At half health, the damage is doubled, and at minimum health, it is tripled."
+      "text": " The description on the back of the scroll says:$(br2) The lower the wearer's health, the greater the attack damage. At a maximum of three times more at minimum health."
     },
     {
       "type": "mythic_charms:resonance_infusing",

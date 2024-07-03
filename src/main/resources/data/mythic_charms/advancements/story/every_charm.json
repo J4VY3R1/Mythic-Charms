@@ -2,7 +2,7 @@
   "parent": "mythic_charms:story/first_charm",
   "display": {
     "icon": {
-      "item": "mythic_charms:fragile_charm_of_feathered_grace"
+      "item": "mythic_charms:fragile_charm_of_enchanted_whispers"
     },
     "title": {
       "translate": "advancements.mythic_charms.story.every_charm.title"

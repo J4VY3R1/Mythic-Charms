@@ -1,5 +1,5 @@
 {
-  "parent": "mythic_charms:story/find_deep_underground_village_map",
+  "parent": "mythic_charms:story/map_to_composer",
   "display": {
     "icon": {
       "item": "mythic_charms:sound_carving_pattern_feathered_grace"

@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": " The description on the back of the scroll says:$(br2)$(o) One can break any breakable block but only when there is no tool in one's main hand."
+      "text": " The description on the back of the scroll says:$(br2) The wearer can break any breakable block when not holding any tool in main hand."
     },
     {
       "type": "mythic_charms:resonance_infusing",

@@ -1,0 +1,44 @@
+{
+  "processors": [
+    {
+      "processor_type": "mythic_charms:waterlogged"
+    },
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:cyan_terracotta",
+            "probability": 0.2
+          },
+          "output_state": {
+            "Name": "minecraft:suspicious_gravel",
+            "Properties": {
+              "dusted": "0"
+            }
+          },
+          "block_entity_modifier": {
+            "type": "minecraft:append_loot",
+            "loot_table": "mythic_charms:archaeology/underground_village/water_source"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:cyan_terracotta"
+          },
+          "output_state": {
+            "Name": "minecraft:gravel"
+          }
+        }
+      ]
+    }
+  ]
+}

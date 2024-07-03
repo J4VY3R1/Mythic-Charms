@@ -3,7 +3,7 @@
   "icon": "minecraft:deepslate_bricks",
   "category": "mythic_charms:structures_category",
   "advancement": "mythic_charms:book/structures/deep_underground_village",
-  "sortnum": 6,
+  "sortnum": 8,
   "pages": [
     {
       "type": "patchouli:text",

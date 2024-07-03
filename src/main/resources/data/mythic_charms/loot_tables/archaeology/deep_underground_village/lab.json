@@ -47,6 +47,21 @@
         },
         {
           "type": "minecraft:item",
+          "name": "mythic_charms:body_pottery_sherd",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mythic_charms:crystal_pottery_sherd",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mythic_charms:deepslate_core",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:diamond",
           "weight": 2
         },
@@ -58,11 +73,6 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:nautilus_shell",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "mythic_charms:deepslate_core",
           "weight": 2
         }
       ]

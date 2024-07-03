@@ -1,0 +1,13 @@
+{
+  "name": "Eternal Grip",
+  "icon": "minecraft:enchanted_book",
+  "category": "mythic_charms:general_category",
+  "advancement": "mythic_charms:book/eternal_grip",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": " This enchanted book is the thing that someone was hiding in the mysterious room.$(br2) There was a note lying near it and I think the book can be applied only to a charm. However, the charm must be \"sturdy enough to withstand an enchanting process\".$(br) And the charm \"will stay with you forever\" as the note says."
+    }
+  ]
+}

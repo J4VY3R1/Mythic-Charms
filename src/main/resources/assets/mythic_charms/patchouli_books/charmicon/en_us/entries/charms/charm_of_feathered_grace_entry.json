@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": " The description on the back of the scroll says:$(br2)$(o) After half a second of fall, one will be receiving a slow falling effect. After 2 seconds, this effect will disappear. The effect can be canceled by sneaking."
+      "text": " The description on the back of the scroll says:$(br2) While not sneaking, the wearer is given an effect of slow falling after a half-second fall and removed after two seconds"
     },
     {
       "type": "mythic_charms:resonance_infusing",

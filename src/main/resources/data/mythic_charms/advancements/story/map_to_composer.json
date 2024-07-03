@@ -1,0 +1,33 @@
+{
+  "parent": "mythic_charms:story/underground_village",
+  "display": {
+    "icon": {
+      "item": "minecraft:note_block"
+    },
+    "title": {
+      "translate": "advancements.mythic_charms.story.map_to_composer.title"
+    },
+    "description": {
+      "translate": "advancements.mythic_charms.story.map_to_composer.desc"
+    },
+    "frame": "task",
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:filled_map"
+            ],
+            "nbt": "{\"MythicCharmsMap\":\"ComposerMap\"}"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  }
+}

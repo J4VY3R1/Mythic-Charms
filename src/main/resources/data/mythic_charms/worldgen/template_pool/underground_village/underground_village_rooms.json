@@ -6,77 +6,7 @@
       "weight": 3,
       "element": {
         "location": "mythic_charms:underground_village/carving_room",
-        "processors": [
-          {
-            "processor_type": "minecraft:rule",
-            "rules": [
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:random_block_match",
-                  "block": "minecraft:cyan_terracotta",
-                  "probability": 0.3
-                },
-                "output_state": {
-                  "Name": "minecraft:suspicious_gravel",
-                  "Properties": {
-                    "dusted": "0"
-                  }
-                },
-                "block_entity_modifier": {
-                  "type": "minecraft:append_loot",
-                  "loot_table": "mythic_charms:archaeology/underground_village/carving_room"
-                }
-              },
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:block_match",
-                  "block": "minecraft:cyan_terracotta"
-                },
-                "output_state": {
-                  "Name": "minecraft:gravel"
-                }
-              },
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:random_block_match",
-                  "block": "minecraft:magenta_terracotta",
-                  "probability": 0.15
-                },
-                "output_state": {
-                  "Name": "minecraft:suspicious_gravel",
-                  "Properties": {
-                    "dusted": "0"
-                  }
-                },
-                "block_entity_modifier": {
-                  "type": "minecraft:append_loot",
-                  "loot_table": "mythic_charms:archaeology/underground_village/family_room"
-                }
-              },
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:block_match",
-                  "block": "minecraft:magenta_terracotta"
-                },
-                "output_state": {
-                  "Name": "minecraft:gravel"
-                }
-              }
-            ]
-          }
-        ],
+        "processors": "mythic_charms:underground_village/carving_room",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -85,77 +15,7 @@
       "weight": 3,
       "element": {
         "location": "mythic_charms:underground_village/family_room1",
-        "processors": [
-          {
-            "processor_type": "minecraft:rule",
-            "rules": [
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:random_block_match",
-                  "block": "minecraft:cyan_terracotta",
-                  "probability": 0.15
-                },
-                "output_state": {
-                  "Name": "minecraft:suspicious_gravel",
-                  "Properties": {
-                    "dusted": "0"
-                  }
-                },
-                "block_entity_modifier": {
-                  "type": "minecraft:append_loot",
-                  "loot_table": "mythic_charms:archaeology/underground_village/family_room"
-                }
-              },
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:block_match",
-                  "block": "minecraft:cyan_terracotta"
-                },
-                "output_state": {
-                  "Name": "minecraft:gravel"
-                }
-              },
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:random_block_match",
-                  "block": "minecraft:magenta_terracotta",
-                  "probability": 0.1
-                },
-                "output_state": {
-                  "Name": "minecraft:suspicious_gravel",
-                  "Properties": {
-                    "dusted": "0"
-                  }
-                },
-                "block_entity_modifier": {
-                  "type": "minecraft:append_loot",
-                  "loot_table": "mythic_charms:archaeology/underground_village/storage_room"
-                }
-              },
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:block_match",
-                  "block": "minecraft:magenta_terracotta"
-                },
-                "output_state": {
-                  "Name": "minecraft:gravel"
-                }
-              }
-            ]
-          }
-        ],
+        "processors": "mythic_charms:underground_village/family_room1",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -164,45 +24,7 @@
       "weight": 3,
       "element": {
         "location": "mythic_charms:underground_village/family_room1_cont",
-        "processors": [
-          {
-            "processor_type": "minecraft:rule",
-            "rules": [
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:random_block_match",
-                  "block": "minecraft:cyan_terracotta",
-                  "probability": 0.15
-                },
-                "output_state": {
-                  "Name": "minecraft:suspicious_gravel",
-                  "Properties": {
-                    "dusted": "0"
-                  }
-                },
-                "block_entity_modifier": {
-                  "type": "minecraft:append_loot",
-                  "loot_table": "mythic_charms:archaeology/underground_village/family_room"
-                }
-              },
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:block_match",
-                  "block": "minecraft:cyan_terracotta"
-                },
-                "output_state": {
-                  "Name": "minecraft:gravel"
-                }
-              }
-            ]
-          }
-        ],
+        "processors": "mythic_charms:underground_village/family_room",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -211,77 +33,7 @@
       "weight": 1,
       "element": {
         "location": "mythic_charms:underground_village/family_room1_destroyed",
-        "processors": [
-          {
-            "processor_type": "minecraft:rule",
-            "rules": [
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:random_block_match",
-                  "block": "minecraft:cyan_terracotta",
-                  "probability": 0.1
-                },
-                "output_state": {
-                  "Name": "minecraft:suspicious_gravel",
-                  "Properties": {
-                    "dusted": "0"
-                  }
-                },
-                "block_entity_modifier": {
-                  "type": "minecraft:append_loot",
-                  "loot_table": "mythic_charms:archaeology/underground_village/family_room"
-                }
-              },
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:block_match",
-                  "block": "minecraft:cyan_terracotta"
-                },
-                "output_state": {
-                  "Name": "minecraft:gravel"
-                }
-              },
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:random_block_match",
-                  "block": "minecraft:magenta_terracotta",
-                  "probability": 0.1
-                },
-                "output_state": {
-                  "Name": "minecraft:suspicious_gravel",
-                  "Properties": {
-                    "dusted": "0"
-                  }
-                },
-                "block_entity_modifier": {
-                  "type": "minecraft:append_loot",
-                  "loot_table": "mythic_charms:archaeology/underground_village/storage_room"
-                }
-              },
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:block_match",
-                  "block": "minecraft:magenta_terracotta"
-                },
-                "output_state": {
-                  "Name": "minecraft:gravel"
-                }
-              }
-            ]
-          }
-        ],
+        "processors": "mythic_charms:underground_village/family_room1_destroyed",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -290,45 +42,7 @@
       "weight": 3,
       "element": {
         "location": "mythic_charms:underground_village/family_room2",
-        "processors": [
-          {
-            "processor_type": "minecraft:rule",
-            "rules": [
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:random_block_match",
-                  "block": "minecraft:cyan_terracotta",
-                  "probability": 0.15
-                },
-                "output_state": {
-                  "Name": "minecraft:suspicious_gravel",
-                  "Properties": {
-                    "dusted": "0"
-                  }
-                },
-                "block_entity_modifier": {
-                  "type": "minecraft:append_loot",
-                  "loot_table": "mythic_charms:archaeology/underground_village/family_room"
-                }
-              },
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:block_match",
-                  "block": "minecraft:cyan_terracotta"
-                },
-                "output_state": {
-                  "Name": "minecraft:gravel"
-                }
-              }
-            ]
-          }
-        ],
+        "processors": "mythic_charms:underground_village/family_room",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -337,45 +51,7 @@
       "weight": 1,
       "element": {
         "location": "mythic_charms:underground_village/family_room2_destroyed",
-        "processors": [
-          {
-            "processor_type": "minecraft:rule",
-            "rules": [
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:random_block_match",
-                  "block": "minecraft:cyan_terracotta",
-                  "probability": 0.1
-                },
-                "output_state": {
-                  "Name": "minecraft:suspicious_gravel",
-                  "Properties": {
-                    "dusted": "0"
-                  }
-                },
-                "block_entity_modifier": {
-                  "type": "minecraft:append_loot",
-                  "loot_table": "mythic_charms:archaeology/underground_village/family_room"
-                }
-              },
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:block_match",
-                  "block": "minecraft:cyan_terracotta"
-                },
-                "output_state": {
-                  "Name": "minecraft:gravel"
-                }
-              }
-            ]
-          }
-        ],
+        "processors": "mythic_charms:underground_village/family_room_destroyed",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -384,45 +60,7 @@
       "weight": 3,
       "element": {
         "location": "mythic_charms:underground_village/family_room3",
-        "processors": [
-          {
-            "processor_type": "minecraft:rule",
-            "rules": [
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:random_block_match",
-                  "block": "minecraft:cyan_terracotta",
-                  "probability": 0.15
-                },
-                "output_state": {
-                  "Name": "minecraft:suspicious_gravel",
-                  "Properties": {
-                    "dusted": "0"
-                  }
-                },
-                "block_entity_modifier": {
-                  "type": "minecraft:append_loot",
-                  "loot_table": "mythic_charms:archaeology/underground_village/family_room"
-                }
-              },
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:block_match",
-                  "block": "minecraft:cyan_terracotta"
-                },
-                "output_state": {
-                  "Name": "minecraft:gravel"
-                }
-              }
-            ]
-          }
-        ],
+        "processors": "mythic_charms:underground_village/family_room",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -431,45 +69,7 @@
       "weight": 1,
       "element": {
         "location": "mythic_charms:underground_village/family_room3_destroyed",
-        "processors": [
-          {
-            "processor_type": "minecraft:rule",
-            "rules": [
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:random_block_match",
-                  "block": "minecraft:cyan_terracotta",
-                  "probability": 0.1
-                },
-                "output_state": {
-                  "Name": "minecraft:suspicious_gravel",
-                  "Properties": {
-                    "dusted": "0"
-                  }
-                },
-                "block_entity_modifier": {
-                  "type": "minecraft:append_loot",
-                  "loot_table": "mythic_charms:archaeology/underground_village/family_room"
-                }
-              },
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:block_match",
-                  "block": "minecraft:cyan_terracotta"
-                },
-                "output_state": {
-                  "Name": "minecraft:gravel"
-                }
-              }
-            ]
-          }
-        ],
+        "processors": "mythic_charms:underground_village/family_room_destroyed",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -478,45 +78,7 @@
       "weight": 3,
       "element": {
         "location": "mythic_charms:underground_village/family_room4",
-        "processors": [
-          {
-            "processor_type": "minecraft:rule",
-            "rules": [
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:random_block_match",
-                  "block": "minecraft:cyan_terracotta",
-                  "probability": 0.15
-                },
-                "output_state": {
-                  "Name": "minecraft:suspicious_gravel",
-                  "Properties": {
-                    "dusted": "0"
-                  }
-                },
-                "block_entity_modifier": {
-                  "type": "minecraft:append_loot",
-                  "loot_table": "mythic_charms:archaeology/underground_village/family_room"
-                }
-              },
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:block_match",
-                  "block": "minecraft:cyan_terracotta"
-                },
-                "output_state": {
-                  "Name": "minecraft:gravel"
-                }
-              }
-            ]
-          }
-        ],
+        "processors": "mythic_charms:underground_village/family_room",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -525,45 +87,7 @@
       "weight": 1,
       "element": {
         "location": "mythic_charms:underground_village/family_room4_destroyed",
-        "processors": [
-          {
-            "processor_type": "minecraft:rule",
-            "rules": [
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:random_block_match",
-                  "block": "minecraft:cyan_terracotta",
-                  "probability": 0.1
-                },
-                "output_state": {
-                  "Name": "minecraft:suspicious_gravel",
-                  "Properties": {
-                    "dusted": "0"
-                  }
-                },
-                "block_entity_modifier": {
-                  "type": "minecraft:append_loot",
-                  "loot_table": "mythic_charms:archaeology/underground_village/family_room"
-                }
-              },
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:block_match",
-                  "block": "minecraft:cyan_terracotta"
-                },
-                "output_state": {
-                  "Name": "minecraft:gravel"
-                }
-              }
-            ]
-          }
-        ],
+        "processors": "mythic_charms:underground_village/family_room_destroyed",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -572,77 +96,7 @@
       "weight": 3,
       "element": {
         "location": "mythic_charms:underground_village/forge",
-        "processors": [
-          {
-            "processor_type": "minecraft:rule",
-            "rules": [
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:random_block_match",
-                  "block": "minecraft:cyan_terracotta",
-                  "probability": 0.3
-                },
-                "output_state": {
-                  "Name": "minecraft:suspicious_gravel",
-                  "Properties": {
-                    "dusted": "0"
-                  }
-                },
-                "block_entity_modifier": {
-                  "type": "minecraft:append_loot",
-                  "loot_table": "mythic_charms:archaeology/underground_village/forge"
-                }
-              },
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:block_match",
-                  "block": "minecraft:cyan_terracotta"
-                },
-                "output_state": {
-                  "Name": "minecraft:gravel"
-                }
-              },
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:random_block_match",
-                  "block": "minecraft:magenta_terracotta",
-                  "probability": 0.1
-                },
-                "output_state": {
-                  "Name": "minecraft:suspicious_gravel",
-                  "Properties": {
-                    "dusted": "0"
-                  }
-                },
-                "block_entity_modifier": {
-                  "type": "minecraft:append_loot",
-                  "loot_table": "mythic_charms:archaeology/underground_village/guest_room"
-                }
-              },
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:block_match",
-                  "block": "minecraft:magenta_terracotta"
-                },
-                "output_state": {
-                  "Name": "minecraft:gravel"
-                }
-              }
-            ]
-          }
-        ],
+        "processors": "mythic_charms:underground_village/forge",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -651,77 +105,7 @@
       "weight": 1,
       "element": {
         "location": "mythic_charms:underground_village/forge_destroyed",
-        "processors": [
-          {
-            "processor_type": "minecraft:rule",
-            "rules": [
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:random_block_match",
-                  "block": "minecraft:cyan_terracotta",
-                  "probability": 0.1
-                },
-                "output_state": {
-                  "Name": "minecraft:suspicious_gravel",
-                  "Properties": {
-                    "dusted": "0"
-                  }
-                },
-                "block_entity_modifier": {
-                  "type": "minecraft:append_loot",
-                  "loot_table": "mythic_charms:archaeology/underground_village/forge"
-                }
-              },
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:block_match",
-                  "block": "minecraft:cyan_terracotta"
-                },
-                "output_state": {
-                  "Name": "minecraft:gravel"
-                }
-              },
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:random_block_match",
-                  "block": "minecraft:magenta_terracotta",
-                  "probability": 0.1
-                },
-                "output_state": {
-                  "Name": "minecraft:suspicious_gravel",
-                  "Properties": {
-                    "dusted": "0"
-                  }
-                },
-                "block_entity_modifier": {
-                  "type": "minecraft:append_loot",
-                  "loot_table": "mythic_charms:archaeology/underground_village/guest_room"
-                }
-              },
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:block_match",
-                  "block": "minecraft:magenta_terracotta"
-                },
-                "output_state": {
-                  "Name": "minecraft:gravel"
-                }
-              }
-            ]
-          }
-        ],
+        "processors": "mythic_charms:underground_village/forge_destroyed",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -730,73 +114,7 @@
       "weight": 3,
       "element": {
         "location": "mythic_charms:underground_village/guest_room",
-        "processors": [
-          {
-            "processor_type": "minecraft:capped",
-            "limit": 1,
-            "delegate": {
-              "processor_type": "minecraft:rule",
-              "rules": [
-                {
-                  "location_predicate": {
-                    "predicate_type": "minecraft:always_true"
-                  },
-                  "input_predicate": {
-                    "predicate_type": "minecraft:block_match",
-                    "block": "minecraft:gravel"
-                  },
-                  "output_state": {
-                    "Name": "minecraft:suspicious_gravel",
-                    "Properties": {
-                      "dusted": "0"
-                    }
-                  },
-                  "block_entity_modifier": {
-                    "type": "minecraft:append_loot",
-                    "loot_table": "mythic_charms:archaeology/underground_village/deep_underground_village_map"
-                  }
-                }
-              ]
-            }
-          },
-          {
-            "processor_type": "minecraft:rule",
-            "rules": [
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:random_block_match",
-                  "block": "minecraft:cyan_terracotta",
-                  "probability": 0.2
-                },
-                "output_state": {
-                  "Name": "minecraft:suspicious_gravel",
-                  "Properties": {
-                    "dusted": "0"
-                  }
-                },
-                "block_entity_modifier": {
-                  "type": "minecraft:append_loot",
-                  "loot_table": "mythic_charms:archaeology/underground_village/guest_room"
-                }
-              },
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:block_match",
-                  "block": "minecraft:cyan_terracotta"
-                },
-                "output_state": {
-                  "Name": "minecraft:gravel"
-                }
-              }
-            ]
-          }
-        ],
+        "processors": "mythic_charms:underground_village/guest_room",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -805,45 +123,7 @@
       "weight": 3,
       "element": {
         "location": "mythic_charms:underground_village/storage_room",
-        "processors": [
-          {
-            "processor_type": "minecraft:rule",
-            "rules": [
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:random_block_match",
-                  "block": "minecraft:cyan_terracotta",
-                  "probability": 0.3
-                },
-                "output_state": {
-                  "Name": "minecraft:suspicious_gravel",
-                  "Properties": {
-                    "dusted": "0"
-                  }
-                },
-                "block_entity_modifier": {
-                  "type": "minecraft:append_loot",
-                  "loot_table": "mythic_charms:archaeology/underground_village/storage_room"
-                }
-              },
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:block_match",
-                  "block": "minecraft:cyan_terracotta"
-                },
-                "output_state": {
-                  "Name": "minecraft:gravel"
-                }
-              }
-            ]
-          }
-        ],
+        "processors": "mythic_charms:underground_village/storage_room",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -852,45 +132,7 @@
       "weight": 1,
       "element": {
         "location": "mythic_charms:underground_village/storage_room_destroyed",
-        "processors": [
-          {
-            "processor_type": "minecraft:rule",
-            "rules": [
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:random_block_match",
-                  "block": "minecraft:cyan_terracotta",
-                  "probability": 0.1
-                },
-                "output_state": {
-                  "Name": "minecraft:suspicious_gravel",
-                  "Properties": {
-                    "dusted": "0"
-                  }
-                },
-                "block_entity_modifier": {
-                  "type": "minecraft:append_loot",
-                  "loot_table": "mythic_charms:archaeology/underground_village/storage_room"
-                }
-              },
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:block_match",
-                  "block": "minecraft:cyan_terracotta"
-                },
-                "output_state": {
-                  "Name": "minecraft:gravel"
-                }
-              }
-            ]
-          }
-        ],
+        "processors": "mythic_charms:underground_village/storage_room_destroyed",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -899,45 +141,7 @@
       "weight": 3,
       "element": {
         "location": "mythic_charms:underground_village/storage_stairs",
-        "processors": [
-          {
-            "processor_type": "minecraft:rule",
-            "rules": [
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:random_block_match",
-                  "block": "minecraft:cyan_terracotta",
-                  "probability": 0.1
-                },
-                "output_state": {
-                  "Name": "minecraft:suspicious_gravel",
-                  "Properties": {
-                    "dusted": "0"
-                  }
-                },
-                "block_entity_modifier": {
-                  "type": "minecraft:append_loot",
-                  "loot_table": "mythic_charms:archaeology/underground_village/storage_room"
-                }
-              },
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:block_match",
-                  "block": "minecraft:cyan_terracotta"
-                },
-                "output_state": {
-                  "Name": "minecraft:gravel"
-                }
-              }
-            ]
-          }
-        ],
+        "processors": "mythic_charms:underground_village/storage_room",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -946,45 +150,7 @@
       "weight": 3,
       "element": {
         "location": "mythic_charms:underground_village/water_source",
-        "processors": [
-          {
-            "processor_type": "minecraft:rule",
-            "rules": [
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:random_block_match",
-                  "block": "minecraft:cyan_terracotta",
-                  "probability": 0.2
-                },
-                "output_state": {
-                  "Name": "minecraft:suspicious_gravel",
-                  "Properties": {
-                    "dusted": "0"
-                  }
-                },
-                "block_entity_modifier": {
-                  "type": "minecraft:append_loot",
-                  "loot_table": "mythic_charms:archaeology/underground_village/water_source"
-                }
-              },
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:block_match",
-                  "block": "minecraft:cyan_terracotta"
-                },
-                "output_state": {
-                  "Name": "minecraft:gravel"
-                }
-              }
-            ]
-          }
-        ],
+        "processors": "mythic_charms:underground_village/water_source",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -993,45 +159,7 @@
       "weight": 1,
       "element": {
         "location": "mythic_charms:underground_village/water_source_destroyed",
-        "processors": [
-          {
-            "processor_type": "minecraft:rule",
-            "rules": [
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:random_block_match",
-                  "block": "minecraft:cyan_terracotta",
-                  "probability": 0.1
-                },
-                "output_state": {
-                  "Name": "minecraft:suspicious_gravel",
-                  "Properties": {
-                    "dusted": "0"
-                  }
-                },
-                "block_entity_modifier": {
-                  "type": "minecraft:append_loot",
-                  "loot_table": "mythic_charms:archaeology/underground_village/water_source"
-                }
-              },
-              {
-                "location_predicate": {
-                  "predicate_type": "minecraft:always_true"
-                },
-                "input_predicate": {
-                  "predicate_type": "minecraft:block_match",
-                  "block": "minecraft:cyan_terracotta"
-                },
-                "output_state": {
-                  "Name": "minecraft:gravel"
-                }
-              }
-            ]
-          }
-        ],
+        "processors": "mythic_charms:underground_village/water_source_destroyed",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }

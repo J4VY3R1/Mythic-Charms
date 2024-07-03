@@ -2,7 +2,7 @@
   "parent": "mythic_charms:story/prepare_for_carving",
   "display": {
     "icon": {
-      "item": "mythic_charms:fragile_charm_base"
+      "item": "mythic_charms:fragile_charm_of_feathered_grace"
     },
     "title": {
       "translate": "advancements.mythic_charms.story.first_charm.title"
@@ -10,7 +10,7 @@
     "description": {
       "translate": "advancements.mythic_charms.story.first_charm.desc"
     },
-    "frame": "task",
+    "frame": "goal",
     "announce_to_chat": true,
     "show_toast": true,
     "hidden": false

@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": " The description on the back of the scroll says:$(br2)$(o) All animals will follow one, as when holding the animal's favorite food. This effect can be canceled by sneaking."
+      "text": " The description on the back of the scroll says:$(br2) While the wearer is not sneaking, all animals will follow the wearer."
     },
     {
       "type": "mythic_charms:resonance_infusing",

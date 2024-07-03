@@ -88,29 +88,27 @@
 	"item.mythic_charms.unbreakable_charm_of_safe_territory": "Незламний талісман Безпечної Території",
 	"item.mythic_charms.unbreakable_charm_of_quiet_presence": "Незламний талісман Тихої Присутності",
 
-
-	"item.mythic_charms.feathered_grace.tooltip": "Надає власнику ефект повільного падіння після півсекундного падіння та закінчується через дві секунди, якщо власник не крадеться",
-	"item.mythic_charms.blazing_embrace.tooltip": "Надає власнику постійний ефект вогнестійкості, але тривалість поновлюється лише тоді, коли власник не горить",
-	"item.mythic_charms.earths_order.tooltip": "Надає власнику можливість зламати будь-який блок, який можна зламати, лише без інструменту",
-	"item.mythic_charms.gaze_serenity.tooltip": "Надає власнику можливість дивитися на ендермена, не викликаючи агресії, та під час бою не викликати випадкову телепортацію",
-	"item.mythic_charms.botanic_blessing.tooltip": "Прискорює ріст культур у радіусі двох блоків навколо власника та збільшує кількість культур що випали при збиранні",
-	"item.mythic_charms.fleeting_strides.tooltip": "Підвищує швидкість власника під час бігу зі стрибками, але дає додаткового виснаження",
-	"item.mythic_charms.nights_guardian.tooltip": "Запобігає появі фантомів, але лише для власника, навіть якщо фантоми будуть біля власника, вони ігноруватимуть його",
-	"item.mythic_charms.high_bounds.tooltip": "Збільшує висоту стрибка власника та безпечну висоту, з якої вони залишаються неушкодженими, на один блок, але дає додаткове виснаження",
-	"item.mythic_charms.drowned_freedom.tooltip": "Надає власнику можливість пересуватися під водою, як на поверхні, але дає додаткового виснаження",
-	"item.mythic_charms.weightless_flow.tooltip": "Зберігає гравітацію власника, якщо власник не крадеться, дозволяючи йому стояти в повітрі або поринути в небо",
-	"item.mythic_charms.collectors_gift.tooltip": "Притягує предмети до власника в радіусі двох блоків",
-	"item.mythic_charms.climbers_path.tooltip": "Збільшує висоту кроку власника до одного блоку, дозволяючи йому з легкістю долати перешкоди, але дає додаткового виснаження",
-	"item.mythic_charms.natures_call.tooltip": "Приманює тварин навколо власника, ніби він тримає їх улюблену їжу, якщо власник не крадеться",
-	"item.mythic_charms.barters_pact.tooltip": "Власник може відкрити скриню і з ймовірністю сімдесят відсотків, це не викличе агресію з боку піґлінів",
-	"item.mythic_charms.battle_fury.tooltip": "Збільшує шкоду від атаки власника, коли його здоров’я знижується, максимально втричі",
-	"item.mythic_charms.echoing_wrath.tooltip": "Коли власник отримує шкоду від сутності, завдає шкоди мобам навколо з половиною інтенсивності, щонайбільше до трьох сердець шкоди, але власник отримує додаткову чверть шкоди",
-	"item.mythic_charms.enchanted_whispers.tooltip": "Робить чари випадковими кожного разу, коли власник взаємодіє зі столом зачарування, в обмін на один рівень",
-	"item.mythic_charms.arrow_dance.tooltip": "Надає власнику можливість ухилитися від снарядів із ймовірністю сімдесят відсотків, але власник отримує додаткову чверть шкоди",
-	"item.mythic_charms.mountains_strength.tooltip": "Надає власнику імунітет до відкидання або штовхання, але він отримує додаткову чверть шкоди",
-	"item.mythic_charms.safe_territory.tooltip": "Вибухи кріпера у радіусі двох блоків навколо власника більше не зможуть ламати блоки",
-	"item.mythic_charms.quiet_presence.tooltip": "Надає власнику можливість рухатися без активації скалкового сенсору під час ходьби",
-
+	"item.mythic_charms.arrow_dance.tooltip": "Власник, поки крадеться, уникає будь-якого снаряду. Однак власник отримує додаткову чверть шкоди.",
+	"item.mythic_charms.barters_pact.tooltip": "Брутальні піґліни ігноруватимуть власника, якщо поблизу немає інших агресивних піґлінів.",
+	"item.mythic_charms.battle_fury.tooltip": "Чим нижче рівень здоров'я власника тим більша шкода від атаки. Максимум втричі більше, при мінімальному рівні здоров'я.",
+	"item.mythic_charms.blazing_embrace.tooltip": "Власник отримує ефект вогнестійкості на 20 секунд. Час починає спливати, коли власник горить, і відновлюється, коли вогонь згасає.",
+	"item.mythic_charms.botanic_blessing.tooltip": "Зростання всіх культур у радіусі 4 блоків навколо власника прискорено, а кількість предметів, що випадають під час збору врожаю, збільшено.",
+	"item.mythic_charms.climbers_path.tooltip": "Висота кроку власника збільшена до одного блоку. Тобто, власник може заходити на блок, як по сходах. Однак спринт додає додаткового виснаження.",
+	"item.mythic_charms.collectors_gift.tooltip": "Усі предмети в радіусі 2 блоків притягуються до власника.",
+	"item.mythic_charms.drowned_freedom.tooltip": "Власник може пересуватися під водою, як на поверхні. Однак спринт додає додаткового виснаження.",
+	"item.mythic_charms.earths_order.tooltip": "Власник може зламати будь-який блок, який можливо зламати, якщо не тримати жодного інструменту в основній руці.",
+	"item.mythic_charms.echoing_wrath.tooltip": "Коли сутність завдає шкоди власнику, усі сутності навколо отримують шкоди вдвічі меншої інтенсивності, до 10 одиниць. Однак власник завдає на чверть менше шкоди.",
+	"item.mythic_charms.enchanted_whispers.tooltip": "Власник може бачити одне додаткове зачарування, яке буде застосовано до предмета в столі зачарування.",
+	"item.mythic_charms.feathered_grace.tooltip": "Власник, поки не крадеться, отримує ефект повільного падіння, після півсекундного падіння, а видаляється ефект через дві секунди.",
+	"item.mythic_charms.fleeting_strides.tooltip": "Швидкість стрибка власника під час спринту збільшена. Однак спринт додає додаткового виснаження.",
+	"item.mythic_charms.gaze_serenity.tooltip": "Власник може дивитися в очі ендермена без будь-яких наслідків.",
+	"item.mythic_charms.high_bounds.tooltip": "Висота стрибка власника збільшується до 2 блоків, а також безпечна відстань падіння. Однак стрибки додають додаткового виснаження.",
+	"item.mythic_charms.mountains_strength.tooltip": "Власник захищений від відкидання або штовхання. Однак власник отримує додаткову чверть шкоди.",
+	"item.mythic_charms.natures_call.tooltip": "Усі тварини будуть слідувати за власником, поки власник не крадеться.",
+	"item.mythic_charms.nights_guardian.tooltip": "Фантоми не з’являтимуться для власника, а навіть якщо поблизу є фантоми, вони ігноруватимуть власника.",
+	"item.mythic_charms.quiet_presence.tooltip": "Власник може ходити біля скалкового сенсора, не активовуючи його. Однак тільки ходьба, не спринт чи стрибки.",
+	"item.mythic_charms.safe_territory.tooltip": "Кріпери в радіусі 4 блоків навколо власника не ламатимуть блоки.",
+	"item.mythic_charms.weightless_flow.tooltip": "Поки власник не крадеться, гравітація власника зберігається. Якщо стояти до активації, власник може йти по повітрю. Якщо стрибнути безпосередньо до активації, власник порине в небо.",
 
 	"item.mythic_charms.broken_charm": "Зламаний талісман",
 	"item.mythic_charms.broken_charm.tooltip": "Колись був придатним талісманом",
@@ -132,6 +130,23 @@
 	"item.mythic_charms.disc_fragment_resonance": "Фрагмент платівки",
 	"item.mythic_charms.disc_fragment_resonance.tooltip": "Платівка - Resonance",
 
+	"item.mythic_charms.resonance_pottery_sherd": "Гончарний черепок «Резонанс»",
+	"item.mythic_charms.crystal_pottery_sherd": "Гончарний черепок «Кристал»",
+	"item.mythic_charms.core_pottery_sherd": "Гончарний черепок «Ядро»",
+	"item.mythic_charms.farmer_pottery_sherd": "Гончарний черепок «Фермер»",
+	"item.mythic_charms.farmland_pottery_sherd": "Гончарний черепок «Рілля»",
+	"item.mythic_charms.body_pottery_sherd": "Гончарний черепок «Тіло»",
+	"item.mythic_charms.prophecy_pottery_sherd": "Гончарний черепок «Пророцтво»",
+	"item.mythic_charms.freedom_pottery_sherd": "Гончарний черепок «Свобода»",
+	"item.mythic_charms.mountain_pottery_sherd": "Гончарний черепок «Гора»",
+	"item.mythic_charms.aid_pottery_sherd": "Гончарний черепок «Поміч»",
+	"item.mythic_charms.safety_pottery_sherd": "Гончарний черепок «Безпека»",
+	"item.mythic_charms.nature_pottery_sherd": "Гончарний черепок «Природа»",
+	"item.mythic_charms.heat_pottery_sherd": "Гончарний черепок «Спека»",
+	"item.mythic_charms.fight_pottery_sherd": "Гончарний черепок «Боротьба»",
+	"item.mythic_charms.growth_pottery_sherd": "Гончарний черепок «Розвиток»",
+	"item.mythic_charms.ghost_pottery_sherd": "Гончарний черепок «Привид»",
+
 	"item.mythic_charms.underground_village_map": "Мапа підземного селища",
 	"item.mythic_charms.deep_underground_village_map": "Мапа глибокого підземного селища",
 	"item.mythic_charms.aquamarine_composer": "Мапа аквамаринового композитора",
@@ -143,7 +158,7 @@
 	"item.mythic_charms.silver_composer": "Мапа сріблястого композитора",
 	"item.mythic_charms.teal_composer": "Мапа бірюзового композитора",
 	"item.mythic_charms.violet_composer": "Мапа фіолетового композитора",
-
+	"item.mythic_charms.hideout": "Таємнича мапа",
 
 	"item.mythic_charms.charmicon": "Charmicon",
 	"mythic_charms.charmicon.landing": "У цьому журналі я написав усе, що знаю про різьбярів по звуку. Якщо ви знайшли цей щоденник незавершеним, ви можете продовжити мою подорож і розкрити таємниці тих, хто живе під землею.",
@@ -151,29 +166,36 @@
 
 	"block.mythic_charms.resonance_table": "Стіл резонансу",
 
+
+	"enchantment.mythic_charms.eternal_grip": "Вічна хватка",
+
+
 	"itemGroup.mythic_charms": "Mythic Charms",
 
 
 	"util.mythic_charms.shift_tooltip": "Утримуйте §eSHIFT§r для додаткової інформації",
+	"util.mythic_charms.enchant.clue": "%s,",
 
 
 	"advancements.mythic_charms.story.root.title": "Mythic Charms",
 	"advancements.mythic_charms.story.root.desc": "Все в ваших руках",
-	"advancements.mythic_charms.story.find_camp.title": "Сліди минулого",
-	"advancements.mythic_charms.story.find_camp.desc": "Знайдіть табір різьбярів по звуку",
-	"advancements.mythic_charms.story.find_camp_map.title": "Маяк надії",
-	"advancements.mythic_charms.story.find_camp_map.desc": "Знайдіть карту, яка веде до підземного селища",
-	"advancements.mythic_charms.story.find_underground_village.title": "Похована правда",
-	"advancements.mythic_charms.story.find_underground_village.desc": "Увійдіть у селище різьбярів по звуку",
-	"advancements.mythic_charms.story.find_underground_village_map.title": "Шлях до прихованих глибин",
-	"advancements.mythic_charms.story.find_underground_village_map.desc": "Знайдіть карту, яка веде в глибини світу",
+	"advancements.mythic_charms.story.camp.title": "Сліди минулого",
+	"advancements.mythic_charms.story.camp.desc": "Знайдіть табір різьбярів по звуку",
+	"advancements.mythic_charms.story.map_to_underground_village.title": "Маяк надії",
+	"advancements.mythic_charms.story.map_to_underground_village.desc": "Знайдіть карту, яка веде до підземного селища",
+	"advancements.mythic_charms.story.underground_village.title": "Похована правда",
+	"advancements.mythic_charms.story.underground_village.desc": "Увійдіть у селище різьбярів по звуку",
+	"advancements.mythic_charms.story.map_to_deep_underground_village.title": "Шлях до прихованих глибин",
+	"advancements.mythic_charms.story.map_to_deep_underground_village.desc": "Знайдіть карту, яка веде в глибини світу",
+	"advancements.mythic_charms.story.resonance_pottery_sherd.title": "Усмішка твоя - єдина",
+	"advancements.mythic_charms.story.resonance_pottery_sherd.desc": "Знайдіть гончарний черепок «Резонанс»",
 	"advancements.mythic_charms.story.prepare_for_carving.title": "Базова підготовка",
 	"advancements.mythic_charms.story.prepare_for_carving.desc": "Підготуйтеся до різьблення, зібравши: стіл резонансу, перстень резонансу та базу крихкого талісману",
 
-	"advancements.mythic_charms.story.find_deep_underground_village.title": "Де усе почалося",
-	"advancements.mythic_charms.story.find_deep_underground_village.desc": "Увійдіть у глибоке підземне селище",
-	"advancements.mythic_charms.story.find_deep_underground_village_map.title": "Маестро",
-	"advancements.mythic_charms.story.find_deep_underground_village_map.desc": "Знайдіть карту композитора",
+	"advancements.mythic_charms.story.deep_underground_village.title": "Де усе почалося",
+	"advancements.mythic_charms.story.deep_underground_village.desc": "Увійдіть у глибоке підземне селище",
+	"advancements.mythic_charms.story.map_to_composer.title": "Маестро",
+	"advancements.mythic_charms.story.map_to_composer.desc": "Знайдіть карту композитора",
 	"advancements.mythic_charms.story.deepslate_core.title": "Незавершений експеримент",
 	"advancements.mythic_charms.story.deepslate_core.desc": "Отримайте глибосланцеве ядро",
 	"advancements.mythic_charms.story.resonance_compass.title": "Як звучить Полярна зірка",
@@ -192,6 +214,21 @@
 	"advancements.mythic_charms.story.every_charm.title": "Талісманія",
 	"advancements.mythic_charms.story.every_charm.desc": "Створіть кожен талісман",
 
+	"advancements.mythic_charms.story.map_to_hideout.title": "Детектив",
+	"advancements.mythic_charms.story.map_to_hideout.desc": "Знайдіть таємничу мапу",
+	"advancements.mythic_charms.story.hideout.title": "За лаштунками",
+	"advancements.mythic_charms.story.hideout.desc": "Увійдіть у таємну схованку",
+	"advancements.mythic_charms.story.eternal_grip.title": "Підкорити вічність",
+	"advancements.mythic_charms.story.eternal_grip.desc": "Зачаруйте незламний талісман на Вічну хватку",
+
+
+	"tag.item.mythic_charms.fragile_charms": "Крихкі талісмани",
+	"tag.item.mythic_charms.unbreakable_charms": "Незламні талісмани",
+	"tag.item.mythic_charms.resonance_ingredients": "Інгредієнти резонансу",
+	"tag.item.trinkets.hand.ring": "Перстень",
+	"tag.item.trinkets.mythic_charm.mythic_charm": "Міфічний талісман",
+
+
 
 	"category.mythic_charms.resonance": "Об'єднання резонансом",
 	"category.mythic_charms.resonance.ingredient": "Інгредієнт",
@@ -199,15 +236,8 @@
 	"category.mythic_charms.resonance.trinket": "Дрібничка",
 	"category.mythic_charms.resonance.output": "Результат",
 
-
-	"tag.item.mythic_charms.fragile_charms": "Крихкі талісмани",
-	"tag.item.mythic_charms.unbreakable_charms": "Незламні талісмани",
-	"tag.item.mythic_charms.resonance_ingredients": "Інгредієнти резонансу",
-
 	"emi.category.mythic_charms.resonance_infusing": "Об'єднання резонансом",
 
-	"tag.item.trinkets.hand.ring": "Перстень",
-	"tag.item.trinkets.mythic_charm.mythic_charm": "Міфічний талісман",
 
 
 	"text.config.mythic-charms-config.title": "Налаштування Mythic Charms",

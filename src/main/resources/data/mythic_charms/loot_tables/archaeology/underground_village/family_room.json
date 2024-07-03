@@ -32,6 +32,21 @@
         },
         {
           "type": "minecraft:item",
+          "name": "mythic_charms:farmer_pottery_sherd",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mythic_charms:farmland_pottery_sherd",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mythic_charms:crystal_pottery_sherd",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:bucket",
           "weight": 2
         },

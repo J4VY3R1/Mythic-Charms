@@ -4,6 +4,7 @@ import dev.emi.trinkets.api.TrinketItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.masik.mythiccharms.MythicCharms;
 import net.masik.mythiccharms.sound.ModSounds;
+import net.minecraft.block.DecoratedPotPatterns;
 import net.minecraft.item.Item;
 import net.minecraft.item.MusicDiscItem;
 import net.minecraft.item.SmithingTemplateItem;
@@ -31,6 +32,7 @@ public class ModItems {
                     DEEPSLATE_CORE_ADDITIONS_SLOT_DESCRIPTION_TEXT, List.of(EMPTY_SLOT_CHARM_TEXTURE),
                     List.of(new Identifier("item/empty_slot_ingot"))));
 
+    //OTHER ITEMS
     public static final Item RESONANCE_RING = registerItem("resonance_ring",
             new TrinketItem(new FabricItemSettings().maxCount(1)));
     public static final Item RESONANCE_COMPASS = registerItem("resonance_compass",
@@ -47,6 +49,43 @@ public class ModItems {
 
 
 
+    //POTTERY SHERDS
+    public static final Item RESONANCE_POTTERY_SHERD = registerItem("resonance_pottery_sherd",
+            new Item(new FabricItemSettings()));
+    public static final Item CRYSTAL_POTTERY_SHERD = registerItem("crystal_pottery_sherd",
+            new Item(new FabricItemSettings()));
+    public static final Item CORE_POTTERY_SHERD = registerItem("core_pottery_sherd",
+            new Item(new FabricItemSettings()));
+    public static final Item FARMER_POTTERY_SHERD = registerItem("farmer_pottery_sherd",
+            new Item(new FabricItemSettings()));
+    public static final Item FARMLAND_POTTERY_SHERD = registerItem("farmland_pottery_sherd",
+            new Item(new FabricItemSettings()));
+    public static final Item BODY_POTTERY_SHERD = registerItem("body_pottery_sherd",
+            new Item(new FabricItemSettings()));
+    public static final Item PROPHECY_POTTERY_SHERD = registerItem("prophecy_pottery_sherd",
+            new Item(new FabricItemSettings()));
+    public static final Item FREEDOM_POTTERY_SHERD = registerItem("freedom_pottery_sherd",
+            new Item(new FabricItemSettings()));
+    public static final Item MOUNTAIN_POTTERY_SHERD = registerItem("mountain_pottery_sherd",
+            new Item(new FabricItemSettings()));
+    public static final Item AID_POTTERY_SHERD = registerItem("aid_pottery_sherd",
+            new Item(new FabricItemSettings()));
+    public static final Item SAFETY_POTTERY_SHERD = registerItem("safety_pottery_sherd",
+            new Item(new FabricItemSettings()));
+    public static final Item NATURE_POTTERY_SHERD = registerItem("nature_pottery_sherd",
+            new Item(new FabricItemSettings()));
+    public static final Item HEAT_POTTERY_SHERD = registerItem("heat_pottery_sherd",
+            new Item(new FabricItemSettings()));
+    public static final Item FIGHT_POTTERY_SHERD = registerItem("fight_pottery_sherd",
+            new Item(new FabricItemSettings()));
+    public static final Item GROWTH_POTTERY_SHERD = registerItem("growth_pottery_sherd",
+            new Item(new FabricItemSettings()));
+    public static final Item GHOST_POTTERY_SHERD = registerItem("ghost_pottery_sherd",
+            new Item(new FabricItemSettings()));
+
+
+
+    //FRAGILE CHARMS
     public static final Item FRAGILE_CHARM_OF_FEATHERED_GRACE = registerItem("fragile_charm_of_feathered_grace",
             new TooltipTrinketItem(new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), true));
     public static final Item FRAGILE_CHARM_OF_BLAZING_EMBRACE = registerItem("fragile_charm_of_blazing_embrace",
@@ -92,6 +131,7 @@ public class ModItems {
 
 
 
+    //UNBREAKABLE CHARMS
     public static final Item UNBREAKABLE_CHARM_OF_FEATHERED_GRACE = registerItem("unbreakable_charm_of_feathered_grace",
             new TooltipTrinketItem(new FabricItemSettings().maxCount(1).rarity(Rarity.RARE).fireproof(), true));
     public static final Item UNBREAKABLE_CHARM_OF_BLAZING_EMBRACE = registerItem("unbreakable_charm_of_blazing_embrace",
@@ -135,13 +175,9 @@ public class ModItems {
     public static final Item UNBREAKABLE_CHARM_OF_QUIET_PRESENCE = registerItem("unbreakable_charm_of_quiet_presence",
             new TooltipTrinketItem(new FabricItemSettings().maxCount(1).rarity(Rarity.RARE).fireproof(), true));
 
-//    public static final Item DEEPSLATE_FRAGMENT = registerItem("deepslate_fragment",
-//            new Item(new FabricItemSettings()));
-//    public static final Item EXPERIENCE_NUGGET = registerItem("experience_nugget",
-//            new ExperienceNuggetItem(new FabricItemSettings()));
-//    public static final Item GLOWSTONE_NUGGET = registerItem("glowstone_nugget",
-//            new Item(new FabricItemSettings()));
 
+
+    //SOUND CARVING PATTERNS
     public static final Item SOUND_CARVING_PATTERN_FEATHERED_GRACE = registerItem("sound_carving_pattern_feathered_grace",
             new TooltipItem(new FabricItemSettings().maxCount(1).rarity(Rarity.UNCOMMON), false));
     public static final Item SOUND_CARVING_PATTERN_BLAZING_EMBRACE = registerItem("sound_carving_pattern_blazing_embrace",
@@ -192,18 +228,11 @@ public class ModItems {
     }
 
 //    private static void addItemsToToolsTabItemGroup(FabricItemGroupEntries entries) {
-//
 //        entries.add(RESONANCE_RING);
-//        entries.add(BROKEN_CHARM);
-//        entries.add(FRAGILE_CHARM_BASE);
 //    }
 
 //    private static void addItemsToIngredientsTabItemGroup(FabricItemGroupEntries entries) {
-//
 //        entries.add(DEEPSLATE_FRAGMENT);
-//        entries.add(EXPERIENCE_NUGGET);
-//        entries.add(GLOWSTONE_NUGGET);
-//
 //    }
 
     public static void registerModItems() {

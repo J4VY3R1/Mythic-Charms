@@ -5,18 +5,22 @@
   "mixins": [
     "AbstractBlockMixin",
     "BlockMixin",
+    "DecoratedPotPatternsMixin",
+    "EnchantmentScreenHandlerMixin",
     "EndermanMixin",
     "EntityMixin",
     "ExperienceBottleEntityMixin",
+    "ExplosionMixin",
     "FarmlandBlockMixin",
     "ItemEntityMixin",
     "ItemMixin",
     "LivingEntityMixin",
     "PhantomEntityMixin",
     "PhantomSpawnerMixin",
-    "PiglinBrainMixin",
+    "PiglinBruteBrainMixin",
     "PlayerMixin",
     "ServerPlayerMixin",
+    "StructureTemplateMixin",
     "TemptGoalMixin",
     "TrinketMixin"
   ],
@@ -24,5 +28,6 @@
     "defaultRequire": 1
   },
   "client": [
-	]
+    "EnchantmentScreenMixin"
+  ]
 }

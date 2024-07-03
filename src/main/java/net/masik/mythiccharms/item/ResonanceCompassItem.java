@@ -2,6 +2,8 @@ package net.masik.mythiccharms.item;
 
 import net.masik.mythiccharms.MythicCharms;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.EnderPearlItem;
+import net.minecraft.item.FishingRodItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.particle.ParticleTypes;
@@ -39,23 +41,32 @@ public class ResonanceCompassItem extends Item {
 
                 double angle = Math.atan2(structurePosZ - userZ, structurePosX - userX);
 
-                float volume = (float) (Math.max(0, 300 - distance) / 300 * 60);
+                double modifierX = 0;
+                double modifierZ = 0;
 
-                SoundEvent soundEvent = SoundEvents.BLOCK_AMETHYST_BLOCK_RESONATE;
+                SoundEvent soundEvent = SoundEvents.BLOCK_TUFF_BREAK;
 
-                if (distance <= 10) {
+                if (distance <= 8) {
+
                     soundEvent = SoundEvents.BLOCK_AMETHYST_BLOCK_CHIME;
+
+                }
+                else if (distance <= 300) {
+
+                    soundEvent = SoundEvents.BLOCK_AMETHYST_BLOCK_RESONATE;
+                    modifierX = Math.cos(angle) * 6;
+                    modifierZ = Math.sin(angle) * 6;
+
+                    user.getServer().getWorld(user.getWorld().getRegistryKey()).spawnParticles(ParticleTypes.WAX_OFF,
+                            user.getX() + Math.cos(angle) * 2, user.getY() + 2, user.getZ() + Math.sin(angle) * 2, 1, 0.1, 0.1, 0.1, 1);
+
                 }
 
-                user.getWorld().playSound(null, user.getX() + Math.cos(angle) * 6, user.getY(), user.getZ() + Math.sin(angle) * 6,
-                        soundEvent, user.getSoundCategory(), volume, 1.0F);
-
-                user.getServer().getWorld(user.getWorld().getRegistryKey()).spawnParticles(ParticleTypes.WAX_OFF,
-                        user.getX() + Math.cos(angle) * 2, user.getY(), user.getZ() + Math.sin(angle) * 2, 1, 0.1, 0.1, 0.1, 1);
+                user.getWorld().playSound(null, user.getX() + modifierX, user.getY(), user.getZ() + modifierZ,
+                        soundEvent, user.getSoundCategory(), 40, 1.0F);
 
 
-//                MythicCharms.LOGGER.info(structurePos + "\nVolume: " + volume +
-//                        "\nDistance: " + distance + "\nAngle: " + angle);
+                user.getItemCooldownManager().set(this, 20);
 
                 return TypedActionResult.success(user.getStackInHand(hand));
 

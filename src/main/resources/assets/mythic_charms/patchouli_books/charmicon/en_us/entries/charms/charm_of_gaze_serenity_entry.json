@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": " The description on the back of the scroll says:$(br2)$(o) One can look at enderman eyes without any consequences."
+      "text": " The description on the back of the scroll says:$(br2) The wearer can look at enderman's eyes without any consequences."
     },
     {
       "type": "mythic_charms:resonance_infusing",

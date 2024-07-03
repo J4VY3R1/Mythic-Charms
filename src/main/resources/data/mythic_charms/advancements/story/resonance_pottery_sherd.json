@@ -1,0 +1,32 @@
+{
+  "parent": "mythic_charms:story/underground_village",
+  "display": {
+    "icon": {
+      "item": "mythic_charms:resonance_pottery_sherd"
+    },
+    "title": {
+      "translate": "advancements.mythic_charms.story.resonance_pottery_sherd.title"
+    },
+    "description": {
+      "translate": "advancements.mythic_charms.story.resonance_pottery_sherd.desc"
+    },
+    "frame": "task",
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythic_charms:resonance_pottery_sherd"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  }
+}

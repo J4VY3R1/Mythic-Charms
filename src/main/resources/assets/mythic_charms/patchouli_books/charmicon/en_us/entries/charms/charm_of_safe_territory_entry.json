@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": " The description on the back of the scroll says:$(br2)$(o) Creepers won't destroy any blocks when the distance to them is 1.5 blocks."
+      "text": " The description on the back of the scroll says:$(br2) Creepers in 4-block radius around the wearer will not break blocks."
     },
     {
       "type": "mythic_charms:resonance_infusing",

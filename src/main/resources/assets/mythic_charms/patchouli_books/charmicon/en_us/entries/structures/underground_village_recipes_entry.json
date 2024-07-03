@@ -1,0 +1,17 @@
+{
+  "name": "U. Village: Recipes",
+  "icon": "minecraft:filled_map",
+  "category": "mythic_charms:structures_category",
+  "advancement": "mythic_charms:book/structures/composer_map",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": " The room with a circle symbol must be a room for explorers because it has a map that leads to some sort of a composer, as it says on the back.$(br2)$(o) This has to be the place were they create charm recipes."
+    },
+    {
+      "type": "patchouli:text",
+      "text": " It has a legend:$(br2) Aquamarine - Freedom$(br) Gold - Mountain$(br) Indigo - Aid$(br) Ivory - Safety$(br) Lime - Nature$(br) Maroon - Heat$(br) Silver - Fight$(br) Teal - Growth$(br) Violet - Ghost$(br2) After investigating this village, I should head there."
+    }
+  ]
+}

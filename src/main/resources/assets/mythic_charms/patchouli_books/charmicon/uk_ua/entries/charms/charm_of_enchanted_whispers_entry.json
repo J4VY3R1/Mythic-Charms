@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": " В описі на звороті сувою вказано:$(br2)$(o) При відкритті столу зачарування, усі чари оновлюються, і ви втрачаєте один рівень свого досвіду."
+      "text": " В описі на звороті сувою вказано:$(br2) Власник може бачити одне додаткове зачарування, яке буде застосовано до предмета в столі зачарування."
     },
     {
       "type": "mythic_charms:resonance_infusing",
@@ -15,7 +15,7 @@
       "ingredient1": "mythic_charms:fragile_charm_base",
       "ingredient2": "mythic_charms:sound_carving_pattern_enchanted_whispers",
       "ingredient3": "minecraft:blaze_powder",
-      "ingredient4": "minecraft:echo_shard",
+      "ingredient4": "minecraft:lapis_lazuli",
       "ingredient5": "minecraft:glow_berries"
     }
   ]

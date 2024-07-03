@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "mythic_charms:underground_village",
+      "weight": 1
+    },
+    {
+      "structure": "mythic_charms:deep_underground_village",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1390552823,
+    "spacing": 34,
+    "separation": 16
+  }
+}

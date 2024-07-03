@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": " The description on the back of the scroll says:$(br2)$(o) One is immune to knockback or being pushed. However, one takes an additional quarter of the damage."
+      "text": " The description on the back of the scroll says:$(br2) The wearer is immune to knockback or being pushed. However, the wearer receives an additional quarter of the damage."
     },
     {
       "type": "mythic_charms:resonance_infusing",

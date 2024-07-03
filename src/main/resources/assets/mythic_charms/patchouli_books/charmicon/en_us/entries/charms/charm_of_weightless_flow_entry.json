@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": " The description on the back of the scroll says:$(br2)$(o) Preserves one's gravity, while not sneaking. When standing still before preserving gravity one can go straight on the air. When jumping right before preserving gravity one will leap to the sky."
+      "text": " The description on the back of the scroll says:$(br2) While the wearer is not sneaking, the wearer's gravity is preserved. If standing before activation, the wearer can walk on air. If jumping directly before the activation, the wearer will leap into the sky."
     },
     {
       "type": "mythic_charms:resonance_infusing",

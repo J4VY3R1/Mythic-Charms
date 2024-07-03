@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": " The description on the back of the scroll says:$(br2)$(o) In a 2.5-block radius, every crop that is on farmland has a 6/10 chance, to grow to the next stage. Also, when harvesting crops they drop additional 0-2 items."
+      "text": " The description on the back of the scroll says:$(br2) The growth of all crops within a 4-block radius around the wearer is accelerated and the number of items dropped when crops are harvested is increased."
     },
     {
       "type": "mythic_charms:resonance_infusing",
@@ -15,7 +15,7 @@
       "ingredient1": "mythic_charms:fragile_charm_base",
       "ingredient2": "mythic_charms:sound_carving_pattern_botanic_blessing",
       "ingredient3": "minecraft:bone",
-      "ingredient4": "minecraft:clay_ball",
+      "ingredient4": "minecraft:cocoa_beans",
       "ingredient5": "minecraft:crimson_fungus"
     }
   ]

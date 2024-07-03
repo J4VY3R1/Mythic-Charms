@@ -10,7 +10,7 @@
     "description": {
       "translate": "advancements.mythic_charms.story.first_unbreakable_charm.desc"
     },
-    "frame": "task",
+    "frame": "goal",
     "announce_to_chat": true,
     "show_toast": true,
     "hidden": false

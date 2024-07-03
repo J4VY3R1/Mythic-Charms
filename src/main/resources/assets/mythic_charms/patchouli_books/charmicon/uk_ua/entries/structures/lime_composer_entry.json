@@ -3,7 +3,7 @@
   "icon": "minecraft:lime_terracotta",
   "category": "mythic_charms:structures_category",
   "advancement": "mythic_charms:book/structures/composers/lime_composer",
-  "sortnum": 9,
+  "sortnum": 7,
   "pages": [
     {
       "type": "patchouli:text",

@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": " The description on the back of the scroll says:$(br2)$(o) One can walks near a sculk sensor without triggering it. However, only walking, no sprinting or jumping."
+      "text": " The description on the back of the scroll says:$(br2) The wearer can walks near a sculk sensor without triggering it. However, only walking, no sprinting or jumping."
     },
     {
       "type": "mythic_charms:resonance_infusing",

@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": " The description on the back of the scroll says:$(br2)$(o) One can ignore water physics, so one can run underwater but not swim. However, one can still drown underwater and sprinting adds extra exhaustion."
+      "text": " The description on the back of the scroll says:$(br2) The wearer can move underwater as if on the surface. However, sprinting adds extra exhaustion."
     },
     {
       "type": "mythic_charms:resonance_infusing",

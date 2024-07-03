@@ -1,0 +1,46 @@
+{
+  "structures": [
+    {
+      "structure": "mythic_charms:aquamarine_composer",
+      "weight": 1
+    },
+    {
+      "structure": "mythic_charms:gold_composer",
+      "weight": 1
+    },
+    {
+      "structure": "mythic_charms:indigo_composer",
+      "weight": 1
+    },
+    {
+      "structure": "mythic_charms:ivory_composer",
+      "weight": 1
+    },
+    {
+      "structure": "mythic_charms:lime_composer",
+      "weight": 1
+    },
+    {
+      "structure": "mythic_charms:maroon_composer",
+      "weight": 1
+    },
+    {
+      "structure": "mythic_charms:silver_composer",
+      "weight": 1
+    },
+    {
+      "structure": "mythic_charms:teal_composer",
+      "weight": 1
+    },
+    {
+      "structure": "mythic_charms:violet_composer",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1220859021,
+    "spacing": 34,
+    "separation": 16
+  }
+}

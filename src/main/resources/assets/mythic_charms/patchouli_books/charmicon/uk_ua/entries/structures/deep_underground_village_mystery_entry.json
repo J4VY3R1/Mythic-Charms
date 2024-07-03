@@ -1,0 +1,13 @@
+{
+  "name": "D.U. Village: Mystery",
+  "icon": "minecraft:filled_map",
+  "category": "mythic_charms:structures_category",
+  "advancement": "mythic_charms:book/structures/hideout_map",
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": " На поверсі, якого не було на плані, я виявив стару таємничу мапу. Текст на ній неможливо прочитати, і єдиний спосіб розкрити її таємниці — слідувати за нею."
+    }
+  ]
+}

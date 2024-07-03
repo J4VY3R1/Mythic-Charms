@@ -1,0 +1,33 @@
+{
+  "parent": "mythic_charms:story/camp",
+  "display": {
+    "icon": {
+      "item": "minecraft:filled_map"
+    },
+    "title": {
+      "translate": "advancements.mythic_charms.story.map_to_underground_village.title"
+    },
+    "description": {
+      "translate": "advancements.mythic_charms.story.map_to_underground_village.desc"
+    },
+    "frame": "task",
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:filled_map"
+            ],
+            "nbt": "{\"MythicCharmsMap\":\"UndergroundVillageMap\"}"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  }
+}

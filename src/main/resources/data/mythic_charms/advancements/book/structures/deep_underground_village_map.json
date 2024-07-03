@@ -8,7 +8,7 @@
             "items": [
               "minecraft:filled_map"
             ],
-            "nbt": "{\"MythicCharmsMap\":\"ComposerMap\"}"
+            "nbt": "{\"MythicCharmsMap\":\"DeepUndergroundVillageMap\"}"
           }
         ]
       },

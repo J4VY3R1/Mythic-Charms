@@ -1,0 +1,13 @@
+{
+  "name": "П. Селище: Глибини",
+  "icon": "minecraft:filled_map",
+  "category": "mythic_charms:structures_category",
+  "advancement": "mythic_charms:book/structures/deep_underground_village_map",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": " У кімнаті для різьби, я знайшов іншу мапу. Вона також веде до селища, але набагато глибше.$(br2) $(o)Дивно що я знайшов цю карту тут, можливо там також жили різьбярі по звуку і вони якось пов'язані з процесом виготовлення талісманів."
+    }
+  ]
+}

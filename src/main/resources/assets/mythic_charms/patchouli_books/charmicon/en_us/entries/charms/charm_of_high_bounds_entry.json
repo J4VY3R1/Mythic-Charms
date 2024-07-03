@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": " The description on the back of the scroll says:$(br2)$(o) One's jump height increases to 2 blocks as well as a safe fall distance. However, jumping adds extra exhaustion."
+      "text": " The description on the back of the scroll says:$(br2) The wearer's jump height increases to 2 blocks as well as a safe fall distance. However, jumping adds extra exhaustion."
     },
     {
       "type": "mythic_charms:resonance_infusing",

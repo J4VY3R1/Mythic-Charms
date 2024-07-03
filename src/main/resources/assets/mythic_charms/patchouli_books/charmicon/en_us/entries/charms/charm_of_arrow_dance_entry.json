@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": " The description on the back of the scroll says:$(br2)$(o) In 7/10 cases one can avoid any projectile such as an arrow,  a firework rocket, a splash potion, etc. However, one takes an additional quarter of the damage."
+      "text": " The description on the back of the scroll says:$(br2) While sneaking, the wearer avoids any projectile. However, the wearer receives an additional quarter of the damage."
     },
     {
       "type": "mythic_charms:resonance_infusing",

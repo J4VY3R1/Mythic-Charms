@@ -1,5 +1,5 @@
 {
-  "parent": "mythic_charms:story/find_deep_underground_village",
+  "parent": "mythic_charms:story/deep_underground_village",
   "display": {
     "icon": {
       "item": "mythic_charms:resonance_compass"

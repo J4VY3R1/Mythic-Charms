@@ -94,6 +94,23 @@ public class ModItemGroups {
                         entries.add(ModItems.DISC_FRAGMENT_RESONANCE);
                         entries.add(ModItems.MUSIC_DISC_RESONANCE);
 
+                        entries.add(ModItems.RESONANCE_POTTERY_SHERD);
+                        entries.add(ModItems.CRYSTAL_POTTERY_SHERD);
+                        entries.add(ModItems.CORE_POTTERY_SHERD);
+                        entries.add(ModItems.FARMER_POTTERY_SHERD);
+                        entries.add(ModItems.FARMLAND_POTTERY_SHERD);
+                        entries.add(ModItems.BODY_POTTERY_SHERD);
+                        entries.add(ModItems.PROPHECY_POTTERY_SHERD);
+                        entries.add(ModItems.FREEDOM_POTTERY_SHERD);
+                        entries.add(ModItems.MOUNTAIN_POTTERY_SHERD);
+                        entries.add(ModItems.AID_POTTERY_SHERD);
+                        entries.add(ModItems.SAFETY_POTTERY_SHERD);
+                        entries.add(ModItems.NATURE_POTTERY_SHERD);
+                        entries.add(ModItems.HEAT_POTTERY_SHERD);
+                        entries.add(ModItems.FIGHT_POTTERY_SHERD);
+                        entries.add(ModItems.GROWTH_POTTERY_SHERD);
+                        entries.add(ModItems.GHOST_POTTERY_SHERD);
+
                     }).build());
 
     public static void registerItemGroups() {

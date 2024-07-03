@@ -1,0 +1,140 @@
+{
+  "processors": [
+    {
+      "processor_type": "mythic_charms:waterlogged"
+    },
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:cyan_terracotta",
+            "probability": 0.1
+          },
+          "output_state": {
+            "Name": "minecraft:suspicious_gravel",
+            "Properties": {
+              "dusted": "0"
+            }
+          },
+          "block_entity_modifier": {
+            "type": "minecraft:append_loot",
+            "loot_table": "mythic_charms:archaeology/underground_village/hallway"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:cyan_terracotta"
+          },
+          "output_state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:lime_terracotta",
+            "probability": 0.2
+          },
+          "output_state": {
+            "Name": "minecraft:suspicious_gravel",
+            "Properties": {
+              "dusted": "0"
+            }
+          },
+          "block_entity_modifier": {
+            "type": "minecraft:append_loot",
+            "loot_table": "mythic_charms:archaeology/underground_village/resting_place"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:lime_terracotta"
+          },
+          "output_state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:orange_terracotta",
+            "probability": 0.3
+          },
+          "output_state": {
+            "Name": "minecraft:suspicious_gravel",
+            "Properties": {
+              "dusted": "0"
+            }
+          },
+          "block_entity_modifier": {
+            "type": "minecraft:append_loot",
+            "loot_table": "mythic_charms:archaeology/underground_village/exploring_equipment"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:orange_terracotta"
+          },
+          "output_state": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:blue_terracotta",
+            "probability": 0.3
+          },
+          "output_state": {
+            "Name": "minecraft:suspicious_gravel",
+            "Properties": {
+              "dusted": "0"
+            }
+          },
+          "block_entity_modifier": {
+            "type": "minecraft:append_loot",
+            "loot_table": "mythic_charms:archaeology/underground_village/mining_equipment"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:blue_terracotta"
+          },
+          "output_state": {
+            "Name": "minecraft:gravel"
+          }
+        }
+      ]
+    }
+  ]
+}

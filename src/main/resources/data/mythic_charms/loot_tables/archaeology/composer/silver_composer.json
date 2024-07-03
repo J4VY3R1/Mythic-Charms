@@ -69,6 +69,16 @@
           ]
         },
         {
+          "type": "minecraft:item",
+          "name": "mythic_charms:crystal_pottery_sherd",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mythic_charms:fight_pottery_sherd",
+          "weight": 2
+        },
+        {
           "type": "minecraft:loot_table",
           "name": "mythic_charms:archaeology/composer/pattern/silver_composer",
           "weight": 2

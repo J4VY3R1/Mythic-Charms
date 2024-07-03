@@ -1,0 +1,15 @@
+{
+  "name": "mythic_charms:hideout/hideout",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "mythic_charms:hideout/hideout",
+        "processors": "mythic_charms:hideout",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}
