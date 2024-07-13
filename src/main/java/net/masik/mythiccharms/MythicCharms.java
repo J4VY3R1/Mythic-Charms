@@ -43,11 +43,5 @@ public class MythicCharms implements ModInitializer {
 		ModRegistries.registerRegistries();
 
 		ModRecipes.registerRecipes();
-//		TrinketsApi.registerTrinketPredicate(new Identifier(MOD_ID, "mythic_charm_predicate"), (stack, slot, entity) -> {
-//			if (!stack.isIn(TagKey.of(RegistryKeys.ITEM, new Identifier(MythicCharms.MOD_ID, "mythic_charms")))) {
-//				return TriState.FALSE;
-//			}
-//			return TriState.TRUE;
-//		});
 	}
 }

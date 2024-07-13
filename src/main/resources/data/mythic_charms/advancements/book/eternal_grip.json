@@ -9,11 +9,7 @@
             "items": [
               "minecraft:enchanted_book"
             ],
-            "enchantments": [
-              {
-                "enchantment": "mythic_charms:eternal_grip"
-              }
-            ]
+            "nbt": "{StoredEnchantments: [{id: \"mythic_charms:eternal_grip\", lvl: 1s}]}"
           }
         ]
       }
