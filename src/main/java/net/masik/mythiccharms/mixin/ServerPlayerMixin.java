@@ -1,13 +1,17 @@
 package net.masik.mythiccharms.mixin;
 
+import net.masik.mythiccharms.MythicCharms;
+import net.masik.mythiccharms.util.BotanicBlessingHelper;
 import net.masik.mythiccharms.util.CharmHelper;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.CropBlock;
+import net.minecraft.block.*;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.server.network.ServerPlayerEntity;
+import net.minecraft.state.property.IntProperty;
+import net.minecraft.state.property.Properties;
+import net.minecraft.state.property.Property;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Box;
 import org.spongepowered.asm.mixin.Mixin;
@@ -136,6 +140,28 @@ public abstract class ServerPlayerMixin {
                         }
 
                     }
+
+//                    if (rand.nextInt(10) < 6 && blockState.getBlock() instanceof PlantBlock) {
+//
+//                        for (int i = 0; i < 8; i++) {
+//
+//                            if (blockState.contains(BotanicBlessingHelper.AGES.get(i))) {
+//
+//                                IntProperty property = BotanicBlessingHelper.AGES.get(i);
+//
+//                                if (!blockState.get(property).equals(BotanicBlessingHelper.MAX_AGES.get(i))) {
+//
+//                                    player.getWorld().setBlockState(blockPos, blockState.with(property, blockState.get(property) + 1));
+//
+//                                }
+//
+//                                break;
+//
+//                            }
+//
+//                        }
+//
+//                    }
 
                 }
 

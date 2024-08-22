@@ -17,15 +17,17 @@
   },
   "criteria": {
     "requirement": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "item": {
-          "items": [
-            "patchouli:guide_book"
-          ],
-          "nbt": "{tag: {\"patchouli:book\": \"mythic_charms:charmicon\"}}"
-        }
-      }
+        "items": [
+          {
+            "items": [
+              "patchouli:guide_book"
+            ],
+            "nbt": "{\"patchouli:book\": \"mythic_charms:charmicon\"}"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
     }
   }
 }

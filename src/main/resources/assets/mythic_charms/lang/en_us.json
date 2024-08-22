@@ -166,6 +166,7 @@
 
 
 	"enchantment.mythic_charms.eternal_grip": "Eternal Grip",
+	"enchantment.mythic_charms.eternal_grip.desc": "Equipped unbreakable charms will stay with you ever after death",
 
 
 	"itemGroup.mythic_charms": "Mythic Charms",
@@ -239,6 +240,7 @@
 
 
 	"text.config.mythic-charms-config.title": "Mythic Charms Config",
+	"text.config.mythic-charms-config.option.giveCharmiconOnSpawn": "Give Charmicon on the first world load",
 	"text.config.mythic-charms-config.category.charmsEnabled": "Charms Enabled",
 	"text.config.mythic-charms-config.option.charmsEnabled.CharmFeatheredGraceEnabled": "Charm Feathered Grace Enabled",
 	"text.config.mythic-charms-config.option.charmsEnabled.CharmBlazingEmbraceEnabled": "Charm Blazing Embrace Enabled",

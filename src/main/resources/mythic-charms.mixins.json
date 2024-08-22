@@ -4,9 +4,12 @@
   "compatibilityLevel": "JAVA_17",
   "mixins": [
     "AbstractBlockMixin",
+    "AdvancementMixin",
     "BlockMixin",
+    "ConduitBlockEntityMixin",
     "DecoratedPotPatternsMixin",
     "EnchantmentScreenHandlerMixin",
+    "EnderDragonEntityMixin",
     "EndermanMixin",
     "EntityMixin",
     "ExperienceBottleEntityMixin",

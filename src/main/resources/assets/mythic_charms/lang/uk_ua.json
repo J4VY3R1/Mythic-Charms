@@ -168,6 +168,7 @@
 
 
 	"enchantment.mythic_charms.eternal_grip": "Вічна хватка",
+	"enchantment.mythic_charms.eternal_grip.desc": "Споряджені незламні талісмани залишаться з вами навіть після смерті",
 
 
 	"itemGroup.mythic_charms": "Mythic Charms",
@@ -241,6 +242,7 @@
 
 
 	"text.config.mythic-charms-config.title": "Налаштування Mythic Charms",
+	"text.config.mythic-charms-config.option.giveCharmiconOnSpawn": "Видавати Charmicon при першому заході у світ",
 	"text.config.mythic-charms-config.category.charmsEnabled": "Увімкнені талісмани",
 	"text.config.mythic-charms-config.option.charmsEnabled.CharmFeatheredGraceEnabled": "Талісман Крилатої Грації увімкнено",
 	"text.config.mythic-charms-config.option.charmsEnabled.CharmBlazingEmbraceEnabled": "Талісман Палаючих Обіймів увімкнено",

@@ -179,47 +179,47 @@ public class ModItems {
 
     //SOUND CARVING PATTERNS
     public static final Item SOUND_CARVING_PATTERN_FEATHERED_GRACE = registerItem("sound_carving_pattern_feathered_grace",
-            new TooltipItem(new FabricItemSettings().maxCount(1).rarity(Rarity.UNCOMMON), false));
+            new TooltipItem(new FabricItemSettings().rarity(Rarity.UNCOMMON), false));
     public static final Item SOUND_CARVING_PATTERN_BLAZING_EMBRACE = registerItem("sound_carving_pattern_blazing_embrace",
-            new TooltipItem(new FabricItemSettings().maxCount(1).rarity(Rarity.UNCOMMON), false));
+            new TooltipItem(new FabricItemSettings().rarity(Rarity.UNCOMMON), false));
     public static final Item SOUND_CARVING_PATTERN_EARTHS_ORDER = registerItem("sound_carving_pattern_earths_order",
-            new TooltipItem(new FabricItemSettings().maxCount(1).rarity(Rarity.UNCOMMON), false));
+            new TooltipItem(new FabricItemSettings().rarity(Rarity.UNCOMMON), false));
     public static final Item SOUND_CARVING_PATTERN_GAZE_SERENITY = registerItem("sound_carving_pattern_gaze_serenity",
-            new TooltipItem(new FabricItemSettings().maxCount(1).rarity(Rarity.UNCOMMON), false));
+            new TooltipItem(new FabricItemSettings().rarity(Rarity.UNCOMMON), false));
     public static final Item SOUND_CARVING_PATTERN_BOTANIC_BLESSING = registerItem("sound_carving_pattern_botanic_blessing",
-            new TooltipItem(new FabricItemSettings().maxCount(1).rarity(Rarity.UNCOMMON), false));
+            new TooltipItem(new FabricItemSettings().rarity(Rarity.UNCOMMON), false));
     public static final Item SOUND_CARVING_PATTERN_FLEETING_STRIDES = registerItem("sound_carving_pattern_fleeting_strides",
-            new TooltipItem(new FabricItemSettings().maxCount(1).rarity(Rarity.UNCOMMON), false));
+            new TooltipItem(new FabricItemSettings().rarity(Rarity.UNCOMMON), false));
     public static final Item SOUND_CARVING_PATTERN_NIGHTS_GUARDIAN = registerItem("sound_carving_pattern_nights_guardian",
-            new TooltipItem(new FabricItemSettings().maxCount(1).rarity(Rarity.UNCOMMON), false));
+            new TooltipItem(new FabricItemSettings().rarity(Rarity.UNCOMMON), false));
     public static final Item SOUND_CARVING_PATTERN_HIGH_BOUNDS = registerItem("sound_carving_pattern_high_bounds",
-            new TooltipItem(new FabricItemSettings().maxCount(1).rarity(Rarity.UNCOMMON), false));
+            new TooltipItem(new FabricItemSettings().rarity(Rarity.UNCOMMON), false));
     public static final Item SOUND_CARVING_PATTERN_DROWNED_FREEDOM = registerItem("sound_carving_pattern_drowned_freedom",
-            new TooltipItem(new FabricItemSettings().maxCount(1).rarity(Rarity.UNCOMMON), false));
+            new TooltipItem(new FabricItemSettings().rarity(Rarity.UNCOMMON), false));
     public static final Item SOUND_CARVING_PATTERN_WEIGHTLESS_FLOW = registerItem("sound_carving_pattern_weightless_flow",
-            new TooltipItem(new FabricItemSettings().maxCount(1).rarity(Rarity.UNCOMMON), false));
+            new TooltipItem(new FabricItemSettings().rarity(Rarity.UNCOMMON), false));
     public static final Item SOUND_CARVING_PATTERN_COLLECTORS_GIFT = registerItem("sound_carving_pattern_collectors_gift",
-            new TooltipItem(new FabricItemSettings().maxCount(1).rarity(Rarity.UNCOMMON), false));
+            new TooltipItem(new FabricItemSettings().rarity(Rarity.UNCOMMON), false));
     public static final Item SOUND_CARVING_PATTERN_CLIMBERS_PATH = registerItem("sound_carving_pattern_climbers_path",
-            new TooltipItem(new FabricItemSettings().maxCount(1).rarity(Rarity.UNCOMMON), false));
+            new TooltipItem(new FabricItemSettings().rarity(Rarity.UNCOMMON), false));
     public static final Item SOUND_CARVING_PATTERN_NATURES_CALL = registerItem("sound_carving_pattern_natures_call",
-            new TooltipItem(new FabricItemSettings().maxCount(1).rarity(Rarity.UNCOMMON), false));
+            new TooltipItem(new FabricItemSettings().rarity(Rarity.UNCOMMON), false));
     public static final Item SOUND_CARVING_PATTERN_BARTERS_PACT = registerItem("sound_carving_pattern_barters_pact",
-            new TooltipItem(new FabricItemSettings().maxCount(1).rarity(Rarity.UNCOMMON), false));
+            new TooltipItem(new FabricItemSettings().rarity(Rarity.UNCOMMON), false));
     public static final Item SOUND_CARVING_PATTERN_BATTLE_FURY = registerItem("sound_carving_pattern_battle_fury",
-            new TooltipItem(new FabricItemSettings().maxCount(1).rarity(Rarity.UNCOMMON), false));
+            new TooltipItem(new FabricItemSettings().rarity(Rarity.UNCOMMON), false));
     public static final Item SOUND_CARVING_PATTERN_ECHOING_WRATH = registerItem("sound_carving_pattern_echoing_wrath",
-            new TooltipItem(new FabricItemSettings().maxCount(1).rarity(Rarity.UNCOMMON), false));
+            new TooltipItem(new FabricItemSettings().rarity(Rarity.UNCOMMON), false));
     public static final Item SOUND_CARVING_PATTERN_ENCHANTED_WHISPERS = registerItem("sound_carving_pattern_enchanted_whispers",
-            new TooltipItem(new FabricItemSettings().maxCount(1).rarity(Rarity.UNCOMMON), false));
+            new TooltipItem(new FabricItemSettings().rarity(Rarity.UNCOMMON), false));
     public static final Item SOUND_CARVING_PATTERN_ARROW_DANCE = registerItem("sound_carving_pattern_arrow_dance",
-            new TooltipItem(new FabricItemSettings().maxCount(1).rarity(Rarity.UNCOMMON), false));
+            new TooltipItem(new FabricItemSettings().rarity(Rarity.UNCOMMON), false));
     public static final Item SOUND_CARVING_PATTERN_MOUNTAINS_STRENGTH = registerItem("sound_carving_pattern_mountains_strength",
-            new TooltipItem(new FabricItemSettings().maxCount(1).rarity(Rarity.UNCOMMON), false));
+            new TooltipItem(new FabricItemSettings().rarity(Rarity.UNCOMMON), false));
     public static final Item SOUND_CARVING_PATTERN_SAFE_TERRITORY = registerItem("sound_carving_pattern_safe_territory",
-            new TooltipItem(new FabricItemSettings().maxCount(1).rarity(Rarity.UNCOMMON), false));
+            new TooltipItem(new FabricItemSettings().rarity(Rarity.UNCOMMON), false));
     public static final Item SOUND_CARVING_PATTERN_QUIET_PRESENCE = registerItem("sound_carving_pattern_quiet_presence",
-            new TooltipItem(new FabricItemSettings().maxCount(1).rarity(Rarity.UNCOMMON), false));
+            new TooltipItem(new FabricItemSettings().rarity(Rarity.UNCOMMON), false));
 
     private static Item registerItem(String name, Item item) {
 

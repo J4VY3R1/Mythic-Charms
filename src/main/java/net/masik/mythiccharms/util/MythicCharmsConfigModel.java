@@ -16,6 +16,9 @@ public class MythicCharmsConfigModel {
 //        A_CHOICE, ANOTHER_CHOICE;
 //    }
 
+    @Sync(Option.SyncMode.OVERRIDE_CLIENT)
+    public boolean giveCharmiconOnSpawn = true;
+
     @Nest
     @Sync(Option.SyncMode.OVERRIDE_CLIENT)
     public CharmsEnabled charmsEnabled = new CharmsEnabled();
@@ -69,8 +72,8 @@ public class MythicCharmsConfigModel {
 
     }
 
-    @Sync(Option.SyncMode.OVERRIDE_CLIENT)
-    public int experienceNuggetMobCap = 10;
+//    @Sync(Option.SyncMode.OVERRIDE_CLIENT)
+//    public int experienceNuggetMobCap = 10;
 
 }
 
